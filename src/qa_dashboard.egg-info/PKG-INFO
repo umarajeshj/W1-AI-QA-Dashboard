@@ -1,0 +1,35 @@
+Metadata-Version: 2.4
+Name: qa-dashboard
+Version: 0.1.0
+Summary: An enterprise QA test analytics dashboard
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: streamlit>=1.40
+Requires-Dist: pandas>=2.2
+Requires-Dist: plotly>=5.24
+Provides-Extra: dev
+Requires-Dist: pytest>=8.0; extra == "dev"
+Requires-Dist: ruff>=0.8; extra == "dev"
+
+# QA Dashboard
+
+Enterprise-oriented QA test analytics built with Streamlit, Pandas, and Plotly. The dashboard
+ships with a deterministic 1,000-record sample dataset at
+`data/raw/qa_dashboard_master_1000_records.csv`.
+
+## Setup
+
+```bash
+python -m venv .venv
+.venv\Scripts\activate
+python -m pip install -e ".[dev]"
+```
+
+To regenerate the sample data, run `python -m qa_dashboard.sample_data` after installation. Set
+`QA_DASHBOARD_DATA` to load a different CSV with the same schema.
+
+## Run
+
+```bash
+streamlit run app.py
+```

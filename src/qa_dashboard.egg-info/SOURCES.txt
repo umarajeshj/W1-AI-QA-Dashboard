@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+src/qa_dashboard/__init__.py
+src/qa_dashboard/dashboard.py
+src/qa_dashboard/data.py
+src/qa_dashboard/metrics.py
+src/qa_dashboard/sample_data.py
+src/qa_dashboard.egg-info/PKG-INFO
+src/qa_dashboard.egg-info/SOURCES.txt
+src/qa_dashboard.egg-info/dependency_links.txt
+src/qa_dashboard.egg-info/requires.txt
+src/qa_dashboard.egg-info/top_level.txt
+tests/test_dashboard_data.py

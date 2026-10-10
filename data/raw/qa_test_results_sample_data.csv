@@ -1,0 +1,1001 @@
+Test Case ID,Test Title,Product Module,Component Layer,Tester Name,Run Type,Status,Duration (ms),Environment,Week Start Date,Linked Defect ID,Defect Severity,Defect Status,Automation Coverage (%),Execution Percentage (%)
+TC-QA-0001,1000 Concurrent Request Endurance Hold,User Request Form Submission,Performance/Load,Mikhail Yakushev,Automation,Passed,59256,UAT,3/23/2026,None,None,None,72.9,96.1
+TC-QA-0002,Notification Gateway Retry Queue Loop,Reporting & Data Analytics,Notification Service,Jack Lewis,Automation,Passed,676,Staging,3/2/2026,None,None,None,75.6,94.7
+TC-QA-0003,SMTP Gateway Timeout Graceful Recovery,Workflow Engine Routing,Notification Service,Jack Lewis,Automation,Failed,213,UAT,3/23/2026,BUG-5001,Major,Closed,77.8,88.2
+TC-QA-0004,Invalid State Transition Request Rejection,Document Upload & Processing,Workflow Engine,Jack Lewis,Automation,Failed,6945,Load_Test,1/5/2026,BUG-5002,Minor,Closed,85,99.6
+TC-QA-0005,Record Init Database State PENDING,Session & Auth Handshake,SQL Server DB,David Kim,Manual,Passed,9059,Load_Test,3/9/2026,None,None,None,36.7,61.7
+TC-QA-0006,Database Connection Pool Exhaustion Stress,Notification Engine Triggers,Performance/Load,Grace Miller,Automation,Failed,43238,Dev-QA,2/2/2026,BUG-5003,Major,Closed,74.6,90.3
+TC-QA-0007,Workflow State Storage Memory Leak Run,API Integration Layer,Performance/Load,Mikhail Yakushev,Automation,Passed,109840,UAT,3/2/2026,None,None,None,90.4,87.5
+TC-QA-0008,Transaction Rollback on Middle-Tier Drop,System Configurations,SQL Server DB,Mikhail Yakushev,Automation,Passed,8904,Staging,1/26/2026,None,None,None,93,97.1
+TC-QA-0009,Transaction Rollback on Middle-Tier Drop,Document Upload & Processing,SQL Server DB,Anisul Islam Rohit,Manual,Passed,7881,Load_Test,1/26/2026,None,None,None,52.9,69.9
+TC-QA-0010,UI Rendering Paint Latency Peak Load,Audit Logs & Security,Performance/Load,David Kim,Automation,Passed,103579,Load_Test,3/23/2026,None,None,None,86.4,98.5
+TC-QA-0011,Transaction Rollback on Middle-Tier Drop,Workflow Engine Routing,SQL Server DB,Anisul Islam Rohit,Automation,Passed,2385,Staging,1/19/2026,None,None,None,87.6,96.9
+TC-QA-0012,Bulk Insert Transaction Isolation Level,Document Upload & Processing,SQL Server DB,Jack Lewis,Automation,Blocked,6334,Load_Test,3/2/2026,BUG-5004,Major,Open,89,86.7
+TC-QA-0013,Email Template Dynamic Field Merging,System Configurations,Notification Service,David Kim,Automation,Passed,1129,Staging,3/23/2026,None,None,None,94.5,89
+TC-QA-0014,Real-time Push Notification Latency Check,Session & Auth Handshake,Notification Service,Grace Miller,Manual,Passed,1508,UAT,1/19/2026,None,None,None,43.1,64
+TC-QA-0015,Notification Gateway Retry Queue Loop,Reporting & Data Analytics,Notification Service,David Kim,Automation,Passed,943,Load_Test,1/26/2026,None,None,None,71.6,98.2
+TC-QA-0016,File Upload Format Constraints Check,API Integration Layer,UI Portal Form,Jack Lewis,Automation,Blocked,1290,UAT,1/19/2026,BUG-5005,Minor,Open,96.5,87.5
+TC-QA-0017,Multi-channel Notification Routing (SMS/Email),User Profile Customization,Notification Service,Anisul Islam Rohit,Manual,Passed,1612,UAT,3/23/2026,None,None,None,40.9,84.9
+TC-QA-0018,Workflow State Storage Memory Leak Run,Search & Advanced Filtering,Performance/Load,Frank Green,Automation,Passed,62493,UAT,1/12/2026,None,None,None,79.5,93.8
+TC-QA-0019,GZIP Compression Payload Size Match,Workflow Engine Routing,API Gateway,Grace Miller,Automation,Passed,668,Staging,1/5/2026,None,None,None,94.1,86.1
+TC-QA-0020,CORS Pre-flight Header Validation,System Configurations,API Gateway,Jack Lewis,Automation,Passed,1369,Dev-QA,1/26/2026,None,None,None,92,97.1
+TC-QA-0021,JWT Expiration Payload Parse,Document Upload & Processing,API Gateway,Mikhail Yakushev,Automation,Passed,1156,Staging,3/16/2026,None,None,None,88.3,94.7
+TC-QA-0022,Responsive Breakpoint Layout Adjustments,API Integration Layer,UI Portal Form,David Kim,Automation,Passed,592,UAT,3/2/2026,None,None,None,82.6,91.3
+TC-QA-0023,State Transition Serialization Loop,Workflow Engine Routing,Workflow Engine,Ivy Clark,Manual,Passed,9056,Staging,1/5/2026,None,None,None,52.8,73.5
+TC-QA-0024,File Upload Format Constraints Check,Workflow Engine Routing,UI Portal Form,Anisul Islam Rohit,Automation,Passed,1021,Staging,1/19/2026,None,None,None,80.6,99.8
+TC-QA-0025,State Transition Serialization Loop,Notification Engine Triggers,Workflow Engine,Jack Lewis,Automation,Passed,8417,Dev-QA,1/19/2026,None,None,None,75.3,88.3
+TC-QA-0026,Form Button Disabled Post-Click,API Integration Layer,UI Portal Form,David Kim,Manual,Passed,1229,UAT,1/5/2026,None,None,None,63.6,62
+TC-QA-0027,JWT Expiration Payload Parse,Reporting & Data Analytics,API Gateway,Grace Miller,Automation,Passed,445,UAT,3/9/2026,None,None,None,86.6,94.3
+TC-QA-0028,SQL Text Field Index Fragmentation Scan,Reporting & Data Analytics,SQL Server DB,Frank Green,Automation,Blocked,3673,Load_Test,1/26/2026,BUG-5006,Minor,Open,81.1,95.1
+TC-QA-0029,State Transition Serialization Loop,Payment Gateway Integration,Workflow Engine,Ivy Clark,Manual,Passed,7088,Staging,1/12/2026,None,None,None,48.8,72.6
+TC-QA-0030,CORS Pre-flight Header Validation,Document Upload & Processing,API Gateway,Anisul Islam Rohit,Automation,Passed,1312,Load_Test,3/9/2026,None,None,None,97.5,97.1
+TC-QA-0031,Notification Gateway Retry Queue Loop,System Configurations,Notification Service,Ivy Clark,Automation,Blocked,412,UAT,2/2/2026,BUG-5007,Major,Open,94.9,96.1
+TC-QA-0032,CORS Pre-flight Header Validation,Notification Engine Triggers,API Gateway,Frank Green,Automation,Passed,1607,Load_Test,3/2/2026,None,None,None,83.7,98.6
+TC-QA-0033,File Upload Format Constraints Check,System Configurations,UI Portal Form,Jack Lewis,Automation,Passed,883,UAT,3/16/2026,None,None,None,97.4,87.4
+TC-QA-0034,Bulk Insert Transaction Isolation Level,API Integration Layer,SQL Server DB,Jack Lewis,Automation,Passed,9741,UAT,3/2/2026,None,None,None,71,90.5
+TC-QA-0035,Real-time Push Notification Latency Check,User Profile Customization,Notification Service,Anisul Islam Rohit,Automation,Passed,281,Load_Test,1/26/2026,None,None,None,89.1,95
+TC-QA-0036,Parallel Workflow Fork Behavior,User Profile Customization,Workflow Engine,Frank Green,Automation,Failed,3939,UAT,1/19/2026,BUG-5008,Major,Open,75,98.9
+TC-QA-0037,SQL Text Field Index Fragmentation Scan,API Integration Layer,SQL Server DB,Ivy Clark,Automation,Passed,7744,Staging,2/16/2026,None,None,None,94.4,97.9
+TC-QA-0038,API Throttle Rate Limit Injection,Search & Advanced Filtering,API Gateway,David Kim,Automation,Failed,666,UAT,1/5/2026,BUG-5009,Minor,Open,81.2,89.2
+TC-QA-0039,Form Timeout Handler under Slow Network,Payment Gateway Integration,UI Portal Form,Mikhail Yakushev,Automation,Passed,1298,Load_Test,1/5/2026,None,None,None,73.2,99.6
+TC-QA-0040,GZIP Compression Payload Size Match,Notification Engine Triggers,API Gateway,Grace Miller,Automation,Passed,1692,Load_Test,2/16/2026,None,None,None,87,92.7
+TC-QA-0041,Bulk Insert Transaction Isolation Level,Workflow Engine Routing,SQL Server DB,David Kim,Automation,Passed,6259,UAT,2/9/2026,None,None,None,82.1,99.2
+TC-QA-0042,Parallel Workflow Fork Behavior,Payment Gateway Integration,Workflow Engine,Mikhail Yakushev,Manual,Passed,4460,Load_Test,3/16/2026,None,None,None,44.3,70.1
+TC-QA-0043,Parallel Workflow Fork Behavior,Audit Logs & Security,Workflow Engine,Anisul Islam Rohit,Automation,Blocked,7548,UAT,3/9/2026,BUG-5010,Minor,Open,81.4,97.5
+TC-QA-0044,SLA Timer Breach Triggered Re-routing,Workflow Engine Routing,Workflow Engine,Jack Lewis,Automation,Passed,4639,Dev-QA,2/23/2026,None,None,None,82.4,88.2
+TC-QA-0045,SQL Text Field Index Fragmentation Scan,Audit Logs & Security,SQL Server DB,Mikhail Yakushev,Automation,Passed,7185,Load_Test,1/12/2026,None,None,None,92.9,96.3
+TC-QA-0046,Workflow State Storage Memory Leak Run,Workflow Engine Routing,Performance/Load,Ivy Clark,Automation,Passed,33201,Staging,1/26/2026,None,None,None,97.6,94.2
+TC-QA-0047,Session Timeout Banner Rendering,User Profile Customization,UI Portal Form,Mikhail Yakushev,Automation,Passed,986,Dev-QA,2/16/2026,None,None,None,76.8,94.8
+TC-QA-0048,File Upload Format Constraints Check,User Profile Customization,UI Portal Form,Anisul Islam Rohit,Manual,Blocked,1260,Dev-QA,1/5/2026,BUG-5011,Major,Open,62.1,63
+TC-QA-0049,Malformed JSON Request Body Rejection,System Configurations,API Gateway,Frank Green,Manual,Passed,1746,Dev-QA,3/9/2026,None,None,None,58.5,82.3
+TC-QA-0050,Bulk Insert Transaction Isolation Level,Search & Advanced Filtering,SQL Server DB,Anisul Islam Rohit,Automation,Passed,4123,UAT,3/16/2026,None,None,None,77.8,96.7
+TC-QA-0051,SQL Text Field Index Fragmentation Scan,Workflow Engine Routing,SQL Server DB,David Kim,Automation,Passed,3920,Load_Test,2/9/2026,None,None,None,79,93.1
+TC-QA-0052,API Throttle Rate Limit Injection,Workflow Engine Routing,API Gateway,Jack Lewis,Automation,Passed,331,Dev-QA,2/16/2026,None,None,None,79.3,92
+TC-QA-0053,Special Character Validation in Fields,User Profile Customization,UI Portal Form,Jack Lewis,Automation,Passed,1624,Staging,3/9/2026,None,None,None,80.7,85.1
+TC-QA-0054,SLA Timer Breach Triggered Re-routing,User Profile Customization,Workflow Engine,Ivy Clark,Manual,Failed,6409,UAT,2/23/2026,BUG-5012,Critical,Closed,45.3,60.7
+TC-QA-0055,Nested Approval Engine Workflow,System Configurations,Workflow Engine,Ivy Clark,Automation,Passed,5828,UAT,3/9/2026,None,None,None,85,98.6
+TC-QA-0056,Multi-channel Notification Routing (SMS/Email),System Configurations,Notification Service,Grace Miller,Automation,Passed,1145,UAT,1/5/2026,None,None,None,77.3,89.9
+TC-QA-0057,Transaction Rollback on Middle-Tier Drop,Payment Gateway Integration,SQL Server DB,Ivy Clark,Manual,Passed,9792,Dev-QA,2/2/2026,None,None,None,59.2,71.8
+TC-QA-0058,Spike Load Recovery Stabilization,User Request Form Submission,Performance/Load,David Kim,Automation,Passed,38993,Staging,1/5/2026,None,None,None,96.6,88
+TC-QA-0059,XSS Injection Attempt on Form Fields,Workflow Engine Routing,UI Portal Form,Anisul Islam Rohit,Automation,Passed,646,Dev-QA,3/23/2026,None,None,None,77.2,90.5
+TC-QA-0060,Multi-channel Notification Routing (SMS/Email),API Integration Layer,Notification Service,Mikhail Yakushev,Automation,Failed,837,Staging,3/9/2026,BUG-5013,Critical,Closed,86.1,98.6
+TC-QA-0061,Concurrent DB Row Update Lock Check,API Integration Layer,SQL Server DB,Anisul Islam Rohit,Automation,Passed,7138,UAT,1/12/2026,None,None,None,89.5,89.5
+TC-QA-0062,Spike Load Recovery Stabilization,Document Upload & Processing,Performance/Load,Ivy Clark,Automation,Blocked,35383,Load_Test,3/2/2026,BUG-5014,Minor,Open,88.5,86
+TC-QA-0063,Workflow State Storage Memory Leak Run,User Request Form Submission,Performance/Load,Ivy Clark,Automation,Passed,94251,Staging,2/16/2026,None,None,None,96.9,94.5
+TC-QA-0064,SQL Text Field Index Fragmentation Scan,Audit Logs & Security,SQL Server DB,Jack Lewis,Automation,Passed,7328,Load_Test,3/9/2026,None,None,None,92.6,93.1
+TC-QA-0065,Concurrent DB Row Update Lock Check,User Profile Customization,SQL Server DB,Ivy Clark,Automation,Passed,8977,UAT,1/12/2026,None,None,None,77.8,91.8
+TC-QA-0066,Bulk Insert Transaction Isolation Level,Reporting & Data Analytics,SQL Server DB,Mikhail Yakushev,Automation,Passed,8971,Load_Test,1/19/2026,None,None,None,83.7,90.3
+TC-QA-0067,SLA Timer Breach Triggered Re-routing,Notification Engine Triggers,Workflow Engine,Frank Green,Automation,Passed,2083,UAT,1/12/2026,None,None,None,76.8,91.1
+TC-QA-0068,Real-time Push Notification Latency Check,API Integration Layer,Notification Service,Jack Lewis,Automation,Passed,235,Staging,2/2/2026,None,None,None,76.2,95.4
+TC-QA-0069,Nested Approval Engine Workflow,Reporting & Data Analytics,Workflow Engine,David Kim,Automation,Passed,5485,Load_Test,2/9/2026,None,None,None,89.7,89.1
+TC-QA-0070,Conditional Branch Route Assignment,Document Upload & Processing,Workflow Engine,Mikhail Yakushev,Automation,Passed,6389,UAT,1/26/2026,None,None,None,76.1,92.3
+TC-QA-0071,Spike Load Recovery Stabilization,Session & Auth Handshake,Performance/Load,Frank Green,Automation,Passed,43176,UAT,2/2/2026,None,None,None,76.4,87.7
+TC-QA-0072,XSS Injection Attempt on Form Fields,Notification Engine Triggers,UI Portal Form,Grace Miller,Automation,Passed,1628,UAT,3/16/2026,None,None,None,94.3,92.4
+TC-QA-0073,Form Timeout Handler under Slow Network,Search & Advanced Filtering,UI Portal Form,Jack Lewis,Automation,Passed,305,Load_Test,2/23/2026,None,None,None,73.2,86
+TC-QA-0074,Record Init Database State PENDING,Reporting & Data Analytics,SQL Server DB,Mikhail Yakushev,Automation,Passed,8644,Load_Test,1/12/2026,None,None,None,97.8,86.8
+TC-QA-0075,Bulk Insert Transaction Isolation Level,Reporting & Data Analytics,SQL Server DB,Ivy Clark,Automation,Passed,5116,Dev-QA,2/23/2026,None,None,None,78.3,93.8
+TC-QA-0076,Transaction Rollback on Middle-Tier Drop,Reporting & Data Analytics,SQL Server DB,Frank Green,Automation,Blocked,2812,UAT,3/16/2026,BUG-5015,Major,Open,77.4,86.2
+TC-QA-0077,API Throttle Rate Limit Injection,Session & Auth Handshake,API Gateway,Grace Miller,Automation,Passed,1611,Dev-QA,2/2/2026,None,None,None,70.9,89.3
+TC-QA-0078,Nested Approval Engine Workflow,Search & Advanced Filtering,Workflow Engine,Grace Miller,Automation,Failed,8453,UAT,2/16/2026,BUG-5016,Critical,Open,88.1,98.6
+TC-QA-0079,JWT Expiration Payload Parse,User Request Form Submission,API Gateway,Anisul Islam Rohit,Automation,Passed,1365,Load_Test,2/23/2026,None,None,None,73.5,95.3
+TC-QA-0080,UI Rendering Paint Latency Peak Load,Notification Engine Triggers,Performance/Load,Frank Green,Automation,Passed,87377,Staging,3/9/2026,None,None,None,71.1,91.5
+TC-QA-0081,Parallel Workflow Fork Behavior,Notification Engine Triggers,Workflow Engine,Grace Miller,Automation,Blocked,8848,Staging,3/16/2026,BUG-5017,Minor,Open,86.1,96.4
+TC-QA-0082,Malformed JSON Request Body Rejection,Session & Auth Handshake,API Gateway,Mikhail Yakushev,Automation,Passed,1398,Dev-QA,3/16/2026,None,None,None,92.8,99.5
+TC-QA-0083,Transaction Rollback on Middle-Tier Drop,User Profile Customization,SQL Server DB,David Kim,Automation,Passed,3317,Load_Test,2/16/2026,None,None,None,89.4,89.3
+TC-QA-0084,Bulk Insert Transaction Isolation Level,User Request Form Submission,SQL Server DB,Jack Lewis,Automation,Passed,2949,Dev-QA,3/2/2026,None,None,None,93.1,85
+TC-QA-0085,SMTP Gateway Timeout Graceful Recovery,User Profile Customization,Notification Service,Grace Miller,Automation,Passed,1749,Dev-QA,3/16/2026,None,None,None,82.4,85.8
+TC-QA-0086,Parallel Workflow Fork Behavior,Audit Logs & Security,Workflow Engine,David Kim,Automation,Passed,2994,Staging,3/16/2026,None,None,None,87,88.6
+TC-QA-0087,CORS Pre-flight Header Validation,Session & Auth Handshake,API Gateway,Grace Miller,Automation,Passed,432,Dev-QA,1/12/2026,None,None,None,88.1,87.3
+TC-QA-0088,Workflow State Storage Memory Leak Run,Session & Auth Handshake,Performance/Load,Mikhail Yakushev,Automation,Passed,93242,Dev-QA,1/26/2026,None,None,None,82.8,87.2
+TC-QA-0089,GZIP Compression Payload Size Match,Session & Auth Handshake,API Gateway,Mikhail Yakushev,Manual,Failed,765,Dev-QA,2/9/2026,BUG-5018,Minor,Closed,58.7,67.1
+TC-QA-0090,Parallel Workflow Fork Behavior,Reporting & Data Analytics,Workflow Engine,Mikhail Yakushev,Automation,Passed,6412,Dev-QA,2/9/2026,None,None,None,79.3,96.4
+TC-QA-0091,Concurrent DB Row Update Lock Check,Payment Gateway Integration,SQL Server DB,Ivy Clark,Automation,Passed,6684,Dev-QA,1/26/2026,None,None,None,94,91.2
+TC-QA-0092,Nested Approval Engine Workflow,Search & Advanced Filtering,Workflow Engine,Mikhail Yakushev,Manual,Passed,7436,UAT,2/23/2026,None,None,None,63.8,63.2
+TC-QA-0093,Email Template Dynamic Field Merging,Document Upload & Processing,Notification Service,Ivy Clark,Manual,Passed,1135,Staging,3/23/2026,None,None,None,35,81.8
+TC-QA-0094,JWT Expiration Payload Parse,Search & Advanced Filtering,API Gateway,Ivy Clark,Manual,Passed,1618,Dev-QA,3/16/2026,None,None,None,32.8,68.2
+TC-QA-0095,Spike Load Recovery Stabilization,User Profile Customization,Performance/Load,David Kim,Automation,Passed,93956,Staging,3/9/2026,None,None,None,71.9,94.5
+TC-QA-0096,Conditional Branch Route Assignment,API Integration Layer,Workflow Engine,Grace Miller,Automation,Passed,7191,Staging,2/23/2026,None,None,None,74.7,89.5
+TC-QA-0097,Form Button Disabled Post-Click,Payment Gateway Integration,UI Portal Form,Ivy Clark,Manual,Passed,1082,UAT,1/26/2026,None,None,None,48.6,74.1
+TC-QA-0098,API Throttle Rate Limit Injection,Audit Logs & Security,API Gateway,Grace Miller,Automation,Passed,1599,UAT,2/23/2026,None,None,None,95.6,87.1
+TC-QA-0099,SQL Text Field Index Fragmentation Scan,Notification Engine Triggers,SQL Server DB,Jack Lewis,Automation,Passed,8591,Dev-QA,2/2/2026,None,None,None,89,87.4
+TC-QA-0100,Transaction Rollback on Middle-Tier Drop,Reporting & Data Analytics,SQL Server DB,David Kim,Automation,Passed,4048,Dev-QA,2/2/2026,None,None,None,75.6,90.8
+TC-QA-0101,Record Init Database State PENDING,Workflow Engine Routing,SQL Server DB,Jack Lewis,Automation,Passed,7728,Load_Test,1/5/2026,None,None,None,97.4,94.9
+TC-QA-0102,Invalid State Transition Request Rejection,Reporting & Data Analytics,Workflow Engine,Ivy Clark,Automation,Passed,2401,Dev-QA,2/2/2026,None,None,None,91.7,88.5
+TC-QA-0103,Conditional Branch Route Assignment,System Configurations,Workflow Engine,Anisul Islam Rohit,Automation,Passed,7905,UAT,3/16/2026,None,None,None,72.7,94.4
+TC-QA-0104,Form Timeout Handler under Slow Network,Search & Advanced Filtering,UI Portal Form,Grace Miller,Automation,Passed,384,Load_Test,2/9/2026,None,None,None,90.9,87.6
+TC-QA-0105,GZIP Compression Payload Size Match,Payment Gateway Integration,API Gateway,Frank Green,Automation,Passed,536,Load_Test,2/23/2026,None,None,None,97.1,89.4
+TC-QA-0106,Invalid State Transition Request Rejection,Search & Advanced Filtering,Workflow Engine,Grace Miller,Automation,Blocked,9046,Dev-QA,3/2/2026,BUG-5019,Minor,Open,72.5,90.9
+TC-QA-0107,Parallel Workflow Fork Behavior,Document Upload & Processing,Workflow Engine,Jack Lewis,Automation,Passed,4147,Dev-QA,3/16/2026,None,None,None,96.3,86.6
+TC-QA-0108,Malformed JSON Request Body Rejection,User Request Form Submission,API Gateway,Frank Green,Manual,Passed,1449,UAT,3/16/2026,None,None,None,32.2,80.6
+TC-QA-0109,Workflow State Storage Memory Leak Run,System Configurations,Performance/Load,Jack Lewis,Automation,Passed,35943,Staging,2/2/2026,None,None,None,97.9,86.7
+TC-QA-0110,GZIP Compression Payload Size Match,Audit Logs & Security,API Gateway,Jack Lewis,Automation,Passed,1721,Dev-QA,3/9/2026,None,None,None,90.8,87.3
+TC-QA-0111,SQL Text Field Index Fragmentation Scan,Document Upload & Processing,SQL Server DB,Ivy Clark,Automation,Passed,9794,Load_Test,1/5/2026,None,None,None,89.3,88.3
+TC-QA-0112,Stored Procedure Execution Deadlock Check,Payment Gateway Integration,SQL Server DB,Grace Miller,Manual,Passed,9386,Load_Test,1/5/2026,None,None,None,43.9,64.7
+TC-QA-0113,Session Timeout Banner Rendering,Document Upload & Processing,UI Portal Form,Mikhail Yakushev,Manual,Passed,243,Staging,2/9/2026,None,None,None,38.5,63.1
+TC-QA-0114,Real-time Push Notification Latency Check,Document Upload & Processing,Notification Service,Ivy Clark,Automation,Passed,642,UAT,2/9/2026,None,None,None,91.7,96.8
+TC-QA-0115,Notification Gateway Retry Queue Loop,Notification Engine Triggers,Notification Service,Ivy Clark,Manual,Blocked,1306,Load_Test,1/19/2026,BUG-5020,Major,Open,53.1,60.6
+TC-QA-0116,Mandatory Field Verification,Workflow Engine Routing,UI Portal Form,Frank Green,Manual,Passed,307,UAT,3/23/2026,None,None,None,44.7,62.8
+TC-QA-0117,Session Timeout Banner Rendering,Search & Advanced Filtering,UI Portal Form,Ivy Clark,Manual,Passed,1125,UAT,3/9/2026,None,None,None,31.5,79.6
+TC-QA-0118,Spike Load Recovery Stabilization,Notification Engine Triggers,Performance/Load,Jack Lewis,Automation,Passed,34082,Staging,2/23/2026,None,None,None,93.7,91.4
+TC-QA-0119,Session Timeout Banner Rendering,API Integration Layer,UI Portal Form,Jack Lewis,Manual,Passed,1445,UAT,1/12/2026,None,None,None,34.4,75.6
+TC-QA-0120,Multi-channel Notification Routing (SMS/Email),API Integration Layer,Notification Service,David Kim,Automation,Passed,803,Dev-QA,3/2/2026,None,None,None,87,86.5
+TC-QA-0121,1000 Concurrent Request Endurance Hold,System Configurations,Performance/Load,Mikhail Yakushev,Automation,Failed,102264,UAT,2/16/2026,BUG-5021,Major,Open,81.6,97.4
+TC-QA-0122,Concurrent DB Row Update Lock Check,API Integration Layer,SQL Server DB,Grace Miller,Automation,Passed,4088,Load_Test,1/19/2026,None,None,None,89.2,92.1
+TC-QA-0123,File Upload Format Constraints Check,Document Upload & Processing,UI Portal Form,Jack Lewis,Manual,Passed,466,Staging,3/9/2026,None,None,None,63.5,74
+TC-QA-0124,1000 Concurrent Request Endurance Hold,User Profile Customization,Performance/Load,David Kim,Automation,Failed,85435,Staging,2/2/2026,BUG-5022,Minor,Closed,79.8,93.7
+TC-QA-0125,API Throttle Rate Limit Injection,System Configurations,API Gateway,Jack Lewis,Automation,Passed,1339,Load_Test,1/12/2026,None,None,None,91.4,93.6
+TC-QA-0126,Bulk Insert Transaction Isolation Level,Reporting & Data Analytics,SQL Server DB,Frank Green,Automation,Passed,6988,Load_Test,1/5/2026,None,None,None,75.1,95.5
+TC-QA-0127,SLA Timer Breach Triggered Re-routing,Payment Gateway Integration,Workflow Engine,Grace Miller,Automation,Passed,7384,Dev-QA,1/12/2026,None,None,None,74,94.5
+TC-QA-0128,File Upload Format Constraints Check,API Integration Layer,UI Portal Form,Frank Green,Manual,Passed,898,UAT,2/9/2026,None,None,None,40.9,68.1
+TC-QA-0129,Multi-channel Notification Routing (SMS/Email),Document Upload & Processing,Notification Service,Grace Miller,Automation,Passed,301,Staging,2/2/2026,None,None,None,82.4,91.4
+TC-QA-0130,SMTP Gateway Timeout Graceful Recovery,User Profile Customization,Notification Service,David Kim,Automation,Passed,906,Dev-QA,1/12/2026,None,None,None,77.9,95.2
+TC-QA-0131,Bulk Insert Transaction Isolation Level,System Configurations,SQL Server DB,David Kim,Automation,Passed,6909,Staging,1/5/2026,None,None,None,75.7,99.2
+TC-QA-0132,CORS Pre-flight Header Validation,Notification Engine Triggers,API Gateway,David Kim,Automation,Passed,1081,UAT,1/19/2026,None,None,None,80.6,95.6
+TC-QA-0133,Multi-channel Notification Routing (SMS/Email),System Configurations,Notification Service,Ivy Clark,Automation,Passed,1719,Staging,2/16/2026,None,None,None,70.5,98.8
+TC-QA-0134,Parallel Workflow Fork Behavior,User Profile Customization,Workflow Engine,Frank Green,Automation,Passed,4371,Staging,2/16/2026,None,None,None,70.6,89.9
+TC-QA-0135,SMTP Gateway Timeout Graceful Recovery,API Integration Layer,Notification Service,David Kim,Automation,Failed,698,Dev-QA,3/9/2026,BUG-5023,Major,Open,81.1,89.7
+TC-QA-0136,Conditional Branch Route Assignment,Payment Gateway Integration,Workflow Engine,Ivy Clark,Automation,Passed,2934,UAT,2/9/2026,None,None,None,79.8,99.4
+TC-QA-0137,Database Connection Pool Exhaustion Stress,Workflow Engine Routing,Performance/Load,Grace Miller,Automation,Passed,55856,UAT,3/9/2026,None,None,None,74.3,96.4
+TC-QA-0138,XSS Injection Attempt on Form Fields,System Configurations,UI Portal Form,Jack Lewis,Automation,Passed,1386,Dev-QA,3/16/2026,None,None,None,95.9,93.5
+TC-QA-0139,Spike Load Recovery Stabilization,Payment Gateway Integration,Performance/Load,Ivy Clark,Automation,Blocked,71436,UAT,2/23/2026,BUG-5024,Major,Open,83.1,94.5
+TC-QA-0140,Parallel Workflow Fork Behavior,User Request Form Submission,Workflow Engine,David Kim,Automation,Passed,5702,Staging,1/5/2026,None,None,None,80.3,89.3
+TC-QA-0141,1000 Concurrent Request Endurance Hold,Reporting & Data Analytics,Performance/Load,Frank Green,Automation,Passed,90648,Staging,2/23/2026,None,None,None,95.5,93.6
+TC-QA-0142,CORS Pre-flight Header Validation,Reporting & Data Analytics,API Gateway,Jack Lewis,Automation,Blocked,1122,Staging,2/9/2026,BUG-5025,Major,Open,84.1,87.6
+TC-QA-0143,REST Endpoint Path Sanitization,Search & Advanced Filtering,API Gateway,Jack Lewis,Automation,Passed,945,Load_Test,2/2/2026,None,None,None,80.8,96.6
+TC-QA-0144,Spike Load Recovery Stabilization,User Request Form Submission,Performance/Load,Ivy Clark,Automation,Passed,73863,Staging,2/9/2026,None,None,None,72.6,95.2
+TC-QA-0145,SLA Timer Breach Triggered Re-routing,API Integration Layer,Workflow Engine,Ivy Clark,Automation,Failed,9153,UAT,2/9/2026,BUG-5026,Critical,Open,95.7,89.7
+TC-QA-0146,Bulk Export Memory Consumption Profiling,System Configurations,Performance/Load,Jack Lewis,Automation,Passed,41104,Load_Test,3/2/2026,None,None,None,80.5,96.9
+TC-QA-0147,REST Endpoint Path Sanitization,API Integration Layer,API Gateway,Ivy Clark,Manual,Blocked,1278,Staging,3/16/2026,BUG-5027,Minor,Open,47.8,60.5
+TC-QA-0148,Conditional Branch Route Assignment,Workflow Engine Routing,Workflow Engine,David Kim,Manual,Passed,3855,UAT,1/19/2026,None,None,None,32.7,81.1
+TC-QA-0149,Form Button Disabled Post-Click,System Configurations,UI Portal Form,David Kim,Automation,Passed,1423,Dev-QA,1/19/2026,None,None,None,74.5,97.5
+TC-QA-0150,Real-time Push Notification Latency Check,API Integration Layer,Notification Service,Jack Lewis,Automation,Passed,1673,UAT,2/23/2026,None,None,None,87.1,96.3
+TC-QA-0151,Stored Procedure Execution Deadlock Check,Session & Auth Handshake,SQL Server DB,Anisul Islam Rohit,Automation,Failed,5842,UAT,2/9/2026,BUG-5028,Minor,Closed,82.9,89.2
+TC-QA-0152,Bulk Insert Transaction Isolation Level,Session & Auth Handshake,SQL Server DB,Jack Lewis,Manual,Failed,8563,UAT,2/2/2026,BUG-5029,Critical,Closed,60.6,73.9
+TC-QA-0153,File Upload Format Constraints Check,Notification Engine Triggers,UI Portal Form,Grace Miller,Automation,Passed,1251,UAT,2/16/2026,None,None,None,72.6,98.7
+TC-QA-0154,Transaction Rollback on Middle-Tier Drop,User Request Form Submission,SQL Server DB,Jack Lewis,Automation,Passed,3931,Dev-QA,1/12/2026,None,None,None,80.5,85.4
+TC-QA-0155,Mandatory Field Verification,Audit Logs & Security,UI Portal Form,Anisul Islam Rohit,Manual,Failed,1167,UAT,3/23/2026,BUG-5030,Major,Closed,51.5,82.6
+TC-QA-0156,Form Timeout Handler under Slow Network,Workflow Engine Routing,UI Portal Form,Ivy Clark,Manual,Blocked,1446,Dev-QA,1/12/2026,BUG-5031,Minor,Open,38.3,63
+TC-QA-0157,Malformed JSON Request Body Rejection,System Configurations,API Gateway,Ivy Clark,Automation,Passed,1223,Staging,3/16/2026,None,None,None,84.4,88.6
+TC-QA-0158,CORS Pre-flight Header Validation,User Profile Customization,API Gateway,Grace Miller,Automation,Passed,1053,UAT,3/16/2026,None,None,None,88.7,92.9
+TC-QA-0159,Invalid State Transition Request Rejection,Session & Auth Handshake,Workflow Engine,Frank Green,Automation,Blocked,6539,Staging,2/16/2026,BUG-5032,Minor,Open,71.2,90.8
+TC-QA-0160,SLA Timer Breach Triggered Re-routing,API Integration Layer,Workflow Engine,Grace Miller,Automation,Passed,3975,Staging,3/9/2026,None,None,None,90.6,90
+TC-QA-0161,Mandatory Field Verification,Session & Auth Handshake,UI Portal Form,David Kim,Automation,Passed,1795,Dev-QA,3/23/2026,None,None,None,83.4,87.7
+TC-QA-0162,JWT Expiration Payload Parse,API Integration Layer,API Gateway,Ivy Clark,Manual,Passed,612,Staging,1/26/2026,None,None,None,61,67.9
+TC-QA-0163,Parallel Workflow Fork Behavior,User Profile Customization,Workflow Engine,Ivy Clark,Automation,Passed,8170,UAT,2/2/2026,None,None,None,80,96.7
+TC-QA-0164,Workflow State Storage Memory Leak Run,Notification Engine Triggers,Performance/Load,Grace Miller,Automation,Failed,87272,Dev-QA,3/23/2026,BUG-5033,Major,Closed,79.5,87.8
+TC-QA-0165,UI Rendering Paint Latency Peak Load,Payment Gateway Integration,Performance/Load,Ivy Clark,Automation,Passed,40828,Dev-QA,1/12/2026,None,None,None,82.1,99.9
+TC-QA-0166,GZIP Compression Payload Size Match,Notification Engine Triggers,API Gateway,David Kim,Automation,Passed,805,Load_Test,2/23/2026,None,None,None,86.9,91.4
+TC-QA-0167,UI Rendering Paint Latency Peak Load,Payment Gateway Integration,Performance/Load,Jack Lewis,Automation,Passed,76210,Dev-QA,2/2/2026,None,None,None,87.9,96.9
+TC-QA-0168,File Upload Format Constraints Check,System Configurations,UI Portal Form,Mikhail Yakushev,Automation,Passed,1735,UAT,1/5/2026,None,None,None,74,94.1
+TC-QA-0169,Record Init Database State PENDING,Audit Logs & Security,SQL Server DB,Grace Miller,Automation,Passed,4966,Dev-QA,3/9/2026,None,None,None,70.9,87.3
+TC-QA-0170,Transaction Rollback on Middle-Tier Drop,Payment Gateway Integration,SQL Server DB,Jack Lewis,Automation,Passed,6337,Load_Test,2/16/2026,None,None,None,78.8,89.2
+TC-QA-0171,Form Button Disabled Post-Click,API Integration Layer,UI Portal Form,Anisul Islam Rohit,Automation,Passed,1350,Staging,2/2/2026,None,None,None,91.7,95.6
+TC-QA-0172,GZIP Compression Payload Size Match,Notification Engine Triggers,API Gateway,Mikhail Yakushev,Manual,Passed,451,UAT,1/12/2026,None,None,None,45.8,82.5
+TC-QA-0173,Record Init Database State PENDING,System Configurations,SQL Server DB,Ivy Clark,Manual,Passed,7812,Staging,3/2/2026,None,None,None,49,82.3
+TC-QA-0174,REST Endpoint Path Sanitization,API Integration Layer,API Gateway,Mikhail Yakushev,Automation,Failed,1241,UAT,1/12/2026,BUG-5034,Critical,Open,76.6,92.4
+TC-QA-0175,Parallel Workflow Fork Behavior,Reporting & Data Analytics,Workflow Engine,David Kim,Automation,Blocked,3063,Staging,1/12/2026,BUG-5035,Minor,Open,81.1,95.8
+TC-QA-0176,Bulk Insert Transaction Isolation Level,User Profile Customization,SQL Server DB,Ivy Clark,Automation,Passed,3026,Load_Test,3/16/2026,None,None,None,72.1,92
+TC-QA-0177,Email Template Dynamic Field Merging,Audit Logs & Security,Notification Service,Ivy Clark,Automation,Passed,572,UAT,2/16/2026,None,None,None,84.1,98
+TC-QA-0178,XSS Injection Attempt on Form Fields,Notification Engine Triggers,UI Portal Form,Anisul Islam Rohit,Manual,Blocked,661,Load_Test,3/2/2026,BUG-5036,Minor,Open,59.6,66.3
+TC-QA-0179,Spike Load Recovery Stabilization,Notification Engine Triggers,Performance/Load,Anisul Islam Rohit,Automation,Passed,110534,Staging,3/2/2026,None,None,None,87.9,93.9
+TC-QA-0180,Real-time Push Notification Latency Check,Audit Logs & Security,Notification Service,Mikhail Yakushev,Automation,Failed,891,Staging,1/5/2026,BUG-5037,Critical,Open,96.6,96.6
+TC-QA-0181,Nested Approval Engine Workflow,Workflow Engine Routing,Workflow Engine,Ivy Clark,Automation,Passed,2248,Dev-QA,3/16/2026,None,None,None,85.3,94.6
+TC-QA-0182,State Transition Serialization Loop,Workflow Engine Routing,Workflow Engine,Ivy Clark,Manual,Passed,5715,Staging,3/23/2026,None,None,None,32.1,71
+TC-QA-0183,Concurrent DB Row Update Lock Check,Workflow Engine Routing,SQL Server DB,David Kim,Automation,Passed,7884,Load_Test,3/23/2026,None,None,None,97.7,90.2
+TC-QA-0184,Stored Procedure Execution Deadlock Check,Payment Gateway Integration,SQL Server DB,Frank Green,Automation,Passed,5821,Staging,2/2/2026,None,None,None,82.6,87.1
+TC-QA-0185,Form Timeout Handler under Slow Network,User Profile Customization,UI Portal Form,Ivy Clark,Automation,Passed,527,Load_Test,3/9/2026,None,None,None,90.2,87.8
+TC-QA-0186,Malformed JSON Request Body Rejection,Session & Auth Handshake,API Gateway,Jack Lewis,Automation,Passed,247,Staging,2/16/2026,None,None,None,84.2,99.5
+TC-QA-0187,GZIP Compression Payload Size Match,Payment Gateway Integration,API Gateway,Grace Miller,Automation,Passed,1539,Dev-QA,2/2/2026,None,None,None,85,97.7
+TC-QA-0188,Stored Procedure Execution Deadlock Check,Notification Engine Triggers,SQL Server DB,Mikhail Yakushev,Automation,Passed,2370,Dev-QA,1/5/2026,None,None,None,86,87.9
+TC-QA-0189,Email Template Dynamic Field Merging,Document Upload & Processing,Notification Service,Jack Lewis,Automation,Passed,772,Staging,1/19/2026,None,None,None,97.3,90.9
+TC-QA-0190,Parallel Workflow Fork Behavior,Payment Gateway Integration,Workflow Engine,Ivy Clark,Automation,Passed,5288,Staging,1/5/2026,None,None,None,71.1,95.7
+TC-QA-0191,Bulk Insert Transaction Isolation Level,Search & Advanced Filtering,SQL Server DB,Anisul Islam Rohit,Automation,Passed,4686,Load_Test,1/19/2026,None,None,None,81,94.2
+TC-QA-0192,Parallel Workflow Fork Behavior,Payment Gateway Integration,Workflow Engine,Frank Green,Manual,Passed,7805,Load_Test,2/23/2026,None,None,None,58.6,69.2
+TC-QA-0193,1000 Concurrent Request Endurance Hold,User Profile Customization,Performance/Load,Frank Green,Automation,Passed,112478,Staging,3/9/2026,None,None,None,83.3,99.5
+TC-QA-0194,Multi-channel Notification Routing (SMS/Email),Workflow Engine Routing,Notification Service,Mikhail Yakushev,Automation,Passed,1273,Dev-QA,1/19/2026,None,None,None,93,88.6
+TC-QA-0195,SMS Provider Queue Backup Fallback,Document Upload & Processing,Notification Service,Anisul Islam Rohit,Automation,Passed,510,Dev-QA,3/23/2026,None,None,None,75.7,92.5
+TC-QA-0196,SMTP Gateway Timeout Graceful Recovery,API Integration Layer,Notification Service,Mikhail Yakushev,Automation,Passed,624,Load_Test,3/16/2026,None,None,None,83.4,90.7
+TC-QA-0197,Malformed JSON Request Body Rejection,Session & Auth Handshake,API Gateway,David Kim,Automation,Passed,1676,Load_Test,3/9/2026,None,None,None,83.6,99.4
+TC-QA-0198,Parallel Workflow Fork Behavior,Notification Engine Triggers,Workflow Engine,Anisul Islam Rohit,Manual,Blocked,8317,Load_Test,3/23/2026,BUG-5038,Major,Open,54.2,72.2
+TC-QA-0199,Transaction Rollback on Middle-Tier Drop,Session & Auth Handshake,SQL Server DB,Ivy Clark,Automation,Passed,6697,Dev-QA,2/16/2026,None,None,None,92.9,99.3
+TC-QA-0200,CORS Pre-flight Header Validation,User Request Form Submission,API Gateway,David Kim,Manual,Passed,1105,Load_Test,3/23/2026,None,None,None,46.8,65.1
+TC-QA-0201,Email Template Dynamic Field Merging,Session & Auth Handshake,Notification Service,Mikhail Yakushev,Automation,Passed,1717,UAT,1/26/2026,None,None,None,71.4,98.6
+TC-QA-0202,REST Endpoint Path Sanitization,Workflow Engine Routing,API Gateway,Grace Miller,Automation,Passed,1167,Staging,3/16/2026,None,None,None,91.6,85.1
+TC-QA-0203,Real-time Push Notification Latency Check,User Profile Customization,Notification Service,Mikhail Yakushev,Manual,Failed,1177,UAT,2/2/2026,BUG-5039,Major,Closed,52.6,82.7
+TC-QA-0204,Special Character Validation in Fields,Session & Auth Handshake,UI Portal Form,Mikhail Yakushev,Automation,Blocked,558,Dev-QA,1/19/2026,BUG-5040,Major,Open,97.9,91
+TC-QA-0205,Stored Procedure Execution Deadlock Check,API Integration Layer,SQL Server DB,Ivy Clark,Manual,Failed,2075,Load_Test,3/9/2026,BUG-5041,Minor,Open,62.5,68.4
+TC-QA-0206,SQL Text Field Index Fragmentation Scan,Session & Auth Handshake,SQL Server DB,Frank Green,Automation,Blocked,8971,Dev-QA,2/2/2026,BUG-5042,Major,Open,92.6,90
+TC-QA-0207,UI Rendering Paint Latency Peak Load,System Configurations,Performance/Load,David Kim,Automation,Passed,31846,Load_Test,2/2/2026,None,None,None,85.9,96.4
+TC-QA-0208,GZIP Compression Payload Size Match,System Configurations,API Gateway,Jack Lewis,Manual,Passed,377,Dev-QA,3/16/2026,None,None,None,33.3,84.5
+TC-QA-0209,Transaction Rollback on Middle-Tier Drop,Workflow Engine Routing,SQL Server DB,Grace Miller,Automation,Passed,8174,Load_Test,2/9/2026,None,None,None,78.5,95.8
+TC-QA-0210,Form Timeout Handler under Slow Network,System Configurations,UI Portal Form,David Kim,Automation,Passed,442,Dev-QA,2/2/2026,None,None,None,74.5,95.3
+TC-QA-0211,Workflow State Storage Memory Leak Run,API Integration Layer,Performance/Load,Grace Miller,Automation,Passed,68671,Load_Test,3/9/2026,None,None,None,76.2,99.4
+TC-QA-0212,Stored Procedure Execution Deadlock Check,Search & Advanced Filtering,SQL Server DB,Mikhail Yakushev,Manual,Passed,7750,Dev-QA,3/2/2026,None,None,None,58.1,80.6
+TC-QA-0213,REST Endpoint Path Sanitization,Reporting & Data Analytics,API Gateway,Ivy Clark,Automation,Passed,1281,Load_Test,1/12/2026,None,None,None,95.7,86.7
+TC-QA-0214,Multi-channel Notification Routing (SMS/Email),Workflow Engine Routing,Notification Service,Frank Green,Automation,Passed,1265,Dev-QA,1/12/2026,None,None,None,89,95.8
+TC-QA-0215,Record Init Database State PENDING,Session & Auth Handshake,SQL Server DB,Jack Lewis,Manual,Passed,6204,Dev-QA,2/23/2026,None,None,None,49.7,74
+TC-QA-0216,Workflow State Storage Memory Leak Run,API Integration Layer,Performance/Load,Grace Miller,Automation,Passed,30395,UAT,3/9/2026,None,None,None,72,91.4
+TC-QA-0217,1000 Concurrent Request Endurance Hold,Session & Auth Handshake,Performance/Load,Grace Miller,Automation,Blocked,39046,Dev-QA,1/5/2026,BUG-5043,Minor,Open,81.4,96.5
+TC-QA-0218,Bulk Export Memory Consumption Profiling,System Configurations,Performance/Load,Jack Lewis,Automation,Passed,80132,Dev-QA,2/16/2026,None,None,None,80.5,95.2
+TC-QA-0219,Spike Load Recovery Stabilization,Audit Logs & Security,Performance/Load,Mikhail Yakushev,Automation,Failed,45549,UAT,3/2/2026,BUG-5044,Major,Open,90.4,88.3
+TC-QA-0220,Form Button Disabled Post-Click,Notification Engine Triggers,UI Portal Form,Jack Lewis,Automation,Passed,1289,Dev-QA,1/26/2026,None,None,None,76.9,90.2
+TC-QA-0221,Conditional Branch Route Assignment,API Integration Layer,Workflow Engine,Ivy Clark,Automation,Failed,5434,Staging,1/26/2026,BUG-5045,Critical,Open,72.8,85.5
+TC-QA-0222,SMS Provider Queue Backup Fallback,API Integration Layer,Notification Service,Ivy Clark,Automation,Passed,1023,Dev-QA,1/26/2026,None,None,None,85.1,96.3
+TC-QA-0223,XSS Injection Attempt on Form Fields,Session & Auth Handshake,UI Portal Form,David Kim,Manual,Failed,1379,Load_Test,3/9/2026,BUG-5046,Minor,Closed,38.3,81.9
+TC-QA-0224,Spike Load Recovery Stabilization,Workflow Engine Routing,Performance/Load,Jack Lewis,Automation,Passed,37989,UAT,3/16/2026,None,None,None,89,93.3
+TC-QA-0225,Mandatory Field Verification,System Configurations,UI Portal Form,Mikhail Yakushev,Manual,Passed,1626,Dev-QA,2/16/2026,None,None,None,35.2,69.4
+TC-QA-0226,SMTP Gateway Timeout Graceful Recovery,Workflow Engine Routing,Notification Service,Ivy Clark,Automation,Failed,495,Dev-QA,1/5/2026,BUG-5047,Minor,Closed,97.1,93.4
+TC-QA-0227,Malformed JSON Request Body Rejection,Workflow Engine Routing,API Gateway,David Kim,Automation,Passed,1121,Load_Test,1/12/2026,None,None,None,85,97.4
+TC-QA-0228,Form Timeout Handler under Slow Network,User Profile Customization,UI Portal Form,Mikhail Yakushev,Automation,Passed,349,UAT,3/9/2026,None,None,None,90.3,93.4
+TC-QA-0229,Stored Procedure Execution Deadlock Check,Payment Gateway Integration,SQL Server DB,David Kim,Manual,Passed,9677,UAT,3/23/2026,None,None,None,34.1,85
+TC-QA-0230,Stored Procedure Execution Deadlock Check,API Integration Layer,SQL Server DB,Frank Green,Automation,Passed,3960,Load_Test,2/2/2026,None,None,None,80.7,93
+TC-QA-0231,SLA Timer Breach Triggered Re-routing,Notification Engine Triggers,Workflow Engine,David Kim,Automation,Passed,2807,Dev-QA,2/9/2026,None,None,None,95.6,90.6
+TC-QA-0232,Record Init Database State PENDING,Reporting & Data Analytics,SQL Server DB,Ivy Clark,Automation,Passed,4136,Dev-QA,2/2/2026,None,None,None,74.3,89.9
+TC-QA-0233,Bulk Insert Transaction Isolation Level,Workflow Engine Routing,SQL Server DB,Jack Lewis,Automation,Blocked,4765,Load_Test,2/23/2026,BUG-5048,Minor,Open,82.9,96
+TC-QA-0234,Conditional Branch Route Assignment,Audit Logs & Security,Workflow Engine,Mikhail Yakushev,Automation,Passed,9285,Staging,3/2/2026,None,None,None,70.9,97.7
+TC-QA-0235,1000 Concurrent Request Endurance Hold,User Request Form Submission,Performance/Load,Jack Lewis,Automation,Passed,112667,UAT,1/12/2026,None,None,None,89.8,85.1
+TC-QA-0236,SMTP Gateway Timeout Graceful Recovery,Payment Gateway Integration,Notification Service,Grace Miller,Automation,Passed,1462,Dev-QA,3/16/2026,None,None,None,83.7,85.1
+TC-QA-0237,SMTP Gateway Timeout Graceful Recovery,User Request Form Submission,Notification Service,Grace Miller,Automation,Passed,787,Staging,3/2/2026,None,None,None,92.8,95.1
+TC-QA-0238,JWT Expiration Payload Parse,Document Upload & Processing,API Gateway,Frank Green,Automation,Passed,1278,Load_Test,2/9/2026,None,None,None,77.5,91
+TC-QA-0239,State Transition Serialization Loop,Search & Advanced Filtering,Workflow Engine,Frank Green,Automation,Passed,4457,Staging,3/16/2026,None,None,None,97.8,94.7
+TC-QA-0240,File Upload Format Constraints Check,User Profile Customization,UI Portal Form,Jack Lewis,Manual,Passed,1504,Staging,3/23/2026,None,None,None,36,72.5
+TC-QA-0241,SQL Text Field Index Fragmentation Scan,Payment Gateway Integration,SQL Server DB,Frank Green,Manual,Blocked,9330,Staging,1/26/2026,BUG-5049,Major,Open,61.5,77.3
+TC-QA-0242,SMTP Gateway Timeout Graceful Recovery,Notification Engine Triggers,Notification Service,Grace Miller,Manual,Passed,774,Staging,1/19/2026,None,None,None,62.5,67.9
+TC-QA-0243,GZIP Compression Payload Size Match,Audit Logs & Security,API Gateway,Ivy Clark,Manual,Failed,357,Load_Test,1/19/2026,BUG-5050,Minor,Open,49.8,81.2
+TC-QA-0244,Spike Load Recovery Stabilization,Payment Gateway Integration,Performance/Load,Jack Lewis,Automation,Passed,48343,Staging,3/2/2026,None,None,None,90.9,90.2
+TC-QA-0245,Responsive Breakpoint Layout Adjustments,Workflow Engine Routing,UI Portal Form,Ivy Clark,Manual,Passed,1457,Dev-QA,2/9/2026,None,None,None,31,66.8
+TC-QA-0246,Concurrent DB Row Update Lock Check,Workflow Engine Routing,SQL Server DB,David Kim,Automation,Passed,3521,Dev-QA,1/12/2026,None,None,None,91.6,89.4
+TC-QA-0247,REST Endpoint Path Sanitization,Document Upload & Processing,API Gateway,Grace Miller,Automation,Passed,1498,UAT,3/23/2026,None,None,None,80.9,90.4
+TC-QA-0248,Form Button Disabled Post-Click,Notification Engine Triggers,UI Portal Form,Jack Lewis,Manual,Passed,471,Staging,1/19/2026,None,None,None,45.1,73.9
+TC-QA-0249,SMTP Gateway Timeout Graceful Recovery,Document Upload & Processing,Notification Service,Grace Miller,Automation,Passed,1422,Load_Test,2/16/2026,None,None,None,70.3,91.2
+TC-QA-0250,Special Character Validation in Fields,Reporting & Data Analytics,UI Portal Form,Frank Green,Manual,Passed,484,Load_Test,2/2/2026,None,None,None,39.4,63.6
+TC-QA-0251,Malformed JSON Request Body Rejection,Notification Engine Triggers,API Gateway,Jack Lewis,Automation,Failed,939,Load_Test,1/26/2026,BUG-5051,Minor,Closed,86.6,87.9
+TC-QA-0252,XSS Injection Attempt on Form Fields,Notification Engine Triggers,UI Portal Form,Grace Miller,Automation,Passed,1470,Dev-QA,2/9/2026,None,None,None,82.3,91.5
+TC-QA-0253,Spike Load Recovery Stabilization,Audit Logs & Security,Performance/Load,David Kim,Automation,Passed,56326,Dev-QA,2/9/2026,None,None,None,75,91
+TC-QA-0254,SLA Timer Breach Triggered Re-routing,API Integration Layer,Workflow Engine,Mikhail Yakushev,Automation,Blocked,8405,UAT,2/9/2026,BUG-5052,Minor,Open,77.8,96.8
+TC-QA-0255,Invalid State Transition Request Rejection,Reporting & Data Analytics,Workflow Engine,Anisul Islam Rohit,Automation,Passed,7584,Staging,3/23/2026,None,None,None,82.9,95.6
+TC-QA-0256,Transaction Rollback on Middle-Tier Drop,API Integration Layer,SQL Server DB,Grace Miller,Manual,Failed,5351,Dev-QA,1/19/2026,BUG-5053,Minor,Closed,38.5,76.5
+TC-QA-0257,UI Rendering Paint Latency Peak Load,User Profile Customization,Performance/Load,Grace Miller,Automation,Passed,108372,Dev-QA,3/9/2026,None,None,None,81.2,92.6
+TC-QA-0258,UI Rendering Paint Latency Peak Load,Session & Auth Handshake,Performance/Load,Grace Miller,Automation,Failed,77124,Staging,1/12/2026,BUG-5054,Critical,Closed,74.7,94.2
+TC-QA-0259,SMS Provider Queue Backup Fallback,System Configurations,Notification Service,Mikhail Yakushev,Automation,Passed,1081,Staging,1/5/2026,None,None,None,72.8,88.3
+TC-QA-0260,Spike Load Recovery Stabilization,Session & Auth Handshake,Performance/Load,Frank Green,Automation,Passed,58971,Dev-QA,2/9/2026,None,None,None,81,96.6
+TC-QA-0261,SMS Provider Queue Backup Fallback,Session & Auth Handshake,Notification Service,Anisul Islam Rohit,Automation,Passed,414,Load_Test,2/16/2026,None,None,None,95.8,86.3
+TC-QA-0262,Database Connection Pool Exhaustion Stress,Payment Gateway Integration,Performance/Load,David Kim,Automation,Passed,57114,Dev-QA,2/9/2026,None,None,None,83.3,91.6
+TC-QA-0263,UI Rendering Paint Latency Peak Load,Payment Gateway Integration,Performance/Load,Grace Miller,Automation,Passed,45084,Staging,2/9/2026,None,None,None,88.1,95.2
+TC-QA-0264,REST Endpoint Path Sanitization,Workflow Engine Routing,API Gateway,Frank Green,Automation,Passed,1346,Dev-QA,2/23/2026,None,None,None,76.5,91.1
+TC-QA-0265,API Throttle Rate Limit Injection,System Configurations,API Gateway,Mikhail Yakushev,Automation,Passed,1457,UAT,2/23/2026,None,None,None,86.6,90.8
+TC-QA-0266,Database Connection Pool Exhaustion Stress,Workflow Engine Routing,Performance/Load,David Kim,Automation,Passed,38200,Staging,3/2/2026,None,None,None,75.2,89.9
+TC-QA-0267,Record Init Database State PENDING,Notification Engine Triggers,SQL Server DB,Mikhail Yakushev,Manual,Passed,7235,Load_Test,3/9/2026,None,None,None,43.6,69.8
+TC-QA-0268,Mandatory Field Verification,Payment Gateway Integration,UI Portal Form,Ivy Clark,Automation,Passed,1579,Load_Test,3/9/2026,None,None,None,86.5,95.1
+TC-QA-0269,Invalid State Transition Request Rejection,Workflow Engine Routing,Workflow Engine,David Kim,Automation,Passed,3158,Dev-QA,2/16/2026,None,None,None,86.7,93.6
+TC-QA-0270,Stored Procedure Execution Deadlock Check,Search & Advanced Filtering,SQL Server DB,Mikhail Yakushev,Automation,Failed,9624,UAT,3/2/2026,BUG-5055,Critical,Closed,78.1,87.8
+TC-QA-0271,Bulk Insert Transaction Isolation Level,User Request Form Submission,SQL Server DB,Ivy Clark,Automation,Passed,3118,UAT,2/16/2026,None,None,None,97,92.6
+TC-QA-0272,Concurrent DB Row Update Lock Check,System Configurations,SQL Server DB,Jack Lewis,Automation,Failed,6003,UAT,1/12/2026,BUG-5056,Minor,Open,92.3,88.3
+TC-QA-0273,Form Timeout Handler under Slow Network,Workflow Engine Routing,UI Portal Form,Frank Green,Manual,Failed,1358,Dev-QA,3/2/2026,BUG-5057,Minor,Open,50,66.7
+TC-QA-0274,Email Template Dynamic Field Merging,Session & Auth Handshake,Notification Service,Ivy Clark,Automation,Passed,1103,UAT,2/16/2026,None,None,None,72.9,97.5
+TC-QA-0275,CORS Pre-flight Header Validation,User Request Form Submission,API Gateway,Jack Lewis,Automation,Failed,378,Dev-QA,1/12/2026,BUG-5058,Critical,Open,92.7,93.8
+TC-QA-0276,Nested Approval Engine Workflow,Reporting & Data Analytics,Workflow Engine,Mikhail Yakushev,Automation,Passed,8429,UAT,1/26/2026,None,None,None,92.6,93.6
+TC-QA-0277,Email Template Dynamic Field Merging,Reporting & Data Analytics,Notification Service,Frank Green,Automation,Blocked,799,Load_Test,3/9/2026,BUG-5059,Minor,Open,96.7,92.7
+TC-QA-0278,1000 Concurrent Request Endurance Hold,Audit Logs & Security,Performance/Load,Ivy Clark,Automation,Failed,37770,Load_Test,3/16/2026,BUG-5060,Critical,Open,77,95.7
+TC-QA-0279,REST Endpoint Path Sanitization,User Profile Customization,API Gateway,Jack Lewis,Automation,Passed,1485,Dev-QA,2/16/2026,None,None,None,82.7,94.5
+TC-QA-0280,Responsive Breakpoint Layout Adjustments,Session & Auth Handshake,UI Portal Form,Mikhail Yakushev,Manual,Blocked,955,Dev-QA,2/23/2026,BUG-5061,Minor,Open,50.4,81.7
+TC-QA-0281,1000 Concurrent Request Endurance Hold,API Integration Layer,Performance/Load,Jack Lewis,Automation,Passed,76952,Staging,3/2/2026,None,None,None,81.1,99.5
+TC-QA-0282,Malformed JSON Request Body Rejection,Notification Engine Triggers,API Gateway,David Kim,Manual,Passed,1383,UAT,3/9/2026,None,None,None,59.8,79.7
+TC-QA-0283,1000 Concurrent Request Endurance Hold,User Request Form Submission,Performance/Load,Grace Miller,Automation,Passed,90238,Staging,1/12/2026,None,None,None,96,87.4
+TC-QA-0284,Record Init Database State PENDING,User Profile Customization,SQL Server DB,Anisul Islam Rohit,Manual,Failed,9226,Load_Test,1/19/2026,BUG-5062,Major,Open,52.9,66.3
+TC-QA-0285,Nested Approval Engine Workflow,System Configurations,Workflow Engine,Anisul Islam Rohit,Automation,Passed,7947,UAT,2/16/2026,None,None,None,88.4,95.6
+TC-QA-0286,Special Character Validation in Fields,Search & Advanced Filtering,UI Portal Form,Grace Miller,Manual,Passed,1592,Dev-QA,1/5/2026,None,None,None,30.3,68.6
+TC-QA-0287,Responsive Breakpoint Layout Adjustments,API Integration Layer,UI Portal Form,Anisul Islam Rohit,Automation,Passed,382,Staging,1/12/2026,None,None,None,78.8,98.2
+TC-QA-0288,Malformed JSON Request Body Rejection,Audit Logs & Security,API Gateway,Mikhail Yakushev,Manual,Passed,1286,Staging,3/9/2026,None,None,None,52.8,71
+TC-QA-0289,Database Connection Pool Exhaustion Stress,System Configurations,Performance/Load,Mikhail Yakushev,Automation,Passed,83963,Dev-QA,1/26/2026,None,None,None,72.4,86.5
+TC-QA-0290,Responsive Breakpoint Layout Adjustments,Payment Gateway Integration,UI Portal Form,Jack Lewis,Manual,Passed,767,Staging,1/26/2026,None,None,None,49.4,75
+TC-QA-0291,Email Template Dynamic Field Merging,API Integration Layer,Notification Service,Grace Miller,Manual,Passed,817,UAT,3/2/2026,None,None,None,51.2,64.7
+TC-QA-0292,Transaction Rollback on Middle-Tier Drop,System Configurations,SQL Server DB,Grace Miller,Automation,Failed,3960,Dev-QA,2/16/2026,BUG-5063,Critical,Open,84,93.9
+TC-QA-0293,Notification Gateway Retry Queue Loop,Payment Gateway Integration,Notification Service,David Kim,Automation,Failed,1364,Dev-QA,2/9/2026,BUG-5064,Minor,Open,91.4,99.3
+TC-QA-0294,Form Button Disabled Post-Click,Reporting & Data Analytics,UI Portal Form,Grace Miller,Manual,Passed,323,Dev-QA,3/2/2026,None,None,None,40,77.8
+TC-QA-0295,Concurrent DB Row Update Lock Check,API Integration Layer,SQL Server DB,Jack Lewis,Automation,Passed,7046,UAT,2/2/2026,None,None,None,72.3,86.2
+TC-QA-0296,API Throttle Rate Limit Injection,Session & Auth Handshake,API Gateway,David Kim,Automation,Passed,1530,Staging,2/2/2026,None,None,None,89.6,95.9
+TC-QA-0297,JWT Expiration Payload Parse,Workflow Engine Routing,API Gateway,Grace Miller,Manual,Passed,1453,Staging,2/2/2026,None,None,None,53.3,76.5
+TC-QA-0298,JWT Expiration Payload Parse,User Request Form Submission,API Gateway,Mikhail Yakushev,Automation,Passed,1216,Load_Test,3/2/2026,None,None,None,84.5,97.3
+TC-QA-0299,Conditional Branch Route Assignment,Payment Gateway Integration,Workflow Engine,Anisul Islam Rohit,Automation,Failed,8004,Staging,1/5/2026,BUG-5065,Major,Closed,77.6,86
+TC-QA-0300,Spike Load Recovery Stabilization,System Configurations,Performance/Load,Grace Miller,Automation,Passed,96949,Load_Test,1/5/2026,None,None,None,84,93.5
+TC-QA-0301,Conditional Branch Route Assignment,Notification Engine Triggers,Workflow Engine,Ivy Clark,Automation,Passed,7921,Staging,1/26/2026,None,None,None,90.7,85
+TC-QA-0302,Special Character Validation in Fields,User Request Form Submission,UI Portal Form,Jack Lewis,Manual,Failed,566,Staging,3/2/2026,BUG-5066,Minor,Closed,37.9,66.2
+TC-QA-0303,Workflow State Storage Memory Leak Run,Notification Engine Triggers,Performance/Load,Ivy Clark,Automation,Passed,78864,Staging,3/2/2026,None,None,None,88.9,85.8
+TC-QA-0304,GZIP Compression Payload Size Match,User Request Form Submission,API Gateway,Jack Lewis,Automation,Passed,778,Load_Test,2/9/2026,None,None,None,72.4,91.9
+TC-QA-0305,Conditional Branch Route Assignment,Notification Engine Triggers,Workflow Engine,Frank Green,Automation,Passed,3987,Dev-QA,2/9/2026,None,None,None,86.6,92.4
+TC-QA-0306,REST Endpoint Path Sanitization,Session & Auth Handshake,API Gateway,Ivy Clark,Automation,Passed,1039,Staging,1/26/2026,None,None,None,85.2,94.5
+TC-QA-0307,1000 Concurrent Request Endurance Hold,Payment Gateway Integration,Performance/Load,Grace Miller,Automation,Passed,79319,Load_Test,1/12/2026,None,None,None,75.7,99.7
+TC-QA-0308,Concurrent DB Row Update Lock Check,User Request Form Submission,SQL Server DB,Anisul Islam Rohit,Automation,Passed,9547,UAT,3/2/2026,None,None,None,81.6,98.4
+TC-QA-0309,SQL Text Field Index Fragmentation Scan,Document Upload & Processing,SQL Server DB,Frank Green,Automation,Passed,8717,Dev-QA,1/12/2026,None,None,None,86.6,85.9
+TC-QA-0310,Database Connection Pool Exhaustion Stress,Workflow Engine Routing,Performance/Load,David Kim,Automation,Passed,71288,Dev-QA,3/23/2026,None,None,None,93.3,89.9
+TC-QA-0311,Transaction Rollback on Middle-Tier Drop,Workflow Engine Routing,SQL Server DB,Grace Miller,Manual,Passed,8309,Staging,1/19/2026,None,None,None,33.7,71.2
+TC-QA-0312,State Transition Serialization Loop,Document Upload & Processing,Workflow Engine,Frank Green,Automation,Passed,5702,Load_Test,2/23/2026,None,None,None,77.4,86.8
+TC-QA-0313,REST Endpoint Path Sanitization,Notification Engine Triggers,API Gateway,Ivy Clark,Automation,Passed,640,Load_Test,1/19/2026,None,None,None,72.6,88.7
+TC-QA-0314,State Transition Serialization Loop,Session & Auth Handshake,Workflow Engine,Grace Miller,Automation,Passed,3424,Staging,2/16/2026,None,None,None,93.9,93.3
+TC-QA-0315,Real-time Push Notification Latency Check,Document Upload & Processing,Notification Service,Jack Lewis,Automation,Failed,448,Staging,1/5/2026,BUG-5067,Critical,Open,75.5,91
+TC-QA-0316,Bulk Export Memory Consumption Profiling,System Configurations,Performance/Load,Grace Miller,Automation,Passed,63924,Staging,1/5/2026,None,None,None,97.9,88
+TC-QA-0317,UI Rendering Paint Latency Peak Load,Audit Logs & Security,Performance/Load,Grace Miller,Automation,Failed,73456,Staging,1/5/2026,BUG-5068,Major,Open,74.7,93.6
+TC-QA-0318,UI Rendering Paint Latency Peak Load,Search & Advanced Filtering,Performance/Load,Grace Miller,Automation,Passed,85923,UAT,2/9/2026,None,None,None,76,87.8
+TC-QA-0319,State Transition Serialization Loop,Audit Logs & Security,Workflow Engine,Grace Miller,Automation,Passed,7302,Load_Test,2/23/2026,None,None,None,81.5,93.3
+TC-QA-0320,File Upload Format Constraints Check,Notification Engine Triggers,UI Portal Form,Jack Lewis,Manual,Passed,1276,UAT,3/16/2026,None,None,None,64.8,73.6
+TC-QA-0321,Responsive Breakpoint Layout Adjustments,API Integration Layer,UI Portal Form,David Kim,Automation,Failed,904,Load_Test,2/16/2026,BUG-5069,Major,Open,70.7,94
+TC-QA-0322,Form Timeout Handler under Slow Network,User Request Form Submission,UI Portal Form,Ivy Clark,Automation,Passed,1770,UAT,1/19/2026,None,None,None,72.8,94.9
+TC-QA-0323,Parallel Workflow Fork Behavior,API Integration Layer,Workflow Engine,Grace Miller,Automation,Blocked,6716,Dev-QA,2/9/2026,BUG-5070,Major,Open,74.9,93.9
+TC-QA-0324,Bulk Export Memory Consumption Profiling,Payment Gateway Integration,Performance/Load,Frank Green,Automation,Passed,76095,UAT,3/9/2026,None,None,None,96.6,97.6
+TC-QA-0325,Bulk Insert Transaction Isolation Level,Notification Engine Triggers,SQL Server DB,Anisul Islam Rohit,Automation,Passed,3905,UAT,1/5/2026,None,None,None,84.7,85
+TC-QA-0326,Real-time Push Notification Latency Check,Audit Logs & Security,Notification Service,David Kim,Automation,Failed,862,Staging,1/5/2026,BUG-5071,Critical,Open,91.7,97.7
+TC-QA-0327,Invalid State Transition Request Rejection,Payment Gateway Integration,Workflow Engine,Mikhail Yakushev,Manual,Passed,2827,Load_Test,2/2/2026,None,None,None,41.3,84.4
+TC-QA-0328,UI Rendering Paint Latency Peak Load,System Configurations,Performance/Load,Jack Lewis,Automation,Passed,52833,Load_Test,1/26/2026,None,None,None,88.6,97.2
+TC-QA-0329,Transaction Rollback on Middle-Tier Drop,API Integration Layer,SQL Server DB,Mikhail Yakushev,Automation,Passed,2014,Dev-QA,3/9/2026,None,None,None,70.9,94
+TC-QA-0330,Real-time Push Notification Latency Check,System Configurations,Notification Service,Frank Green,Automation,Passed,878,Staging,1/26/2026,None,None,None,79.7,89.8
+TC-QA-0331,1000 Concurrent Request Endurance Hold,API Integration Layer,Performance/Load,Mikhail Yakushev,Automation,Passed,74007,Dev-QA,1/5/2026,None,None,None,77.4,88.7
+TC-QA-0332,Mandatory Field Verification,Notification Engine Triggers,UI Portal Form,Ivy Clark,Manual,Passed,990,Dev-QA,3/23/2026,None,None,None,44.7,64.2
+TC-QA-0333,Concurrent DB Row Update Lock Check,User Profile Customization,SQL Server DB,David Kim,Automation,Passed,5927,UAT,1/19/2026,None,None,None,82.6,97
+TC-QA-0334,Form Timeout Handler under Slow Network,User Request Form Submission,UI Portal Form,David Kim,Manual,Passed,900,UAT,2/16/2026,None,None,None,35.6,61.9
+TC-QA-0335,Mandatory Field Verification,Reporting & Data Analytics,UI Portal Form,Frank Green,Automation,Passed,1083,UAT,3/9/2026,None,None,None,94.9,87.4
+TC-QA-0336,Mandatory Field Verification,Workflow Engine Routing,UI Portal Form,Anisul Islam Rohit,Automation,Passed,1694,Load_Test,3/16/2026,None,None,None,77.9,88.6
+TC-QA-0337,Responsive Breakpoint Layout Adjustments,Reporting & Data Analytics,UI Portal Form,Frank Green,Automation,Passed,938,Staging,2/16/2026,None,None,None,72.5,97.4
+TC-QA-0338,Spike Load Recovery Stabilization,Search & Advanced Filtering,Performance/Load,Anisul Islam Rohit,Automation,Passed,57125,UAT,3/16/2026,None,None,None,78.2,86.2
+TC-QA-0339,Form Timeout Handler under Slow Network,User Profile Customization,UI Portal Form,Jack Lewis,Automation,Passed,386,Dev-QA,1/19/2026,None,None,None,80.4,90.7
+TC-QA-0340,Malformed JSON Request Body Rejection,User Request Form Submission,API Gateway,David Kim,Automation,Passed,750,Staging,1/19/2026,None,None,None,91.1,95
+TC-QA-0341,Mandatory Field Verification,Session & Auth Handshake,UI Portal Form,Jack Lewis,Automation,Passed,1333,Staging,2/16/2026,None,None,None,92.9,91.3
+TC-QA-0342,SMS Provider Queue Backup Fallback,Search & Advanced Filtering,Notification Service,Frank Green,Manual,Passed,361,Dev-QA,3/23/2026,None,None,None,31.2,74.3
+TC-QA-0343,Multi-channel Notification Routing (SMS/Email),System Configurations,Notification Service,Frank Green,Automation,Blocked,1119,UAT,1/19/2026,BUG-5072,Major,Open,92.6,86.9
+TC-QA-0344,Record Init Database State PENDING,System Configurations,SQL Server DB,Jack Lewis,Automation,Failed,3211,Load_Test,2/9/2026,BUG-5073,Minor,Open,72.4,93.3
+TC-QA-0345,Email Template Dynamic Field Merging,Notification Engine Triggers,Notification Service,Frank Green,Automation,Failed,1634,Dev-QA,1/12/2026,BUG-5074,Major,Open,74.1,93.8
+TC-QA-0346,File Upload Format Constraints Check,Reporting & Data Analytics,UI Portal Form,Ivy Clark,Manual,Passed,1296,Load_Test,2/16/2026,None,None,None,39.2,76.4
+TC-QA-0347,Multi-channel Notification Routing (SMS/Email),Search & Advanced Filtering,Notification Service,Grace Miller,Automation,Passed,1466,Dev-QA,1/5/2026,None,None,None,81.1,98.2
+TC-QA-0348,Database Connection Pool Exhaustion Stress,User Request Form Submission,Performance/Load,Mikhail Yakushev,Automation,Passed,65203,Load_Test,1/5/2026,None,None,None,79.5,96.9
+TC-QA-0349,SLA Timer Breach Triggered Re-routing,Search & Advanced Filtering,Workflow Engine,Ivy Clark,Automation,Passed,9118,UAT,1/19/2026,None,None,None,78.4,96.2
+TC-QA-0350,SLA Timer Breach Triggered Re-routing,API Integration Layer,Workflow Engine,Jack Lewis,Automation,Passed,5618,UAT,2/16/2026,None,None,None,90.7,96.4
+TC-QA-0351,Invalid State Transition Request Rejection,Session & Auth Handshake,Workflow Engine,Ivy Clark,Automation,Passed,6151,Dev-QA,1/19/2026,None,None,None,91.9,92.9
+TC-QA-0352,Notification Gateway Retry Queue Loop,Audit Logs & Security,Notification Service,Anisul Islam Rohit,Manual,Passed,318,UAT,1/5/2026,None,None,None,46,83
+TC-QA-0353,Database Connection Pool Exhaustion Stress,Notification Engine Triggers,Performance/Load,David Kim,Automation,Failed,96207,Dev-QA,3/16/2026,BUG-5075,Critical,Open,76.8,92.3
+TC-QA-0354,Stored Procedure Execution Deadlock Check,Search & Advanced Filtering,SQL Server DB,Frank Green,Automation,Passed,8862,Load_Test,3/23/2026,None,None,None,93.3,86.4
+TC-QA-0355,Responsive Breakpoint Layout Adjustments,User Request Form Submission,UI Portal Form,Anisul Islam Rohit,Automation,Passed,638,UAT,3/16/2026,None,None,None,76.3,88.1
+TC-QA-0356,UI Rendering Paint Latency Peak Load,Session & Auth Handshake,Performance/Load,Grace Miller,Automation,Failed,119417,Staging,2/23/2026,BUG-5076,Critical,Open,86.8,85.1
+TC-QA-0357,Parallel Workflow Fork Behavior,Notification Engine Triggers,Workflow Engine,Mikhail Yakushev,Manual,Passed,5471,Dev-QA,2/9/2026,None,None,None,46.1,65.5
+TC-QA-0358,Nested Approval Engine Workflow,Session & Auth Handshake,Workflow Engine,Ivy Clark,Automation,Passed,2060,Load_Test,3/2/2026,None,None,None,88.1,94.1
+TC-QA-0359,Nested Approval Engine Workflow,Document Upload & Processing,Workflow Engine,Jack Lewis,Automation,Blocked,7247,Load_Test,2/2/2026,BUG-5077,Minor,Open,88.4,99.3
+TC-QA-0360,Workflow State Storage Memory Leak Run,Workflow Engine Routing,Performance/Load,Anisul Islam Rohit,Automation,Passed,61496,Staging,3/9/2026,None,None,None,81.3,89.8
+TC-QA-0361,REST Endpoint Path Sanitization,User Request Form Submission,API Gateway,Mikhail Yakushev,Automation,Passed,1057,Dev-QA,2/16/2026,None,None,None,90.6,93.7
+TC-QA-0362,Real-time Push Notification Latency Check,Payment Gateway Integration,Notification Service,Mikhail Yakushev,Automation,Passed,1507,Dev-QA,3/16/2026,None,None,None,80,89.5
+TC-QA-0363,REST Endpoint Path Sanitization,Session & Auth Handshake,API Gateway,Anisul Islam Rohit,Automation,Passed,1717,Load_Test,3/23/2026,None,None,None,92.6,96.4
+TC-QA-0364,REST Endpoint Path Sanitization,Payment Gateway Integration,API Gateway,Mikhail Yakushev,Automation,Passed,1724,Load_Test,2/16/2026,None,None,None,92.1,90
+TC-QA-0365,Parallel Workflow Fork Behavior,Notification Engine Triggers,Workflow Engine,Jack Lewis,Manual,Passed,9097,Staging,2/23/2026,None,None,None,61.1,72.5
+TC-QA-0366,UI Rendering Paint Latency Peak Load,Session & Auth Handshake,Performance/Load,David Kim,Automation,Passed,49762,UAT,1/26/2026,None,None,None,79.6,99.8
+TC-QA-0367,Stored Procedure Execution Deadlock Check,Payment Gateway Integration,SQL Server DB,Ivy Clark,Automation,Passed,5994,Load_Test,3/16/2026,None,None,None,97.6,89.7
+TC-QA-0368,Form Button Disabled Post-Click,Search & Advanced Filtering,UI Portal Form,David Kim,Manual,Passed,1380,UAT,2/23/2026,None,None,None,57.5,79.5
+TC-QA-0369,GZIP Compression Payload Size Match,User Profile Customization,API Gateway,Mikhail Yakushev,Automation,Passed,1177,Dev-QA,1/5/2026,None,None,None,71.1,88
+TC-QA-0370,Invalid State Transition Request Rejection,Payment Gateway Integration,Workflow Engine,Ivy Clark,Manual,Passed,7543,Staging,3/16/2026,None,None,None,55.7,65.7
+TC-QA-0371,SLA Timer Breach Triggered Re-routing,Audit Logs & Security,Workflow Engine,Grace Miller,Automation,Passed,3368,Staging,1/5/2026,None,None,None,78.3,89.4
+TC-QA-0372,Spike Load Recovery Stabilization,Reporting & Data Analytics,Performance/Load,Frank Green,Automation,Passed,47536,Load_Test,2/23/2026,None,None,None,80.1,87.8
+TC-QA-0373,Record Init Database State PENDING,Workflow Engine Routing,SQL Server DB,Anisul Islam Rohit,Automation,Passed,8013,Staging,3/9/2026,None,None,None,84.1,86.8
+TC-QA-0374,Bulk Export Memory Consumption Profiling,User Request Form Submission,Performance/Load,Jack Lewis,Automation,Failed,63526,Staging,3/9/2026,BUG-5078,Critical,Open,88.3,85.3
+TC-QA-0375,1000 Concurrent Request Endurance Hold,User Profile Customization,Performance/Load,Jack Lewis,Automation,Passed,101733,Load_Test,2/23/2026,None,None,None,89.7,88.1
+TC-QA-0376,Bulk Export Memory Consumption Profiling,User Request Form Submission,Performance/Load,David Kim,Automation,Passed,43235,Load_Test,3/9/2026,None,None,None,87,87.1
+TC-QA-0377,File Upload Format Constraints Check,Notification Engine Triggers,UI Portal Form,Grace Miller,Automation,Passed,1447,UAT,2/2/2026,None,None,None,93.3,99.6
+TC-QA-0378,Nested Approval Engine Workflow,User Profile Customization,Workflow Engine,David Kim,Automation,Passed,9457,UAT,3/23/2026,None,None,None,96.1,90
+TC-QA-0379,Form Button Disabled Post-Click,System Configurations,UI Portal Form,Grace Miller,Automation,Failed,1570,Dev-QA,1/19/2026,BUG-5079,Critical,Open,90.3,86.5
+TC-QA-0380,Nested Approval Engine Workflow,Workflow Engine Routing,Workflow Engine,Jack Lewis,Manual,Passed,5803,Staging,1/12/2026,None,None,None,58.5,81.9
+TC-QA-0381,SLA Timer Breach Triggered Re-routing,System Configurations,Workflow Engine,David Kim,Automation,Passed,8973,Staging,1/5/2026,None,None,None,93.9,95
+TC-QA-0382,CORS Pre-flight Header Validation,Payment Gateway Integration,API Gateway,Jack Lewis,Manual,Passed,1701,Staging,2/9/2026,None,None,None,58.5,64.6
+TC-QA-0383,Concurrent DB Row Update Lock Check,Search & Advanced Filtering,SQL Server DB,David Kim,Manual,Passed,5917,Dev-QA,3/16/2026,None,None,None,61,64.2
+TC-QA-0384,REST Endpoint Path Sanitization,API Integration Layer,API Gateway,Grace Miller,Manual,Failed,412,Dev-QA,3/9/2026,BUG-5080,Major,Closed,36.3,69.5
+TC-QA-0385,Parallel Workflow Fork Behavior,User Request Form Submission,Workflow Engine,Ivy Clark,Automation,Failed,9974,UAT,2/23/2026,BUG-5081,Major,Open,94.9,91.6
+TC-QA-0386,Form Timeout Handler under Slow Network,System Configurations,UI Portal Form,David Kim,Manual,Failed,1274,UAT,3/16/2026,BUG-5082,Major,Open,45.1,78.2
+TC-QA-0387,Transaction Rollback on Middle-Tier Drop,System Configurations,SQL Server DB,Mikhail Yakushev,Automation,Passed,8770,Staging,1/5/2026,None,None,None,88,87.4
+TC-QA-0388,Concurrent DB Row Update Lock Check,Audit Logs & Security,SQL Server DB,Grace Miller,Automation,Passed,4710,Load_Test,1/5/2026,None,None,None,84.2,93.3
+TC-QA-0389,Concurrent DB Row Update Lock Check,Workflow Engine Routing,SQL Server DB,Grace Miller,Automation,Failed,5670,Staging,2/23/2026,BUG-5083,Major,Closed,73.3,92.5
+TC-QA-0390,1000 Concurrent Request Endurance Hold,Document Upload & Processing,Performance/Load,Jack Lewis,Automation,Passed,103024,Staging,1/12/2026,None,None,None,92.2,99.4
+TC-QA-0391,Workflow State Storage Memory Leak Run,Session & Auth Handshake,Performance/Load,Frank Green,Automation,Passed,118011,Dev-QA,2/9/2026,None,None,None,80.2,85.8
+TC-QA-0392,Malformed JSON Request Body Rejection,Payment Gateway Integration,API Gateway,Frank Green,Automation,Passed,1667,Load_Test,3/23/2026,None,None,None,82.7,86.5
+TC-QA-0393,Database Connection Pool Exhaustion Stress,User Request Form Submission,Performance/Load,David Kim,Automation,Passed,113055,Load_Test,3/2/2026,None,None,None,84.6,95.5
+TC-QA-0394,XSS Injection Attempt on Form Fields,Search & Advanced Filtering,UI Portal Form,Anisul Islam Rohit,Automation,Passed,1038,Staging,2/2/2026,None,None,None,87.1,87.8
+TC-QA-0395,Stored Procedure Execution Deadlock Check,Search & Advanced Filtering,SQL Server DB,Ivy Clark,Automation,Passed,2882,Dev-QA,1/5/2026,None,None,None,95.9,97.6
+TC-QA-0396,Notification Gateway Retry Queue Loop,Search & Advanced Filtering,Notification Service,Jack Lewis,Automation,Blocked,475,Dev-QA,1/5/2026,BUG-5084,Major,Open,85.5,91.5
+TC-QA-0397,SMTP Gateway Timeout Graceful Recovery,Session & Auth Handshake,Notification Service,Ivy Clark,Manual,Passed,1384,UAT,3/23/2026,None,None,None,58.5,62.6
+TC-QA-0398,Spike Load Recovery Stabilization,Reporting & Data Analytics,Performance/Load,David Kim,Automation,Passed,80418,Dev-QA,3/9/2026,None,None,None,95.6,96.4
+TC-QA-0399,State Transition Serialization Loop,Payment Gateway Integration,Workflow Engine,David Kim,Automation,Passed,5381,Load_Test,3/23/2026,None,None,None,85.3,89.7
+TC-QA-0400,Spike Load Recovery Stabilization,System Configurations,Performance/Load,Anisul Islam Rohit,Automation,Passed,111810,Load_Test,3/16/2026,None,None,None,79.7,95.1
+TC-QA-0401,Bulk Export Memory Consumption Profiling,Audit Logs & Security,Performance/Load,Frank Green,Automation,Passed,113476,Load_Test,3/23/2026,None,None,None,73.2,90.3
+TC-QA-0402,Bulk Insert Transaction Isolation Level,Reporting & Data Analytics,SQL Server DB,Mikhail Yakushev,Automation,Passed,9322,Load_Test,2/16/2026,None,None,None,92.6,92.8
+TC-QA-0403,Responsive Breakpoint Layout Adjustments,Audit Logs & Security,UI Portal Form,Grace Miller,Automation,Passed,1736,UAT,2/2/2026,None,None,None,89.1,87.2
+TC-QA-0404,Form Timeout Handler under Slow Network,Workflow Engine Routing,UI Portal Form,Ivy Clark,Automation,Passed,1126,Staging,3/9/2026,None,None,None,94.3,96.1
+TC-QA-0405,REST Endpoint Path Sanitization,System Configurations,API Gateway,Frank Green,Automation,Passed,1625,Load_Test,3/23/2026,None,None,None,88.6,98.9
+TC-QA-0406,Concurrent DB Row Update Lock Check,System Configurations,SQL Server DB,David Kim,Manual,Passed,8092,Load_Test,1/26/2026,None,None,None,51.7,79.5
+TC-QA-0407,Stored Procedure Execution Deadlock Check,System Configurations,SQL Server DB,Mikhail Yakushev,Automation,Passed,6820,UAT,3/23/2026,None,None,None,97,89.4
+TC-QA-0408,REST Endpoint Path Sanitization,Document Upload & Processing,API Gateway,Anisul Islam Rohit,Manual,Passed,444,Dev-QA,1/5/2026,None,None,None,45,73.9
+TC-QA-0409,API Throttle Rate Limit Injection,Reporting & Data Analytics,API Gateway,Ivy Clark,Automation,Passed,1653,UAT,1/5/2026,None,None,None,74.3,89.8
+TC-QA-0410,Form Timeout Handler under Slow Network,Search & Advanced Filtering,UI Portal Form,Ivy Clark,Automation,Passed,1649,Load_Test,3/2/2026,None,None,None,76.2,87.8
+TC-QA-0411,XSS Injection Attempt on Form Fields,User Profile Customization,UI Portal Form,Frank Green,Automation,Passed,653,UAT,3/16/2026,None,None,None,79.3,90.4
+TC-QA-0412,GZIP Compression Payload Size Match,Session & Auth Handshake,API Gateway,Jack Lewis,Manual,Failed,1529,Staging,1/12/2026,BUG-5085,Minor,Closed,45.6,82.6
+TC-QA-0413,Multi-channel Notification Routing (SMS/Email),Workflow Engine Routing,Notification Service,Grace Miller,Automation,Passed,432,Dev-QA,2/2/2026,None,None,None,85.1,89.2
+TC-QA-0414,Email Template Dynamic Field Merging,Session & Auth Handshake,Notification Service,Ivy Clark,Automation,Passed,807,UAT,2/9/2026,None,None,None,84.4,99.2
+TC-QA-0415,GZIP Compression Payload Size Match,Session & Auth Handshake,API Gateway,Grace Miller,Automation,Passed,1489,UAT,3/16/2026,None,None,None,81.9,86.6
+TC-QA-0416,SMS Provider Queue Backup Fallback,API Integration Layer,Notification Service,Ivy Clark,Automation,Failed,347,UAT,1/5/2026,BUG-5086,Major,Closed,71.1,86.1
+TC-QA-0417,CORS Pre-flight Header Validation,Session & Auth Handshake,API Gateway,Grace Miller,Automation,Passed,729,Dev-QA,2/16/2026,None,None,None,82.6,91.1
+TC-QA-0418,Invalid State Transition Request Rejection,User Profile Customization,Workflow Engine,Mikhail Yakushev,Automation,Passed,7900,Staging,3/23/2026,None,None,None,86.4,95.5
+TC-QA-0419,Mandatory Field Verification,Session & Auth Handshake,UI Portal Form,Grace Miller,Manual,Passed,1442,Staging,2/2/2026,None,None,None,56.8,70.9
+TC-QA-0420,SQL Text Field Index Fragmentation Scan,User Request Form Submission,SQL Server DB,Jack Lewis,Automation,Passed,8117,Dev-QA,3/2/2026,None,None,None,78.3,94.5
+TC-QA-0421,Nested Approval Engine Workflow,API Integration Layer,Workflow Engine,Mikhail Yakushev,Automation,Blocked,6534,UAT,1/12/2026,BUG-5087,Major,Open,70.1,93.9
+TC-QA-0422,Multi-channel Notification Routing (SMS/Email),Document Upload & Processing,Notification Service,David Kim,Automation,Passed,1686,Load_Test,1/26/2026,None,None,None,81.6,94.7
+TC-QA-0423,Real-time Push Notification Latency Check,Audit Logs & Security,Notification Service,Anisul Islam Rohit,Automation,Failed,597,Staging,1/19/2026,BUG-5088,Minor,Open,93.8,99
+TC-QA-0424,SMTP Gateway Timeout Graceful Recovery,System Configurations,Notification Service,Frank Green,Automation,Passed,713,Staging,1/26/2026,None,None,None,90.3,92.3
+TC-QA-0425,SLA Timer Breach Triggered Re-routing,Audit Logs & Security,Workflow Engine,Mikhail Yakushev,Automation,Passed,7075,Staging,1/26/2026,None,None,None,78.9,91.8
+TC-QA-0426,SMS Provider Queue Backup Fallback,Notification Engine Triggers,Notification Service,Mikhail Yakushev,Automation,Passed,946,Load_Test,2/16/2026,None,None,None,74.7,89.7
+TC-QA-0427,REST Endpoint Path Sanitization,API Integration Layer,API Gateway,Mikhail Yakushev,Automation,Failed,475,Load_Test,2/23/2026,BUG-5089,Major,Closed,80,89.6
+TC-QA-0428,Notification Gateway Retry Queue Loop,Audit Logs & Security,Notification Service,Mikhail Yakushev,Automation,Failed,486,UAT,2/2/2026,BUG-5090,Minor,Open,90.4,98.4
+TC-QA-0429,SMS Provider Queue Backup Fallback,User Request Form Submission,Notification Service,Ivy Clark,Automation,Passed,1408,UAT,1/5/2026,None,None,None,85.4,93.2
+TC-QA-0430,SMTP Gateway Timeout Graceful Recovery,System Configurations,Notification Service,Ivy Clark,Automation,Passed,1781,Load_Test,1/19/2026,None,None,None,83,92.7
+TC-QA-0431,Transaction Rollback on Middle-Tier Drop,Session & Auth Handshake,SQL Server DB,Grace Miller,Automation,Failed,8607,UAT,3/2/2026,BUG-5091,Critical,Closed,74.5,93.5
+TC-QA-0432,SMS Provider Queue Backup Fallback,Audit Logs & Security,Notification Service,Mikhail Yakushev,Automation,Blocked,282,UAT,2/23/2026,BUG-5092,Major,Open,71.8,90.5
+TC-QA-0433,Special Character Validation in Fields,Session & Auth Handshake,UI Portal Form,Ivy Clark,Manual,Passed,1131,Staging,1/5/2026,None,None,None,64.3,68.1
+TC-QA-0434,Spike Load Recovery Stabilization,System Configurations,Performance/Load,Ivy Clark,Automation,Passed,64513,UAT,2/16/2026,None,None,None,88.3,90.5
+TC-QA-0435,1000 Concurrent Request Endurance Hold,Session & Auth Handshake,Performance/Load,David Kim,Automation,Passed,59215,Dev-QA,2/9/2026,None,None,None,92.9,90.2
+TC-QA-0436,Bulk Insert Transaction Isolation Level,User Request Form Submission,SQL Server DB,Frank Green,Manual,Passed,3884,Staging,3/2/2026,None,None,None,52.5,65.3
+TC-QA-0437,API Throttle Rate Limit Injection,Payment Gateway Integration,API Gateway,Frank Green,Automation,Passed,671,Dev-QA,2/9/2026,None,None,None,90.2,92.2
+TC-QA-0438,Concurrent DB Row Update Lock Check,Workflow Engine Routing,SQL Server DB,Frank Green,Automation,Failed,2183,UAT,1/5/2026,BUG-5093,Critical,Open,73.8,92.7
+TC-QA-0439,Real-time Push Notification Latency Check,User Request Form Submission,Notification Service,Anisul Islam Rohit,Automation,Passed,1030,Staging,3/23/2026,None,None,None,90.4,97.3
+TC-QA-0440,Special Character Validation in Fields,Search & Advanced Filtering,UI Portal Form,Frank Green,Automation,Failed,549,UAT,2/16/2026,BUG-5094,Minor,Open,92.2,97.3
+TC-QA-0441,GZIP Compression Payload Size Match,System Configurations,API Gateway,Frank Green,Automation,Passed,901,Dev-QA,3/9/2026,None,None,None,86.5,88.4
+TC-QA-0442,Stored Procedure Execution Deadlock Check,Document Upload & Processing,SQL Server DB,Grace Miller,Automation,Failed,6131,Dev-QA,1/19/2026,BUG-5095,Minor,Open,75,98.5
+TC-QA-0443,Notification Gateway Retry Queue Loop,Session & Auth Handshake,Notification Service,Frank Green,Automation,Passed,1550,UAT,3/9/2026,None,None,None,85.1,85
+TC-QA-0444,Bulk Export Memory Consumption Profiling,User Profile Customization,Performance/Load,Frank Green,Automation,Passed,35693,Dev-QA,1/26/2026,None,None,None,96.3,92.2
+TC-QA-0445,Transaction Rollback on Middle-Tier Drop,Reporting & Data Analytics,SQL Server DB,Ivy Clark,Automation,Passed,7707,Staging,2/16/2026,None,None,None,73.7,92.2
+TC-QA-0446,JWT Expiration Payload Parse,Notification Engine Triggers,API Gateway,Frank Green,Manual,Passed,587,Staging,3/23/2026,None,None,None,56,60.2
+TC-QA-0447,Notification Gateway Retry Queue Loop,Session & Auth Handshake,Notification Service,Grace Miller,Automation,Passed,846,Dev-QA,2/9/2026,None,None,None,73,91.4
+TC-QA-0448,Email Template Dynamic Field Merging,Notification Engine Triggers,Notification Service,Ivy Clark,Automation,Passed,1453,Load_Test,3/16/2026,None,None,None,81.1,88.1
+TC-QA-0449,Multi-channel Notification Routing (SMS/Email),Search & Advanced Filtering,Notification Service,Anisul Islam Rohit,Automation,Passed,719,Load_Test,3/9/2026,None,None,None,79.6,95.6
+TC-QA-0450,Database Connection Pool Exhaustion Stress,System Configurations,Performance/Load,Grace Miller,Automation,Passed,88536,UAT,1/12/2026,None,None,None,76,91
+TC-QA-0451,Parallel Workflow Fork Behavior,Reporting & Data Analytics,Workflow Engine,Mikhail Yakushev,Automation,Passed,5187,Staging,1/12/2026,None,None,None,93.1,92.1
+TC-QA-0452,SMTP Gateway Timeout Graceful Recovery,Document Upload & Processing,Notification Service,Grace Miller,Automation,Passed,1447,Staging,3/23/2026,None,None,None,80.8,99.8
+TC-QA-0453,SMS Provider Queue Backup Fallback,Session & Auth Handshake,Notification Service,David Kim,Automation,Passed,1784,UAT,3/16/2026,None,None,None,83.8,85.2
+TC-QA-0454,Spike Load Recovery Stabilization,Notification Engine Triggers,Performance/Load,Anisul Islam Rohit,Automation,Passed,108579,UAT,3/9/2026,None,None,None,74.7,85.5
+TC-QA-0455,REST Endpoint Path Sanitization,User Request Form Submission,API Gateway,Anisul Islam Rohit,Automation,Passed,1018,Load_Test,3/16/2026,None,None,None,81.1,93.8
+TC-QA-0456,Notification Gateway Retry Queue Loop,API Integration Layer,Notification Service,Mikhail Yakushev,Automation,Passed,782,Load_Test,2/9/2026,None,None,None,97,89.1
+TC-QA-0457,Real-time Push Notification Latency Check,Search & Advanced Filtering,Notification Service,Jack Lewis,Automation,Passed,1033,Staging,3/2/2026,None,None,None,72,89.4
+TC-QA-0458,Form Timeout Handler under Slow Network,Session & Auth Handshake,UI Portal Form,Ivy Clark,Automation,Passed,1106,Dev-QA,3/9/2026,None,None,None,83.5,88.6
+TC-QA-0459,State Transition Serialization Loop,System Configurations,Workflow Engine,Jack Lewis,Manual,Failed,5948,Staging,2/2/2026,BUG-5096,Critical,Closed,52.2,84.9
+TC-QA-0460,Bulk Export Memory Consumption Profiling,Workflow Engine Routing,Performance/Load,Ivy Clark,Automation,Passed,76281,Staging,3/23/2026,None,None,None,93.3,88.7
+TC-QA-0461,Responsive Breakpoint Layout Adjustments,System Configurations,UI Portal Form,Mikhail Yakushev,Automation,Passed,565,Dev-QA,2/9/2026,None,None,None,79.9,98.4
+TC-QA-0462,Conditional Branch Route Assignment,API Integration Layer,Workflow Engine,Mikhail Yakushev,Manual,Passed,8038,UAT,1/26/2026,None,None,None,55.7,81.8
+TC-QA-0463,API Throttle Rate Limit Injection,Workflow Engine Routing,API Gateway,Ivy Clark,Automation,Passed,519,Staging,1/12/2026,None,None,None,95.8,95.1
+TC-QA-0464,UI Rendering Paint Latency Peak Load,Reporting & Data Analytics,Performance/Load,Grace Miller,Automation,Passed,100972,Staging,2/23/2026,None,None,None,80.4,89.7
+TC-QA-0465,Email Template Dynamic Field Merging,Search & Advanced Filtering,Notification Service,Anisul Islam Rohit,Manual,Failed,773,Dev-QA,1/26/2026,BUG-5097,Minor,Open,31.9,80
+TC-QA-0466,Bulk Insert Transaction Isolation Level,User Request Form Submission,SQL Server DB,Frank Green,Automation,Failed,8356,UAT,2/23/2026,BUG-5098,Critical,Closed,78.8,85.1
+TC-QA-0467,Database Connection Pool Exhaustion Stress,User Profile Customization,Performance/Load,Frank Green,Automation,Passed,77395,Load_Test,1/19/2026,None,None,None,85.4,88.6
+TC-QA-0468,Bulk Insert Transaction Isolation Level,Payment Gateway Integration,SQL Server DB,David Kim,Automation,Passed,5433,Load_Test,2/9/2026,None,None,None,93.9,89.2
+TC-QA-0469,GZIP Compression Payload Size Match,Audit Logs & Security,API Gateway,Frank Green,Automation,Failed,1676,Load_Test,1/26/2026,BUG-5099,Minor,Closed,94,87.9
+TC-QA-0470,Database Connection Pool Exhaustion Stress,Search & Advanced Filtering,Performance/Load,Ivy Clark,Automation,Passed,85249,Dev-QA,1/19/2026,None,None,None,97.9,97.7
+TC-QA-0471,Multi-channel Notification Routing (SMS/Email),API Integration Layer,Notification Service,David Kim,Automation,Passed,1351,Staging,2/16/2026,None,None,None,72.8,87.5
+TC-QA-0472,CORS Pre-flight Header Validation,Search & Advanced Filtering,API Gateway,Ivy Clark,Automation,Passed,885,Load_Test,2/9/2026,None,None,None,80.1,93.4
+TC-QA-0473,SLA Timer Breach Triggered Re-routing,User Request Form Submission,Workflow Engine,Jack Lewis,Automation,Failed,9889,UAT,3/9/2026,BUG-5100,Minor,Open,97.4,89.3
+TC-QA-0474,Nested Approval Engine Workflow,Session & Auth Handshake,Workflow Engine,Jack Lewis,Automation,Passed,2642,Dev-QA,3/9/2026,None,None,None,78,94.5
+TC-QA-0475,API Throttle Rate Limit Injection,System Configurations,API Gateway,Ivy Clark,Manual,Passed,1454,Dev-QA,1/12/2026,None,None,None,32.8,68.6
+TC-QA-0476,SLA Timer Breach Triggered Re-routing,System Configurations,Workflow Engine,David Kim,Automation,Passed,5239,Load_Test,2/23/2026,None,None,None,91.9,99.1
+TC-QA-0477,Spike Load Recovery Stabilization,Session & Auth Handshake,Performance/Load,Jack Lewis,Automation,Passed,54102,Staging,1/19/2026,None,None,None,90.4,94.9
+TC-QA-0478,Bulk Export Memory Consumption Profiling,API Integration Layer,Performance/Load,Grace Miller,Automation,Passed,82041,Staging,1/12/2026,None,None,None,71.8,98.2
+TC-QA-0479,Notification Gateway Retry Queue Loop,User Request Form Submission,Notification Service,Ivy Clark,Automation,Passed,370,Staging,2/2/2026,None,None,None,87.3,86.3
+TC-QA-0480,Transaction Rollback on Middle-Tier Drop,Workflow Engine Routing,SQL Server DB,Anisul Islam Rohit,Automation,Passed,3035,UAT,3/2/2026,None,None,None,93.5,85.4
+TC-QA-0481,Workflow State Storage Memory Leak Run,Payment Gateway Integration,Performance/Load,Ivy Clark,Automation,Passed,100855,Load_Test,3/2/2026,None,None,None,82.5,99.5
+TC-QA-0482,Spike Load Recovery Stabilization,Audit Logs & Security,Performance/Load,Frank Green,Automation,Passed,112712,Dev-QA,3/2/2026,None,None,None,87.9,93
+TC-QA-0483,State Transition Serialization Loop,Session & Auth Handshake,Workflow Engine,Anisul Islam Rohit,Manual,Passed,4996,Dev-QA,2/2/2026,None,None,None,35.5,60.3
+TC-QA-0484,Real-time Push Notification Latency Check,Payment Gateway Integration,Notification Service,David Kim,Automation,Passed,1207,Dev-QA,2/2/2026,None,None,None,70.3,91.5
+TC-QA-0485,Parallel Workflow Fork Behavior,Workflow Engine Routing,Workflow Engine,Ivy Clark,Automation,Passed,5372,Dev-QA,2/16/2026,None,None,None,77,95.7
+TC-QA-0486,UI Rendering Paint Latency Peak Load,User Profile Customization,Performance/Load,Anisul Islam Rohit,Automation,Passed,85343,UAT,3/2/2026,None,None,None,91.4,98.6
+TC-QA-0487,Bulk Export Memory Consumption Profiling,Notification Engine Triggers,Performance/Load,David Kim,Automation,Passed,99722,Load_Test,2/16/2026,None,None,None,75.3,86
+TC-QA-0488,CORS Pre-flight Header Validation,Document Upload & Processing,API Gateway,Mikhail Yakushev,Automation,Passed,1634,Dev-QA,1/26/2026,None,None,None,79,87.3
+TC-QA-0489,Notification Gateway Retry Queue Loop,Audit Logs & Security,Notification Service,Grace Miller,Automation,Passed,1097,Staging,1/26/2026,None,None,None,72.5,85.2
+TC-QA-0490,CORS Pre-flight Header Validation,User Profile Customization,API Gateway,David Kim,Automation,Passed,960,Dev-QA,3/23/2026,None,None,None,92.2,90
+TC-QA-0491,JWT Expiration Payload Parse,Notification Engine Triggers,API Gateway,Ivy Clark,Automation,Passed,571,UAT,2/2/2026,None,None,None,92.9,97.4
+TC-QA-0492,Special Character Validation in Fields,User Profile Customization,UI Portal Form,Ivy Clark,Automation,Passed,268,UAT,2/23/2026,None,None,None,90.6,86.4
+TC-QA-0493,Database Connection Pool Exhaustion Stress,Search & Advanced Filtering,Performance/Load,Jack Lewis,Automation,Passed,70908,Load_Test,1/19/2026,None,None,None,87.6,85.6
+TC-QA-0494,Multi-channel Notification Routing (SMS/Email),Document Upload & Processing,Notification Service,David Kim,Automation,Passed,938,Staging,3/16/2026,None,None,None,76.1,86.7
+TC-QA-0495,UI Rendering Paint Latency Peak Load,Payment Gateway Integration,Performance/Load,Grace Miller,Automation,Passed,66188,Staging,2/16/2026,None,None,None,92.1,85.1
+TC-QA-0496,Session Timeout Banner Rendering,API Integration Layer,UI Portal Form,Frank Green,Manual,Passed,709,UAT,2/23/2026,None,None,None,33.2,75.5
+TC-QA-0497,1000 Concurrent Request Endurance Hold,User Request Form Submission,Performance/Load,David Kim,Automation,Passed,100300,Staging,1/19/2026,None,None,None,83.7,89.8
+TC-QA-0498,SMS Provider Queue Backup Fallback,Payment Gateway Integration,Notification Service,Ivy Clark,Manual,Passed,243,Dev-QA,2/9/2026,None,None,None,55.4,66.3
+TC-QA-0499,Session Timeout Banner Rendering,API Integration Layer,UI Portal Form,Jack Lewis,Automation,Passed,1203,UAT,3/9/2026,None,None,None,75.2,90.2
+TC-QA-0500,UI Rendering Paint Latency Peak Load,Notification Engine Triggers,Performance/Load,Ivy Clark,Automation,Failed,102682,UAT,1/12/2026,BUG-5101,Minor,Open,82.6,97.3
+TC-QA-0501,Email Template Dynamic Field Merging,Search & Advanced Filtering,Notification Service,Grace Miller,Automation,Passed,1702,UAT,1/5/2026,None,None,None,87.4,90.5
+TC-QA-0502,Real-time Push Notification Latency Check,Payment Gateway Integration,Notification Service,Mikhail Yakushev,Automation,Blocked,993,UAT,3/2/2026,BUG-5102,Minor,Open,91.4,87.3
+TC-QA-0503,SLA Timer Breach Triggered Re-routing,User Profile Customization,Workflow Engine,Mikhail Yakushev,Automation,Passed,7397,Staging,1/5/2026,None,None,None,93.4,86.9
+TC-QA-0504,Special Character Validation in Fields,Document Upload & Processing,UI Portal Form,Jack Lewis,Manual,Passed,1514,Dev-QA,3/16/2026,None,None,None,47.1,75.6
+TC-QA-0505,Email Template Dynamic Field Merging,User Request Form Submission,Notification Service,David Kim,Automation,Passed,226,UAT,3/16/2026,None,None,None,83.8,98.3
+TC-QA-0506,Session Timeout Banner Rendering,System Configurations,UI Portal Form,Grace Miller,Manual,Passed,1051,Load_Test,3/23/2026,None,None,None,32,75.4
+TC-QA-0507,Notification Gateway Retry Queue Loop,API Integration Layer,Notification Service,Grace Miller,Manual,Passed,642,Staging,1/12/2026,None,None,None,55.4,73.3
+TC-QA-0508,API Throttle Rate Limit Injection,Session & Auth Handshake,API Gateway,Mikhail Yakushev,Automation,Passed,566,Dev-QA,3/23/2026,None,None,None,73,94.6
+TC-QA-0509,Nested Approval Engine Workflow,Search & Advanced Filtering,Workflow Engine,Mikhail Yakushev,Automation,Failed,3366,UAT,3/2/2026,BUG-5103,Major,Closed,88.4,93
+TC-QA-0510,SMTP Gateway Timeout Graceful Recovery,Payment Gateway Integration,Notification Service,David Kim,Automation,Blocked,961,Dev-QA,3/16/2026,BUG-5104,Minor,Open,93.1,89.9
+TC-QA-0511,GZIP Compression Payload Size Match,Session & Auth Handshake,API Gateway,Anisul Islam Rohit,Automation,Passed,1724,Load_Test,2/9/2026,None,None,None,96.9,91.7
+TC-QA-0512,Record Init Database State PENDING,API Integration Layer,SQL Server DB,Grace Miller,Manual,Passed,6240,UAT,2/2/2026,None,None,None,30.2,84.6
+TC-QA-0513,CORS Pre-flight Header Validation,User Request Form Submission,API Gateway,Ivy Clark,Manual,Passed,765,UAT,1/12/2026,None,None,None,31.3,68.9
+TC-QA-0514,CORS Pre-flight Header Validation,Payment Gateway Integration,API Gateway,Frank Green,Automation,Passed,815,Staging,3/9/2026,None,None,None,81.2,98.8
+TC-QA-0515,1000 Concurrent Request Endurance Hold,API Integration Layer,Performance/Load,David Kim,Automation,Failed,52662,Dev-QA,3/23/2026,BUG-5105,Minor,Open,86.7,89.5
+TC-QA-0516,Spike Load Recovery Stabilization,User Profile Customization,Performance/Load,Grace Miller,Automation,Failed,73829,Load_Test,2/16/2026,BUG-5106,Major,Open,94.4,88.4
+TC-QA-0517,Spike Load Recovery Stabilization,User Request Form Submission,Performance/Load,Mikhail Yakushev,Automation,Passed,80133,Staging,2/2/2026,None,None,None,84.7,89.8
+TC-QA-0518,Real-time Push Notification Latency Check,Payment Gateway Integration,Notification Service,Frank Green,Automation,Passed,1579,Dev-QA,2/23/2026,None,None,None,91.1,93.6
+TC-QA-0519,Special Character Validation in Fields,User Profile Customization,UI Portal Form,David Kim,Automation,Passed,888,Staging,2/23/2026,None,None,None,86,85.7
+TC-QA-0520,Transaction Rollback on Middle-Tier Drop,Document Upload & Processing,SQL Server DB,Jack Lewis,Automation,Passed,3068,UAT,2/23/2026,None,None,None,85.7,92.3
+TC-QA-0521,Spike Load Recovery Stabilization,Workflow Engine Routing,Performance/Load,Frank Green,Automation,Passed,98714,UAT,1/26/2026,None,None,None,72,96.7
+TC-QA-0522,Nested Approval Engine Workflow,Reporting & Data Analytics,Workflow Engine,Grace Miller,Automation,Passed,4992,Load_Test,1/26/2026,None,None,None,79,93.9
+TC-QA-0523,Form Timeout Handler under Slow Network,Audit Logs & Security,UI Portal Form,David Kim,Automation,Blocked,1105,UAT,2/23/2026,BUG-5107,Major,Open,95.9,88.5
+TC-QA-0524,Workflow State Storage Memory Leak Run,Audit Logs & Security,Performance/Load,Ivy Clark,Automation,Passed,41247,Staging,3/23/2026,None,None,None,71.5,99.2
+TC-QA-0525,CORS Pre-flight Header Validation,User Request Form Submission,API Gateway,David Kim,Automation,Passed,1121,Dev-QA,1/5/2026,None,None,None,79.3,96.1
+TC-QA-0526,API Throttle Rate Limit Injection,Session & Auth Handshake,API Gateway,Frank Green,Automation,Passed,1475,UAT,3/23/2026,None,None,None,89.6,85.3
+TC-QA-0527,SMS Provider Queue Backup Fallback,Session & Auth Handshake,Notification Service,Grace Miller,Automation,Passed,611,Load_Test,1/5/2026,None,None,None,83,99.2
+TC-QA-0528,Responsive Breakpoint Layout Adjustments,System Configurations,UI Portal Form,David Kim,Automation,Failed,937,Staging,1/5/2026,BUG-5108,Major,Closed,76.5,90.7
+TC-QA-0529,1000 Concurrent Request Endurance Hold,Payment Gateway Integration,Performance/Load,Jack Lewis,Automation,Failed,99672,Staging,1/19/2026,BUG-5109,Critical,Closed,85.7,95.7
+TC-QA-0530,Special Character Validation in Fields,Session & Auth Handshake,UI Portal Form,David Kim,Manual,Passed,521,Staging,2/9/2026,None,None,None,54,68.9
+TC-QA-0531,Conditional Branch Route Assignment,Session & Auth Handshake,Workflow Engine,David Kim,Manual,Passed,9198,Dev-QA,1/5/2026,None,None,None,63,83.7
+TC-QA-0532,API Throttle Rate Limit Injection,Payment Gateway Integration,API Gateway,Jack Lewis,Automation,Passed,982,UAT,2/16/2026,None,None,None,76.7,87.3
+TC-QA-0533,Parallel Workflow Fork Behavior,Payment Gateway Integration,Workflow Engine,Jack Lewis,Automation,Passed,3135,UAT,1/19/2026,None,None,None,78.7,95.6
+TC-QA-0534,Real-time Push Notification Latency Check,User Profile Customization,Notification Service,Ivy Clark,Automation,Blocked,523,Load_Test,1/12/2026,BUG-5110,Major,Open,75.2,97.6
+TC-QA-0535,REST Endpoint Path Sanitization,User Request Form Submission,API Gateway,Ivy Clark,Automation,Blocked,1042,Load_Test,2/23/2026,BUG-5111,Minor,Open,74.3,87.8
+TC-QA-0536,API Throttle Rate Limit Injection,User Request Form Submission,API Gateway,Ivy Clark,Manual,Passed,1440,UAT,3/9/2026,None,None,None,38.1,77.2
+TC-QA-0537,Invalid State Transition Request Rejection,API Integration Layer,Workflow Engine,Ivy Clark,Automation,Passed,6953,Dev-QA,3/23/2026,None,None,None,88.2,87.8
+TC-QA-0538,Concurrent DB Row Update Lock Check,Search & Advanced Filtering,SQL Server DB,Anisul Islam Rohit,Automation,Passed,5347,Staging,2/2/2026,None,None,None,96.6,88.3
+TC-QA-0539,Database Connection Pool Exhaustion Stress,Workflow Engine Routing,Performance/Load,Grace Miller,Automation,Passed,87577,Dev-QA,3/23/2026,None,None,None,79.1,91.9
+TC-QA-0540,Malformed JSON Request Body Rejection,User Profile Customization,API Gateway,Ivy Clark,Automation,Passed,979,Load_Test,2/16/2026,None,None,None,87.1,96.1
+TC-QA-0541,Multi-channel Notification Routing (SMS/Email),Session & Auth Handshake,Notification Service,Mikhail Yakushev,Manual,Failed,1266,Staging,2/23/2026,BUG-5112,Major,Open,60.7,66.1
+TC-QA-0542,SMTP Gateway Timeout Graceful Recovery,API Integration Layer,Notification Service,Grace Miller,Automation,Passed,1491,Staging,1/26/2026,None,None,None,78.2,91
+TC-QA-0543,SLA Timer Breach Triggered Re-routing,Search & Advanced Filtering,Workflow Engine,Anisul Islam Rohit,Automation,Passed,2446,UAT,2/23/2026,None,None,None,93.2,91.8
+TC-QA-0544,Spike Load Recovery Stabilization,Document Upload & Processing,Performance/Load,Anisul Islam Rohit,Automation,Passed,101618,UAT,2/16/2026,None,None,None,81.6,91.8
+TC-QA-0545,Malformed JSON Request Body Rejection,Reporting & Data Analytics,API Gateway,Mikhail Yakushev,Manual,Failed,384,Load_Test,2/9/2026,BUG-5113,Minor,Open,55.1,63.1
+TC-QA-0546,Session Timeout Banner Rendering,System Configurations,UI Portal Form,David Kim,Manual,Passed,1688,UAT,2/16/2026,None,None,None,49.3,61.1
+TC-QA-0547,CORS Pre-flight Header Validation,Reporting & Data Analytics,API Gateway,Ivy Clark,Automation,Passed,496,UAT,3/23/2026,None,None,None,71.4,89.6
+TC-QA-0548,UI Rendering Paint Latency Peak Load,Notification Engine Triggers,Performance/Load,Mikhail Yakushev,Automation,Passed,47245,UAT,1/5/2026,None,None,None,87.4,88.8
+TC-QA-0549,Concurrent DB Row Update Lock Check,Search & Advanced Filtering,SQL Server DB,Frank Green,Manual,Passed,6042,UAT,1/26/2026,None,None,None,50.6,71.9
+TC-QA-0550,Concurrent DB Row Update Lock Check,Document Upload & Processing,SQL Server DB,Frank Green,Automation,Passed,6483,Load_Test,3/9/2026,None,None,None,87.6,97.3
+TC-QA-0551,JWT Expiration Payload Parse,Audit Logs & Security,API Gateway,Anisul Islam Rohit,Automation,Passed,497,Staging,3/16/2026,None,None,None,86.2,94
+TC-QA-0552,Invalid State Transition Request Rejection,User Request Form Submission,Workflow Engine,Grace Miller,Automation,Passed,7505,Load_Test,3/9/2026,None,None,None,88.5,95.5
+TC-QA-0553,Multi-channel Notification Routing (SMS/Email),Audit Logs & Security,Notification Service,Jack Lewis,Automation,Passed,273,Staging,2/2/2026,None,None,None,79,98.5
+TC-QA-0554,Responsive Breakpoint Layout Adjustments,Session & Auth Handshake,UI Portal Form,Grace Miller,Manual,Passed,1622,Load_Test,2/9/2026,None,None,None,48.4,73.1
+TC-QA-0555,Database Connection Pool Exhaustion Stress,Reporting & Data Analytics,Performance/Load,Grace Miller,Automation,Passed,112441,Staging,2/23/2026,None,None,None,90.3,94.1
+TC-QA-0556,Workflow State Storage Memory Leak Run,User Profile Customization,Performance/Load,Frank Green,Automation,Failed,64034,Load_Test,1/19/2026,BUG-5114,Minor,Closed,84.6,94.5
+TC-QA-0557,Stored Procedure Execution Deadlock Check,Reporting & Data Analytics,SQL Server DB,Anisul Islam Rohit,Automation,Blocked,2012,Staging,1/5/2026,BUG-5115,Minor,Open,87.5,86.8
+TC-QA-0558,GZIP Compression Payload Size Match,User Profile Customization,API Gateway,Jack Lewis,Automation,Passed,1505,UAT,1/5/2026,None,None,None,87.9,95.4
+TC-QA-0559,Invalid State Transition Request Rejection,Notification Engine Triggers,Workflow Engine,David Kim,Automation,Passed,2050,Staging,3/16/2026,None,None,None,79.3,90.9
+TC-QA-0560,Multi-channel Notification Routing (SMS/Email),User Request Form Submission,Notification Service,Ivy Clark,Automation,Passed,892,Dev-QA,2/23/2026,None,None,None,92.3,94.7
+TC-QA-0561,Stored Procedure Execution Deadlock Check,System Configurations,SQL Server DB,Jack Lewis,Manual,Passed,4745,Dev-QA,2/16/2026,None,None,None,62.5,61.4
+TC-QA-0562,Email Template Dynamic Field Merging,Reporting & Data Analytics,Notification Service,Mikhail Yakushev,Automation,Passed,238,UAT,3/9/2026,None,None,None,89.2,97
+TC-QA-0563,Invalid State Transition Request Rejection,Audit Logs & Security,Workflow Engine,David Kim,Manual,Passed,5073,UAT,3/9/2026,None,None,None,51.2,64.7
+TC-QA-0564,Form Timeout Handler under Slow Network,API Integration Layer,UI Portal Form,Ivy Clark,Manual,Passed,1047,Staging,2/23/2026,None,None,None,60.7,69.3
+TC-QA-0565,Conditional Branch Route Assignment,Session & Auth Handshake,Workflow Engine,David Kim,Automation,Passed,2306,UAT,1/12/2026,None,None,None,82.4,85.4
+TC-QA-0566,Bulk Insert Transaction Isolation Level,Audit Logs & Security,SQL Server DB,Anisul Islam Rohit,Automation,Passed,9158,Load_Test,2/9/2026,None,None,None,74,98.1
+TC-QA-0567,SMS Provider Queue Backup Fallback,Audit Logs & Security,Notification Service,Anisul Islam Rohit,Automation,Passed,1661,Staging,1/5/2026,None,None,None,78.7,85.7
+TC-QA-0568,Notification Gateway Retry Queue Loop,Payment Gateway Integration,Notification Service,Jack Lewis,Manual,Passed,1769,Load_Test,1/5/2026,None,None,None,50.2,67.8
+TC-QA-0569,CORS Pre-flight Header Validation,Workflow Engine Routing,API Gateway,Anisul Islam Rohit,Automation,Passed,1782,Dev-QA,3/16/2026,None,None,None,73.3,87.2
+TC-QA-0570,Invalid State Transition Request Rejection,User Request Form Submission,Workflow Engine,Frank Green,Automation,Passed,6444,Load_Test,3/2/2026,None,None,None,78.9,87.1
+TC-QA-0571,Workflow State Storage Memory Leak Run,Reporting & Data Analytics,Performance/Load,Anisul Islam Rohit,Automation,Passed,70812,Load_Test,3/2/2026,None,None,None,82.4,87
+TC-QA-0572,SQL Text Field Index Fragmentation Scan,User Request Form Submission,SQL Server DB,Grace Miller,Automation,Passed,5210,UAT,3/23/2026,None,None,None,86.7,93.9
+TC-QA-0573,Bulk Export Memory Consumption Profiling,Search & Advanced Filtering,Performance/Load,Frank Green,Automation,Passed,73559,UAT,3/23/2026,None,None,None,91.2,97.1
+TC-QA-0574,Session Timeout Banner Rendering,Reporting & Data Analytics,UI Portal Form,Anisul Islam Rohit,Manual,Failed,1630,Dev-QA,1/12/2026,BUG-5116,Major,Closed,54,77.8
+TC-QA-0575,Concurrent DB Row Update Lock Check,Workflow Engine Routing,SQL Server DB,Anisul Islam Rohit,Automation,Failed,4113,Load_Test,2/16/2026,BUG-5117,Critical,Closed,92.1,98.2
+TC-QA-0576,Concurrent DB Row Update Lock Check,User Request Form Submission,SQL Server DB,Grace Miller,Automation,Passed,5778,UAT,2/2/2026,None,None,None,91.5,94.1
+TC-QA-0577,GZIP Compression Payload Size Match,Document Upload & Processing,API Gateway,Jack Lewis,Manual,Failed,867,Staging,2/2/2026,BUG-5118,Minor,Closed,44,70.3
+TC-QA-0578,Real-time Push Notification Latency Check,Session & Auth Handshake,Notification Service,Anisul Islam Rohit,Manual,Passed,897,UAT,3/23/2026,None,None,None,50.7,79.6
+TC-QA-0579,Bulk Insert Transaction Isolation Level,Payment Gateway Integration,SQL Server DB,Frank Green,Automation,Passed,7485,Staging,3/23/2026,None,None,None,96.1,93.6
+TC-QA-0580,Record Init Database State PENDING,Reporting & Data Analytics,SQL Server DB,Frank Green,Automation,Passed,8734,Dev-QA,1/19/2026,None,None,None,78.6,91.1
+TC-QA-0581,Notification Gateway Retry Queue Loop,System Configurations,Notification Service,Ivy Clark,Automation,Failed,870,Dev-QA,3/16/2026,BUG-5119,Minor,Open,72.5,97.3
+TC-QA-0582,SMS Provider Queue Backup Fallback,User Request Form Submission,Notification Service,Ivy Clark,Automation,Passed,1288,Load_Test,2/16/2026,None,None,None,87.2,91.7
+TC-QA-0583,REST Endpoint Path Sanitization,Payment Gateway Integration,API Gateway,David Kim,Automation,Failed,823,Dev-QA,3/23/2026,BUG-5120,Major,Open,86.3,94.2
+TC-QA-0584,SMTP Gateway Timeout Graceful Recovery,Audit Logs & Security,Notification Service,Ivy Clark,Automation,Passed,1324,Staging,1/5/2026,None,None,None,89.7,97.3
+TC-QA-0585,Invalid State Transition Request Rejection,Notification Engine Triggers,Workflow Engine,Ivy Clark,Automation,Passed,6834,Dev-QA,3/16/2026,None,None,None,78.9,90.7
+TC-QA-0586,Concurrent DB Row Update Lock Check,Session & Auth Handshake,SQL Server DB,Anisul Islam Rohit,Automation,Passed,3541,Dev-QA,2/9/2026,None,None,None,93.5,87.3
+TC-QA-0587,Database Connection Pool Exhaustion Stress,Audit Logs & Security,Performance/Load,Grace Miller,Automation,Passed,32058,UAT,3/23/2026,None,None,None,94.8,94.9
+TC-QA-0588,JWT Expiration Payload Parse,Audit Logs & Security,API Gateway,Mikhail Yakushev,Manual,Failed,1624,Dev-QA,3/9/2026,BUG-5121,Critical,Closed,47.8,73.8
+TC-QA-0589,Concurrent DB Row Update Lock Check,Payment Gateway Integration,SQL Server DB,Anisul Islam Rohit,Automation,Passed,6734,Dev-QA,3/23/2026,None,None,None,76.6,92.5
+TC-QA-0590,Bulk Insert Transaction Isolation Level,Reporting & Data Analytics,SQL Server DB,David Kim,Automation,Passed,5958,Load_Test,1/12/2026,None,None,None,86.2,99.4
+TC-QA-0591,XSS Injection Attempt on Form Fields,API Integration Layer,UI Portal Form,Mikhail Yakushev,Automation,Failed,1737,Load_Test,2/23/2026,BUG-5122,Minor,Open,84.7,94.2
+TC-QA-0592,Malformed JSON Request Body Rejection,System Configurations,API Gateway,Mikhail Yakushev,Automation,Passed,1600,Load_Test,3/9/2026,None,None,None,71.5,90.2
+TC-QA-0593,Session Timeout Banner Rendering,Search & Advanced Filtering,UI Portal Form,Frank Green,Automation,Passed,878,Dev-QA,2/9/2026,None,None,None,96.9,97
+TC-QA-0594,Conditional Branch Route Assignment,User Request Form Submission,Workflow Engine,Mikhail Yakushev,Manual,Passed,7955,Load_Test,1/5/2026,None,None,None,52,74.5
+TC-QA-0595,Notification Gateway Retry Queue Loop,System Configurations,Notification Service,David Kim,Manual,Passed,787,Dev-QA,1/12/2026,None,None,None,34.4,61.9
+TC-QA-0596,SLA Timer Breach Triggered Re-routing,Audit Logs & Security,Workflow Engine,Frank Green,Automation,Failed,2116,Staging,3/9/2026,BUG-5123,Critical,Open,88.5,90.5
+TC-QA-0597,CORS Pre-flight Header Validation,API Integration Layer,API Gateway,Anisul Islam Rohit,Automation,Failed,267,Load_Test,1/12/2026,BUG-5124,Critical,Open,93.5,96.3
+TC-QA-0598,Concurrent DB Row Update Lock Check,Workflow Engine Routing,SQL Server DB,Mikhail Yakushev,Automation,Passed,3727,Load_Test,1/5/2026,None,None,None,88,96.3
+TC-QA-0599,Form Button Disabled Post-Click,Audit Logs & Security,UI Portal Form,Jack Lewis,Manual,Passed,1728,UAT,2/16/2026,None,None,None,53.9,69.8
+TC-QA-0600,Conditional Branch Route Assignment,Session & Auth Handshake,Workflow Engine,Ivy Clark,Automation,Passed,8531,Dev-QA,2/16/2026,None,None,None,89,99.4
+TC-QA-0601,1000 Concurrent Request Endurance Hold,Document Upload & Processing,Performance/Load,Frank Green,Automation,Passed,86595,Load_Test,2/9/2026,None,None,None,77.6,97
+TC-QA-0602,Nested Approval Engine Workflow,Reporting & Data Analytics,Workflow Engine,Jack Lewis,Automation,Passed,3980,UAT,3/2/2026,None,None,None,79.4,95.4
+TC-QA-0603,CORS Pre-flight Header Validation,Session & Auth Handshake,API Gateway,Grace Miller,Automation,Failed,224,Dev-QA,1/12/2026,BUG-5125,Minor,Open,89.2,90.3
+TC-QA-0604,Workflow State Storage Memory Leak Run,Notification Engine Triggers,Performance/Load,Anisul Islam Rohit,Automation,Passed,111185,Staging,1/5/2026,None,None,None,96.3,94.8
+TC-QA-0605,GZIP Compression Payload Size Match,System Configurations,API Gateway,Grace Miller,Automation,Passed,1438,UAT,2/16/2026,None,None,None,88.4,98.5
+TC-QA-0606,Real-time Push Notification Latency Check,Document Upload & Processing,Notification Service,Mikhail Yakushev,Automation,Passed,1552,Staging,3/16/2026,None,None,None,82.7,99.9
+TC-QA-0607,SQL Text Field Index Fragmentation Scan,System Configurations,SQL Server DB,Ivy Clark,Automation,Passed,8395,Staging,2/2/2026,None,None,None,91.8,90.7
+TC-QA-0608,Invalid State Transition Request Rejection,Notification Engine Triggers,Workflow Engine,Ivy Clark,Automation,Passed,6028,UAT,3/9/2026,None,None,None,81,94.7
+TC-QA-0609,XSS Injection Attempt on Form Fields,Session & Auth Handshake,UI Portal Form,Ivy Clark,Automation,Passed,417,Dev-QA,3/23/2026,None,None,None,77.3,85.5
+TC-QA-0610,Form Timeout Handler under Slow Network,Search & Advanced Filtering,UI Portal Form,Grace Miller,Automation,Passed,1511,Staging,1/5/2026,None,None,None,88.6,89
+TC-QA-0611,Workflow State Storage Memory Leak Run,User Profile Customization,Performance/Load,Frank Green,Automation,Passed,94314,Dev-QA,2/16/2026,None,None,None,81.3,95.9
+TC-QA-0612,Special Character Validation in Fields,User Request Form Submission,UI Portal Form,Jack Lewis,Automation,Failed,1187,Staging,3/9/2026,BUG-5126,Minor,Closed,79.3,89.5
+TC-QA-0613,File Upload Format Constraints Check,Payment Gateway Integration,UI Portal Form,Frank Green,Automation,Passed,1141,Load_Test,3/16/2026,None,None,None,75.7,93.3
+TC-QA-0614,SQL Text Field Index Fragmentation Scan,Workflow Engine Routing,SQL Server DB,David Kim,Automation,Failed,7166,Load_Test,2/23/2026,BUG-5127,Critical,Closed,90.6,87.1
+TC-QA-0615,JWT Expiration Payload Parse,API Integration Layer,API Gateway,Frank Green,Automation,Passed,1307,Load_Test,2/23/2026,None,None,None,85,97.5
+TC-QA-0616,Record Init Database State PENDING,User Request Form Submission,SQL Server DB,David Kim,Automation,Failed,2350,Dev-QA,1/12/2026,BUG-5128,Critical,Closed,96.3,98.1
+TC-QA-0617,Real-time Push Notification Latency Check,API Integration Layer,Notification Service,Frank Green,Automation,Passed,1706,UAT,2/23/2026,None,None,None,88.3,92.1
+TC-QA-0618,Notification Gateway Retry Queue Loop,Workflow Engine Routing,Notification Service,Mikhail Yakushev,Automation,Passed,1495,Staging,2/2/2026,None,None,None,93,86.5
+TC-QA-0619,Real-time Push Notification Latency Check,Reporting & Data Analytics,Notification Service,Grace Miller,Manual,Passed,1218,UAT,1/12/2026,None,None,None,58.2,70.7
+TC-QA-0620,Bulk Export Memory Consumption Profiling,User Profile Customization,Performance/Load,David Kim,Automation,Passed,119664,UAT,2/9/2026,None,None,None,93.4,96.9
+TC-QA-0621,XSS Injection Attempt on Form Fields,Payment Gateway Integration,UI Portal Form,Grace Miller,Manual,Passed,1050,UAT,3/23/2026,None,None,None,42.9,64.1
+TC-QA-0622,GZIP Compression Payload Size Match,User Request Form Submission,API Gateway,Anisul Islam Rohit,Automation,Failed,1454,Dev-QA,1/19/2026,BUG-5129,Critical,Closed,72.3,85.1
+TC-QA-0623,Form Timeout Handler under Slow Network,User Profile Customization,UI Portal Form,Mikhail Yakushev,Automation,Passed,1617,UAT,1/26/2026,None,None,None,74,89.1
+TC-QA-0624,Concurrent DB Row Update Lock Check,Workflow Engine Routing,SQL Server DB,Anisul Islam Rohit,Automation,Passed,3474,Dev-QA,3/9/2026,None,None,None,96.6,94.4
+TC-QA-0625,SLA Timer Breach Triggered Re-routing,User Profile Customization,Workflow Engine,Grace Miller,Automation,Passed,6343,Staging,3/9/2026,None,None,None,80.1,96.4
+TC-QA-0626,Multi-channel Notification Routing (SMS/Email),Workflow Engine Routing,Notification Service,Jack Lewis,Automation,Passed,766,Staging,1/26/2026,None,None,None,73.2,87.2
+TC-QA-0627,Concurrent DB Row Update Lock Check,Audit Logs & Security,SQL Server DB,Anisul Islam Rohit,Automation,Passed,7282,Load_Test,2/2/2026,None,None,None,75.9,88.8
+TC-QA-0628,SMTP Gateway Timeout Graceful Recovery,User Request Form Submission,Notification Service,Grace Miller,Automation,Failed,560,UAT,1/5/2026,BUG-5130,Major,Open,72,88.5
+TC-QA-0629,Bulk Insert Transaction Isolation Level,Reporting & Data Analytics,SQL Server DB,David Kim,Automation,Passed,9359,Load_Test,1/26/2026,None,None,None,91.8,89.9
+TC-QA-0630,Special Character Validation in Fields,API Integration Layer,UI Portal Form,Jack Lewis,Automation,Passed,651,Staging,2/23/2026,None,None,None,86.4,85.8
+TC-QA-0631,Stored Procedure Execution Deadlock Check,Workflow Engine Routing,SQL Server DB,Frank Green,Automation,Passed,3117,Dev-QA,3/23/2026,None,None,None,75.4,90.4
+TC-QA-0632,Conditional Branch Route Assignment,Payment Gateway Integration,Workflow Engine,Anisul Islam Rohit,Automation,Passed,4298,UAT,1/12/2026,None,None,None,93.8,91.9
+TC-QA-0633,CORS Pre-flight Header Validation,Workflow Engine Routing,API Gateway,David Kim,Automation,Failed,1506,UAT,3/9/2026,BUG-5131,Minor,Open,72.4,97.9
+TC-QA-0634,Stored Procedure Execution Deadlock Check,Reporting & Data Analytics,SQL Server DB,Jack Lewis,Manual,Passed,7980,Dev-QA,3/23/2026,None,None,None,60.5,66.2
+TC-QA-0635,Bulk Insert Transaction Isolation Level,Workflow Engine Routing,SQL Server DB,Frank Green,Manual,Failed,9358,Staging,2/16/2026,BUG-5132,Critical,Open,64.7,78.3
+TC-QA-0636,Notification Gateway Retry Queue Loop,User Profile Customization,Notification Service,Frank Green,Automation,Failed,1626,Staging,2/23/2026,BUG-5133,Major,Open,72.3,96.3
+TC-QA-0637,Bulk Export Memory Consumption Profiling,User Profile Customization,Performance/Load,Anisul Islam Rohit,Automation,Passed,68769,UAT,3/16/2026,None,None,None,98,85.2
+TC-QA-0638,Workflow State Storage Memory Leak Run,Audit Logs & Security,Performance/Load,Mikhail Yakushev,Automation,Passed,104760,Staging,2/23/2026,None,None,None,83,87.1
+TC-QA-0639,UI Rendering Paint Latency Peak Load,Audit Logs & Security,Performance/Load,Ivy Clark,Automation,Failed,112157,Dev-QA,3/23/2026,BUG-5134,Minor,Open,94.1,86.1
+TC-QA-0640,Workflow State Storage Memory Leak Run,Session & Auth Handshake,Performance/Load,Grace Miller,Automation,Passed,65361,UAT,3/16/2026,None,None,None,72.3,98.2
+TC-QA-0641,1000 Concurrent Request Endurance Hold,Session & Auth Handshake,Performance/Load,Mikhail Yakushev,Automation,Passed,36758,Staging,2/16/2026,None,None,None,80.2,94.3
+TC-QA-0642,SLA Timer Breach Triggered Re-routing,Audit Logs & Security,Workflow Engine,Mikhail Yakushev,Automation,Passed,7810,UAT,1/19/2026,None,None,None,97.5,88.6
+TC-QA-0643,Session Timeout Banner Rendering,API Integration Layer,UI Portal Form,Ivy Clark,Automation,Blocked,629,UAT,2/9/2026,BUG-5135,Minor,Open,95.1,92.6
+TC-QA-0644,Transaction Rollback on Middle-Tier Drop,User Request Form Submission,SQL Server DB,Grace Miller,Automation,Passed,6107,Staging,2/23/2026,None,None,None,89.9,95.2
+TC-QA-0645,Email Template Dynamic Field Merging,Search & Advanced Filtering,Notification Service,Frank Green,Automation,Passed,1619,Staging,1/26/2026,None,None,None,95,91.9
+TC-QA-0646,Responsive Breakpoint Layout Adjustments,Audit Logs & Security,UI Portal Form,David Kim,Automation,Passed,537,Load_Test,1/12/2026,None,None,None,89.5,92.4
+TC-QA-0647,GZIP Compression Payload Size Match,System Configurations,API Gateway,Grace Miller,Automation,Blocked,1308,UAT,2/23/2026,BUG-5136,Minor,Open,81.8,96.1
+TC-QA-0648,Form Timeout Handler under Slow Network,Workflow Engine Routing,UI Portal Form,Grace Miller,Manual,Failed,1264,Load_Test,2/16/2026,BUG-5137,Minor,Closed,53,79.7
+TC-QA-0649,Bulk Insert Transaction Isolation Level,System Configurations,SQL Server DB,Mikhail Yakushev,Automation,Passed,5751,Load_Test,3/9/2026,None,None,None,73.7,96.8
+TC-QA-0650,CORS Pre-flight Header Validation,Workflow Engine Routing,API Gateway,Jack Lewis,Automation,Passed,296,UAT,2/9/2026,None,None,None,78,99.3
+TC-QA-0651,Real-time Push Notification Latency Check,API Integration Layer,Notification Service,Frank Green,Automation,Blocked,1650,UAT,1/19/2026,BUG-5138,Major,Open,73.3,99.9
+TC-QA-0652,Real-time Push Notification Latency Check,Search & Advanced Filtering,Notification Service,David Kim,Automation,Passed,1648,Staging,3/16/2026,None,None,None,78.9,90.2
+TC-QA-0653,State Transition Serialization Loop,Session & Auth Handshake,Workflow Engine,Anisul Islam Rohit,Automation,Passed,2204,Dev-QA,2/23/2026,None,None,None,91.5,99.2
+TC-QA-0654,Conditional Branch Route Assignment,User Request Form Submission,Workflow Engine,Mikhail Yakushev,Automation,Passed,7302,Load_Test,2/23/2026,None,None,None,95.1,99.5
+TC-QA-0655,SMS Provider Queue Backup Fallback,Audit Logs & Security,Notification Service,Ivy Clark,Automation,Failed,1105,Load_Test,3/23/2026,BUG-5139,Critical,Closed,95.2,87.1
+TC-QA-0656,Notification Gateway Retry Queue Loop,Notification Engine Triggers,Notification Service,Grace Miller,Automation,Failed,1113,Load_Test,1/12/2026,BUG-5140,Major,Open,87,87.9
+TC-QA-0657,Real-time Push Notification Latency Check,Notification Engine Triggers,Notification Service,Anisul Islam Rohit,Automation,Passed,1112,Staging,3/2/2026,None,None,None,81,92.4
+TC-QA-0658,Multi-channel Notification Routing (SMS/Email),Session & Auth Handshake,Notification Service,Grace Miller,Manual,Passed,502,Dev-QA,2/9/2026,None,None,None,43.5,60.3
+TC-QA-0659,SLA Timer Breach Triggered Re-routing,Notification Engine Triggers,Workflow Engine,Jack Lewis,Manual,Passed,7962,Dev-QA,3/23/2026,None,None,None,64.7,80.1
+TC-QA-0660,Conditional Branch Route Assignment,API Integration Layer,Workflow Engine,Jack Lewis,Automation,Passed,8844,Staging,1/19/2026,None,None,None,75.8,92.1
+TC-QA-0661,Email Template Dynamic Field Merging,Document Upload & Processing,Notification Service,Frank Green,Automation,Passed,1038,Load_Test,2/16/2026,None,None,None,74.9,91.9
+TC-QA-0662,Real-time Push Notification Latency Check,Workflow Engine Routing,Notification Service,Anisul Islam Rohit,Manual,Passed,1204,Staging,2/2/2026,None,None,None,59.2,67.6
+TC-QA-0663,SMS Provider Queue Backup Fallback,Search & Advanced Filtering,Notification Service,Anisul Islam Rohit,Automation,Passed,737,Load_Test,3/16/2026,None,None,None,93.4,92.1
+TC-QA-0664,Bulk Export Memory Consumption Profiling,Notification Engine Triggers,Performance/Load,Jack Lewis,Automation,Passed,114513,UAT,1/5/2026,None,None,None,73.3,89.2
+TC-QA-0665,Mandatory Field Verification,Reporting & Data Analytics,UI Portal Form,Jack Lewis,Automation,Failed,1486,Dev-QA,3/23/2026,BUG-5141,Critical,Closed,84.4,93.6
+TC-QA-0666,Conditional Branch Route Assignment,Reporting & Data Analytics,Workflow Engine,Grace Miller,Automation,Passed,7679,UAT,2/9/2026,None,None,None,74.6,89.1
+TC-QA-0667,SQL Text Field Index Fragmentation Scan,Payment Gateway Integration,SQL Server DB,Grace Miller,Automation,Passed,9670,Staging,3/2/2026,None,None,None,75.4,94.4
+TC-QA-0668,XSS Injection Attempt on Form Fields,Session & Auth Handshake,UI Portal Form,David Kim,Automation,Failed,1602,Load_Test,2/2/2026,BUG-5142,Minor,Closed,72.7,93.7
+TC-QA-0669,JWT Expiration Payload Parse,Audit Logs & Security,API Gateway,Frank Green,Automation,Passed,1043,Load_Test,1/19/2026,None,None,None,72.9,87.3
+TC-QA-0670,API Throttle Rate Limit Injection,Session & Auth Handshake,API Gateway,Frank Green,Automation,Blocked,1289,Staging,2/16/2026,BUG-5143,Minor,Open,95.6,86.7
+TC-QA-0671,JWT Expiration Payload Parse,Search & Advanced Filtering,API Gateway,David Kim,Automation,Passed,1105,Load_Test,1/19/2026,None,None,None,89.9,85.4
+TC-QA-0672,Special Character Validation in Fields,Audit Logs & Security,UI Portal Form,Ivy Clark,Automation,Passed,829,UAT,1/26/2026,None,None,None,73.6,86.2
+TC-QA-0673,1000 Concurrent Request Endurance Hold,Document Upload & Processing,Performance/Load,Grace Miller,Automation,Passed,86524,Staging,1/26/2026,None,None,None,73,96.9
+TC-QA-0674,Multi-channel Notification Routing (SMS/Email),User Request Form Submission,Notification Service,Jack Lewis,Automation,Passed,335,Load_Test,3/16/2026,None,None,None,70.3,86.4
+TC-QA-0675,Special Character Validation in Fields,Reporting & Data Analytics,UI Portal Form,Anisul Islam Rohit,Manual,Passed,385,UAT,3/23/2026,None,None,None,63,83.7
+TC-QA-0676,SLA Timer Breach Triggered Re-routing,Audit Logs & Security,Workflow Engine,Ivy Clark,Automation,Passed,3981,Staging,1/12/2026,None,None,None,92.9,96.4
+TC-QA-0677,Real-time Push Notification Latency Check,API Integration Layer,Notification Service,Anisul Islam Rohit,Manual,Passed,1744,Staging,3/23/2026,None,None,None,33.5,65.4
+TC-QA-0678,SMS Provider Queue Backup Fallback,Search & Advanced Filtering,Notification Service,David Kim,Automation,Passed,1579,Staging,1/19/2026,None,None,None,93.4,99.7
+TC-QA-0679,Stored Procedure Execution Deadlock Check,Session & Auth Handshake,SQL Server DB,Anisul Islam Rohit,Automation,Passed,4574,Staging,2/23/2026,None,None,None,73.1,87
+TC-QA-0680,Nested Approval Engine Workflow,Notification Engine Triggers,Workflow Engine,Frank Green,Automation,Passed,6044,Staging,2/16/2026,None,None,None,77.9,94
+TC-QA-0681,Nested Approval Engine Workflow,Search & Advanced Filtering,Workflow Engine,Anisul Islam Rohit,Automation,Passed,9007,Dev-QA,1/26/2026,None,None,None,94,98.4
+TC-QA-0682,SQL Text Field Index Fragmentation Scan,Payment Gateway Integration,SQL Server DB,Anisul Islam Rohit,Automation,Passed,7505,Staging,2/16/2026,None,None,None,82.3,94.9
+TC-QA-0683,File Upload Format Constraints Check,Audit Logs & Security,UI Portal Form,Jack Lewis,Automation,Passed,408,UAT,1/12/2026,None,None,None,80.2,88
+TC-QA-0684,GZIP Compression Payload Size Match,User Profile Customization,API Gateway,Grace Miller,Automation,Passed,1222,Load_Test,3/23/2026,None,None,None,91.4,93.9
+TC-QA-0685,UI Rendering Paint Latency Peak Load,Payment Gateway Integration,Performance/Load,Jack Lewis,Automation,Passed,83011,Dev-QA,3/2/2026,None,None,None,77.8,96.5
+TC-QA-0686,File Upload Format Constraints Check,Notification Engine Triggers,UI Portal Form,Jack Lewis,Automation,Passed,475,Staging,1/12/2026,None,None,None,90.7,97.5
+TC-QA-0687,SQL Text Field Index Fragmentation Scan,User Request Form Submission,SQL Server DB,Anisul Islam Rohit,Automation,Passed,3251,Load_Test,3/9/2026,None,None,None,87.5,96.4
+TC-QA-0688,Spike Load Recovery Stabilization,Search & Advanced Filtering,Performance/Load,Ivy Clark,Automation,Passed,68477,Dev-QA,2/23/2026,None,None,None,84.1,93.1
+TC-QA-0689,Multi-channel Notification Routing (SMS/Email),User Request Form Submission,Notification Service,Ivy Clark,Automation,Passed,443,Dev-QA,2/23/2026,None,None,None,78.8,90.6
+TC-QA-0690,Record Init Database State PENDING,User Request Form Submission,SQL Server DB,Anisul Islam Rohit,Automation,Failed,4482,UAT,2/23/2026,BUG-5144,Major,Open,78.7,90.8
+TC-QA-0691,Session Timeout Banner Rendering,System Configurations,UI Portal Form,Frank Green,Automation,Passed,1174,UAT,3/2/2026,None,None,None,71.6,89
+TC-QA-0692,SMTP Gateway Timeout Graceful Recovery,Reporting & Data Analytics,Notification Service,Mikhail Yakushev,Automation,Blocked,856,Staging,1/5/2026,BUG-5145,Major,Open,73.6,90.5
+TC-QA-0693,Spike Load Recovery Stabilization,User Request Form Submission,Performance/Load,Ivy Clark,Automation,Failed,74729,Dev-QA,1/12/2026,BUG-5146,Major,Closed,97.8,91.2
+TC-QA-0694,Special Character Validation in Fields,Workflow Engine Routing,UI Portal Form,Anisul Islam Rohit,Automation,Passed,1609,Staging,2/2/2026,None,None,None,73.2,87.5
+TC-QA-0695,Email Template Dynamic Field Merging,User Request Form Submission,Notification Service,Jack Lewis,Automation,Passed,1254,Dev-QA,2/2/2026,None,None,None,70.6,92
+TC-QA-0696,Mandatory Field Verification,User Profile Customization,UI Portal Form,Frank Green,Manual,Passed,1200,Staging,3/23/2026,None,None,None,53.6,68.4
+TC-QA-0697,SMS Provider Queue Backup Fallback,Payment Gateway Integration,Notification Service,Anisul Islam Rohit,Automation,Passed,1092,UAT,2/23/2026,None,None,None,87.8,99.6
+TC-QA-0698,Special Character Validation in Fields,Notification Engine Triggers,UI Portal Form,David Kim,Manual,Blocked,1023,UAT,3/9/2026,BUG-5147,Major,Open,55.1,74.5
+TC-QA-0699,Email Template Dynamic Field Merging,Notification Engine Triggers,Notification Service,Grace Miller,Automation,Passed,1074,UAT,2/9/2026,None,None,None,92.3,94.8
+TC-QA-0700,Parallel Workflow Fork Behavior,Notification Engine Triggers,Workflow Engine,Jack Lewis,Automation,Passed,5394,Dev-QA,2/2/2026,None,None,None,87.5,91.8
+TC-QA-0701,Real-time Push Notification Latency Check,User Request Form Submission,Notification Service,Mikhail Yakushev,Automation,Failed,1381,Dev-QA,1/26/2026,BUG-5148,Minor,Closed,77.5,94.6
+TC-QA-0702,SMTP Gateway Timeout Graceful Recovery,Reporting & Data Analytics,Notification Service,Mikhail Yakushev,Automation,Passed,946,Dev-QA,1/19/2026,None,None,None,76.7,96.2
+TC-QA-0703,State Transition Serialization Loop,User Profile Customization,Workflow Engine,David Kim,Manual,Failed,7193,UAT,2/16/2026,BUG-5149,Major,Closed,52.6,66.4
+TC-QA-0704,Real-time Push Notification Latency Check,User Profile Customization,Notification Service,Anisul Islam Rohit,Automation,Passed,702,Load_Test,2/23/2026,None,None,None,83.6,99.9
+TC-QA-0705,SQL Text Field Index Fragmentation Scan,User Request Form Submission,SQL Server DB,Anisul Islam Rohit,Automation,Passed,4116,Load_Test,3/16/2026,None,None,None,85.4,94.7
+TC-QA-0706,Session Timeout Banner Rendering,User Request Form Submission,UI Portal Form,Grace Miller,Automation,Passed,1432,Load_Test,1/12/2026,None,None,None,95.2,91.1
+TC-QA-0707,Nested Approval Engine Workflow,System Configurations,Workflow Engine,Grace Miller,Automation,Failed,8903,UAT,1/26/2026,BUG-5150,Critical,Open,84.6,97.4
+TC-QA-0708,Email Template Dynamic Field Merging,Search & Advanced Filtering,Notification Service,Grace Miller,Automation,Passed,841,Load_Test,3/9/2026,None,None,None,90.6,97.1
+TC-QA-0709,Database Connection Pool Exhaustion Stress,User Profile Customization,Performance/Load,Anisul Islam Rohit,Automation,Passed,52957,UAT,2/2/2026,None,None,None,82.3,88.8
+TC-QA-0710,Notification Gateway Retry Queue Loop,Search & Advanced Filtering,Notification Service,Frank Green,Automation,Blocked,848,Dev-QA,2/23/2026,BUG-5151,Major,Open,97,98.2
+TC-QA-0711,CORS Pre-flight Header Validation,Search & Advanced Filtering,API Gateway,Mikhail Yakushev,Automation,Passed,1521,Staging,3/23/2026,None,None,None,88.5,99.1
+TC-QA-0712,Bulk Export Memory Consumption Profiling,Workflow Engine Routing,Performance/Load,David Kim,Automation,Passed,70536,Load_Test,3/16/2026,None,None,None,73.4,98
+TC-QA-0713,Concurrent DB Row Update Lock Check,User Request Form Submission,SQL Server DB,Jack Lewis,Manual,Failed,4464,Staging,1/26/2026,BUG-5152,Major,Open,60.1,64
+TC-QA-0714,SQL Text Field Index Fragmentation Scan,Payment Gateway Integration,SQL Server DB,Ivy Clark,Automation,Passed,2277,Load_Test,1/12/2026,None,None,None,93,99.1
+TC-QA-0715,SQL Text Field Index Fragmentation Scan,User Profile Customization,SQL Server DB,Ivy Clark,Automation,Passed,9524,Staging,1/19/2026,None,None,None,89.6,92.6
+TC-QA-0716,State Transition Serialization Loop,Reporting & Data Analytics,Workflow Engine,Mikhail Yakushev,Manual,Passed,5713,Staging,1/5/2026,None,None,None,52.4,64.6
+TC-QA-0717,SQL Text Field Index Fragmentation Scan,Audit Logs & Security,SQL Server DB,Grace Miller,Automation,Passed,4570,Staging,1/12/2026,None,None,None,74.4,92.7
+TC-QA-0718,Database Connection Pool Exhaustion Stress,Reporting & Data Analytics,Performance/Load,Mikhail Yakushev,Automation,Passed,71864,Dev-QA,2/23/2026,None,None,None,94.5,87
+TC-QA-0719,REST Endpoint Path Sanitization,Reporting & Data Analytics,API Gateway,Ivy Clark,Automation,Passed,372,Dev-QA,2/9/2026,None,None,None,75.1,98.1
+TC-QA-0720,Real-time Push Notification Latency Check,User Request Form Submission,Notification Service,Grace Miller,Manual,Passed,1483,UAT,1/12/2026,None,None,None,64.1,65
+TC-QA-0721,Database Connection Pool Exhaustion Stress,User Request Form Submission,Performance/Load,Jack Lewis,Automation,Passed,108694,Load_Test,1/19/2026,None,None,None,72.5,90.5
+TC-QA-0722,Notification Gateway Retry Queue Loop,User Request Form Submission,Notification Service,Mikhail Yakushev,Automation,Passed,1129,Dev-QA,1/12/2026,None,None,None,76.3,88
+TC-QA-0723,SLA Timer Breach Triggered Re-routing,API Integration Layer,Workflow Engine,Jack Lewis,Automation,Passed,3692,UAT,2/2/2026,None,None,None,90.3,87.8
+TC-QA-0724,Malformed JSON Request Body Rejection,Audit Logs & Security,API Gateway,Grace Miller,Automation,Passed,1465,Dev-QA,1/26/2026,None,None,None,80.3,95.3
+TC-QA-0725,Record Init Database State PENDING,User Request Form Submission,SQL Server DB,Jack Lewis,Automation,Passed,7677,Dev-QA,3/16/2026,None,None,None,75.9,90.8
+TC-QA-0726,SQL Text Field Index Fragmentation Scan,Reporting & Data Analytics,SQL Server DB,David Kim,Automation,Passed,2426,Load_Test,1/26/2026,None,None,None,83.2,90.3
+TC-QA-0727,SMS Provider Queue Backup Fallback,Reporting & Data Analytics,Notification Service,Mikhail Yakushev,Automation,Passed,719,Dev-QA,2/2/2026,None,None,None,97.4,95.1
+TC-QA-0728,GZIP Compression Payload Size Match,User Request Form Submission,API Gateway,Frank Green,Automation,Passed,1209,Load_Test,2/23/2026,None,None,None,73.7,89.8
+TC-QA-0729,SMTP Gateway Timeout Graceful Recovery,Audit Logs & Security,Notification Service,David Kim,Automation,Passed,461,Dev-QA,2/2/2026,None,None,None,90.9,98.9
+TC-QA-0730,SLA Timer Breach Triggered Re-routing,Reporting & Data Analytics,Workflow Engine,Ivy Clark,Automation,Passed,4564,Dev-QA,1/19/2026,None,None,None,78.8,99.9
+TC-QA-0731,GZIP Compression Payload Size Match,System Configurations,API Gateway,Mikhail Yakushev,Automation,Passed,504,Staging,1/26/2026,None,None,None,75.1,92.1
+TC-QA-0732,REST Endpoint Path Sanitization,Search & Advanced Filtering,API Gateway,Jack Lewis,Automation,Failed,1213,Staging,2/23/2026,BUG-5153,Major,Closed,82.8,86.7
+TC-QA-0733,Database Connection Pool Exhaustion Stress,Document Upload & Processing,Performance/Load,David Kim,Automation,Passed,67239,UAT,1/19/2026,None,None,None,91,97.3
+TC-QA-0734,SMS Provider Queue Backup Fallback,Reporting & Data Analytics,Notification Service,Anisul Islam Rohit,Automation,Blocked,1277,UAT,2/16/2026,BUG-5154,Major,Open,76.9,92.5
+TC-QA-0735,Mandatory Field Verification,User Request Form Submission,UI Portal Form,David Kim,Automation,Passed,1007,Load_Test,3/9/2026,None,None,None,96,86.6
+TC-QA-0736,Conditional Branch Route Assignment,User Request Form Submission,Workflow Engine,Grace Miller,Automation,Passed,5930,Dev-QA,3/16/2026,None,None,None,96.7,93.9
+TC-QA-0737,Mandatory Field Verification,User Request Form Submission,UI Portal Form,Mikhail Yakushev,Automation,Passed,1698,UAT,1/26/2026,None,None,None,94.2,97
+TC-QA-0738,SLA Timer Breach Triggered Re-routing,User Request Form Submission,Workflow Engine,Mikhail Yakushev,Automation,Blocked,5124,Staging,2/16/2026,BUG-5155,Minor,Open,75,99.5
+TC-QA-0739,Record Init Database State PENDING,User Request Form Submission,SQL Server DB,Ivy Clark,Automation,Passed,5296,Load_Test,3/16/2026,None,None,None,91.1,94.8
+TC-QA-0740,Form Timeout Handler under Slow Network,Search & Advanced Filtering,UI Portal Form,Ivy Clark,Automation,Failed,835,UAT,2/9/2026,BUG-5156,Minor,Open,93.3,92.7
+TC-QA-0741,Concurrent DB Row Update Lock Check,User Profile Customization,SQL Server DB,Jack Lewis,Automation,Passed,2739,Dev-QA,2/9/2026,None,None,None,87.2,91.5
+TC-QA-0742,Record Init Database State PENDING,User Request Form Submission,SQL Server DB,Frank Green,Automation,Passed,3836,UAT,2/23/2026,None,None,None,84.8,94.7
+TC-QA-0743,Form Timeout Handler under Slow Network,Search & Advanced Filtering,UI Portal Form,Jack Lewis,Manual,Failed,815,UAT,1/19/2026,BUG-5157,Minor,Closed,59.5,73.1
+TC-QA-0744,Parallel Workflow Fork Behavior,User Request Form Submission,Workflow Engine,Frank Green,Automation,Passed,2881,Dev-QA,2/16/2026,None,None,None,72.6,94.9
+TC-QA-0745,Email Template Dynamic Field Merging,Payment Gateway Integration,Notification Service,David Kim,Automation,Passed,233,Staging,3/23/2026,None,None,None,88.5,87.7
+TC-QA-0746,Malformed JSON Request Body Rejection,User Request Form Submission,API Gateway,Grace Miller,Automation,Passed,842,Dev-QA,3/16/2026,None,None,None,82.6,97.1
+TC-QA-0747,Conditional Branch Route Assignment,Workflow Engine Routing,Workflow Engine,Anisul Islam Rohit,Automation,Blocked,4124,Staging,2/16/2026,BUG-5158,Major,Open,70.2,86.8
+TC-QA-0748,REST Endpoint Path Sanitization,Search & Advanced Filtering,API Gateway,Jack Lewis,Automation,Failed,1724,Dev-QA,2/2/2026,BUG-5159,Minor,Closed,89.3,99.4
+TC-QA-0749,UI Rendering Paint Latency Peak Load,Notification Engine Triggers,Performance/Load,Grace Miller,Automation,Passed,31818,UAT,1/12/2026,None,None,None,92.8,95.4
+TC-QA-0750,JWT Expiration Payload Parse,Workflow Engine Routing,API Gateway,Jack Lewis,Automation,Passed,1092,UAT,1/12/2026,None,None,None,78.4,92
+TC-QA-0751,Concurrent DB Row Update Lock Check,User Request Form Submission,SQL Server DB,Grace Miller,Automation,Passed,7755,Dev-QA,2/23/2026,None,None,None,83.2,97.9
+TC-QA-0752,Real-time Push Notification Latency Check,Workflow Engine Routing,Notification Service,David Kim,Automation,Failed,304,Load_Test,1/5/2026,BUG-5160,Critical,Closed,97.4,97.7
+TC-QA-0753,Spike Load Recovery Stabilization,Reporting & Data Analytics,Performance/Load,Mikhail Yakushev,Automation,Passed,68112,Staging,2/23/2026,None,None,None,81.2,92.7
+TC-QA-0754,Spike Load Recovery Stabilization,System Configurations,Performance/Load,Ivy Clark,Automation,Failed,60396,Staging,3/2/2026,BUG-5161,Critical,Closed,86.1,93.3
+TC-QA-0755,Nested Approval Engine Workflow,User Profile Customization,Workflow Engine,Jack Lewis,Automation,Passed,7293,Load_Test,2/23/2026,None,None,None,89.5,85.3
+TC-QA-0756,Nested Approval Engine Workflow,Workflow Engine Routing,Workflow Engine,Jack Lewis,Automation,Passed,3799,Load_Test,3/9/2026,None,None,None,93.9,95.7
+TC-QA-0757,Stored Procedure Execution Deadlock Check,Notification Engine Triggers,SQL Server DB,Mikhail Yakushev,Automation,Blocked,8824,Load_Test,2/23/2026,BUG-5162,Major,Open,87.4,89.2
+TC-QA-0758,1000 Concurrent Request Endurance Hold,System Configurations,Performance/Load,Jack Lewis,Automation,Passed,56146,UAT,3/9/2026,None,None,None,83.8,96.9
+TC-QA-0759,Transaction Rollback on Middle-Tier Drop,Workflow Engine Routing,SQL Server DB,Anisul Islam Rohit,Automation,Blocked,4939,Load_Test,2/9/2026,BUG-5163,Major,Open,74.9,97.9
+TC-QA-0760,Notification Gateway Retry Queue Loop,Document Upload & Processing,Notification Service,David Kim,Automation,Passed,447,UAT,2/23/2026,None,None,None,77.2,90.1
+TC-QA-0761,Invalid State Transition Request Rejection,Session & Auth Handshake,Workflow Engine,David Kim,Manual,Failed,9157,Staging,3/23/2026,BUG-5164,Critical,Closed,58,84.1
+TC-QA-0762,File Upload Format Constraints Check,Reporting & Data Analytics,UI Portal Form,Frank Green,Automation,Blocked,1351,Staging,3/2/2026,BUG-5165,Major,Open,74.7,86.8
+TC-QA-0763,CORS Pre-flight Header Validation,Audit Logs & Security,API Gateway,Mikhail Yakushev,Automation,Passed,1236,Dev-QA,3/23/2026,None,None,None,94.4,87.3
+TC-QA-0764,SLA Timer Breach Triggered Re-routing,Audit Logs & Security,Workflow Engine,Grace Miller,Manual,Passed,5405,Staging,1/26/2026,None,None,None,59.2,71.8
+TC-QA-0765,Parallel Workflow Fork Behavior,Audit Logs & Security,Workflow Engine,Grace Miller,Automation,Passed,5399,Load_Test,3/16/2026,None,None,None,88.6,87.3
+TC-QA-0766,SMTP Gateway Timeout Graceful Recovery,Workflow Engine Routing,Notification Service,Anisul Islam Rohit,Manual,Passed,1038,Dev-QA,3/2/2026,None,None,None,57.8,69
+TC-QA-0767,Session Timeout Banner Rendering,Audit Logs & Security,UI Portal Form,Ivy Clark,Manual,Failed,342,Staging,2/9/2026,BUG-5166,Major,Closed,64.4,64.1
+TC-QA-0768,Responsive Breakpoint Layout Adjustments,User Request Form Submission,UI Portal Form,Mikhail Yakushev,Automation,Passed,1376,Staging,3/16/2026,None,None,None,97.4,97
+TC-QA-0769,Email Template Dynamic Field Merging,User Profile Customization,Notification Service,Jack Lewis,Manual,Passed,823,Load_Test,2/9/2026,None,None,None,30.3,67
+TC-QA-0770,Multi-channel Notification Routing (SMS/Email),Audit Logs & Security,Notification Service,Mikhail Yakushev,Automation,Passed,1314,Dev-QA,3/23/2026,None,None,None,79.7,97.2
+TC-QA-0771,UI Rendering Paint Latency Peak Load,Workflow Engine Routing,Performance/Load,David Kim,Automation,Passed,100442,Load_Test,2/16/2026,None,None,None,90.3,96.1
+TC-QA-0772,GZIP Compression Payload Size Match,Session & Auth Handshake,API Gateway,David Kim,Automation,Passed,839,Load_Test,3/16/2026,None,None,None,74.5,85.4
+TC-QA-0773,Multi-channel Notification Routing (SMS/Email),Notification Engine Triggers,Notification Service,Anisul Islam Rohit,Manual,Passed,1065,Staging,3/23/2026,None,None,None,32.1,69.3
+TC-QA-0774,Spike Load Recovery Stabilization,Payment Gateway Integration,Performance/Load,Grace Miller,Automation,Passed,115322,Staging,2/23/2026,None,None,None,78.3,96.1
+TC-QA-0775,Transaction Rollback on Middle-Tier Drop,Workflow Engine Routing,SQL Server DB,Ivy Clark,Automation,Passed,7854,UAT,2/9/2026,None,None,None,78.4,95
+TC-QA-0776,Spike Load Recovery Stabilization,System Configurations,Performance/Load,Anisul Islam Rohit,Automation,Passed,98113,UAT,1/12/2026,None,None,None,79.2,93.7
+TC-QA-0777,State Transition Serialization Loop,Document Upload & Processing,Workflow Engine,Anisul Islam Rohit,Automation,Failed,2671,Staging,1/5/2026,BUG-5167,Major,Open,83.3,91.7
+TC-QA-0778,Nested Approval Engine Workflow,Session & Auth Handshake,Workflow Engine,Jack Lewis,Automation,Passed,5234,Load_Test,3/9/2026,None,None,None,84,91.4
+TC-QA-0779,SQL Text Field Index Fragmentation Scan,Search & Advanced Filtering,SQL Server DB,Mikhail Yakushev,Manual,Failed,3182,UAT,2/23/2026,BUG-5168,Minor,Closed,34.5,77.6
+TC-QA-0780,Notification Gateway Retry Queue Loop,API Integration Layer,Notification Service,Anisul Islam Rohit,Automation,Passed,521,Load_Test,1/12/2026,None,None,None,86.8,91.1
+TC-QA-0781,Mandatory Field Verification,Reporting & Data Analytics,UI Portal Form,David Kim,Manual,Passed,960,Load_Test,2/9/2026,None,None,None,40.6,72.1
+TC-QA-0782,API Throttle Rate Limit Injection,Reporting & Data Analytics,API Gateway,Jack Lewis,Automation,Failed,780,UAT,1/19/2026,BUG-5169,Minor,Closed,70.1,93.2
+TC-QA-0783,Form Button Disabled Post-Click,User Profile Customization,UI Portal Form,Jack Lewis,Automation,Passed,891,Dev-QA,2/23/2026,None,None,None,93.4,97.5
+TC-QA-0784,API Throttle Rate Limit Injection,Session & Auth Handshake,API Gateway,Mikhail Yakushev,Automation,Passed,1119,UAT,3/23/2026,None,None,None,79.1,97
+TC-QA-0785,Spike Load Recovery Stabilization,User Profile Customization,Performance/Load,Jack Lewis,Automation,Passed,81825,Load_Test,3/2/2026,None,None,None,71.3,95.1
+TC-QA-0786,SQL Text Field Index Fragmentation Scan,Notification Engine Triggers,SQL Server DB,Mikhail Yakushev,Automation,Passed,2203,Load_Test,3/2/2026,None,None,None,88.1,94.7
+TC-QA-0787,Special Character Validation in Fields,Reporting & Data Analytics,UI Portal Form,Frank Green,Automation,Passed,1367,UAT,2/23/2026,None,None,None,84.1,85.3
+TC-QA-0788,Spike Load Recovery Stabilization,Audit Logs & Security,Performance/Load,Grace Miller,Automation,Passed,56975,UAT,3/23/2026,None,None,None,93.5,93.7
+TC-QA-0789,Mandatory Field Verification,User Profile Customization,UI Portal Form,Frank Green,Manual,Failed,247,Load_Test,2/16/2026,BUG-5170,Critical,Closed,30.8,73.2
+TC-QA-0790,Transaction Rollback on Middle-Tier Drop,Document Upload & Processing,SQL Server DB,Grace Miller,Manual,Passed,4337,UAT,1/19/2026,None,None,None,38.9,62.2
+TC-QA-0791,State Transition Serialization Loop,System Configurations,Workflow Engine,Anisul Islam Rohit,Automation,Blocked,3486,Staging,3/23/2026,BUG-5171,Major,Open,78.3,86.5
+TC-QA-0792,Malformed JSON Request Body Rejection,Payment Gateway Integration,API Gateway,David Kim,Automation,Failed,447,Staging,1/26/2026,BUG-5172,Critical,Open,83.8,96.3
+TC-QA-0793,Record Init Database State PENDING,Notification Engine Triggers,SQL Server DB,Grace Miller,Automation,Passed,2536,Dev-QA,1/5/2026,None,None,None,81.4,88.5
+TC-QA-0794,Form Timeout Handler under Slow Network,Session & Auth Handshake,UI Portal Form,Frank Green,Automation,Passed,1336,UAT,2/2/2026,None,None,None,85.9,91.7
+TC-QA-0795,Spike Load Recovery Stabilization,Workflow Engine Routing,Performance/Load,Ivy Clark,Automation,Blocked,78929,UAT,1/26/2026,BUG-5173,Minor,Open,96.9,93.3
+TC-QA-0796,Form Button Disabled Post-Click,Search & Advanced Filtering,UI Portal Form,Ivy Clark,Automation,Passed,542,Staging,1/5/2026,None,None,None,96.1,92.2
+TC-QA-0797,Email Template Dynamic Field Merging,System Configurations,Notification Service,Jack Lewis,Manual,Failed,635,Load_Test,1/5/2026,BUG-5174,Critical,Open,40.5,69.9
+TC-QA-0798,XSS Injection Attempt on Form Fields,API Integration Layer,UI Portal Form,Frank Green,Automation,Failed,631,Load_Test,3/16/2026,BUG-5175,Major,Closed,97.4,95.6
+TC-QA-0799,Conditional Branch Route Assignment,System Configurations,Workflow Engine,David Kim,Automation,Passed,6911,Load_Test,1/5/2026,None,None,None,95.6,87
+TC-QA-0800,Session Timeout Banner Rendering,User Request Form Submission,UI Portal Form,Grace Miller,Automation,Passed,1626,Dev-QA,2/16/2026,None,None,None,85.1,96.8
+TC-QA-0801,Bulk Export Memory Consumption Profiling,Document Upload & Processing,Performance/Load,Frank Green,Automation,Passed,118029,Dev-QA,3/16/2026,None,None,None,73.5,99.6
+TC-QA-0802,Bulk Insert Transaction Isolation Level,Payment Gateway Integration,SQL Server DB,Jack Lewis,Automation,Passed,7710,Staging,1/12/2026,None,None,None,83,99
+TC-QA-0803,Record Init Database State PENDING,Workflow Engine Routing,SQL Server DB,Mikhail Yakushev,Automation,Passed,9548,Load_Test,1/26/2026,None,None,None,72.5,94.2
+TC-QA-0804,Nested Approval Engine Workflow,Workflow Engine Routing,Workflow Engine,Anisul Islam Rohit,Manual,Blocked,2301,Load_Test,2/23/2026,BUG-5176,Major,Open,30.2,84.6
+TC-QA-0805,UI Rendering Paint Latency Peak Load,Document Upload & Processing,Performance/Load,Ivy Clark,Automation,Passed,95578,Dev-QA,1/19/2026,None,None,None,85.4,94.9
+TC-QA-0806,SMS Provider Queue Backup Fallback,System Configurations,Notification Service,Frank Green,Automation,Passed,462,Staging,1/19/2026,None,None,None,77.3,93.5
+TC-QA-0807,GZIP Compression Payload Size Match,API Integration Layer,API Gateway,Ivy Clark,Automation,Failed,247,Load_Test,3/16/2026,BUG-5177,Minor,Closed,70.1,91.4
+TC-QA-0808,Bulk Export Memory Consumption Profiling,User Request Form Submission,Performance/Load,Ivy Clark,Automation,Blocked,86694,Dev-QA,2/2/2026,BUG-5178,Major,Open,89,92
+TC-QA-0809,Parallel Workflow Fork Behavior,User Request Form Submission,Workflow Engine,Mikhail Yakushev,Automation,Passed,5441,Dev-QA,2/9/2026,None,None,None,70.1,87.9
+TC-QA-0810,Form Button Disabled Post-Click,API Integration Layer,UI Portal Form,Anisul Islam Rohit,Automation,Passed,352,UAT,1/26/2026,None,None,None,74.6,89.7
+TC-QA-0811,Bulk Export Memory Consumption Profiling,Document Upload & Processing,Performance/Load,Grace Miller,Automation,Passed,33148,Load_Test,2/2/2026,None,None,None,76.9,92.1
+TC-QA-0812,Invalid State Transition Request Rejection,Payment Gateway Integration,Workflow Engine,Frank Green,Automation,Blocked,8354,Dev-QA,1/12/2026,BUG-5179,Minor,Open,86.2,86.3
+TC-QA-0813,Form Button Disabled Post-Click,User Profile Customization,UI Portal Form,David Kim,Automation,Passed,461,Staging,2/23/2026,None,None,None,71.5,94.2
+TC-QA-0814,Record Init Database State PENDING,Document Upload & Processing,SQL Server DB,Mikhail Yakushev,Automation,Passed,8962,Dev-QA,2/16/2026,None,None,None,72.7,96.3
+TC-QA-0815,GZIP Compression Payload Size Match,System Configurations,API Gateway,Frank Green,Automation,Passed,1076,Staging,2/9/2026,None,None,None,88.2,95.1
+TC-QA-0816,Session Timeout Banner Rendering,Session & Auth Handshake,UI Portal Form,David Kim,Automation,Passed,225,Staging,3/9/2026,None,None,None,92.1,87.9
+TC-QA-0817,Real-time Push Notification Latency Check,System Configurations,Notification Service,Frank Green,Automation,Passed,1684,Dev-QA,1/19/2026,None,None,None,76.8,97
+TC-QA-0818,XSS Injection Attempt on Form Fields,Notification Engine Triggers,UI Portal Form,Frank Green,Automation,Blocked,1744,Load_Test,2/2/2026,BUG-5180,Major,Open,74.1,89.6
+TC-QA-0819,SLA Timer Breach Triggered Re-routing,Payment Gateway Integration,Workflow Engine,Grace Miller,Automation,Passed,3184,Staging,1/26/2026,None,None,None,84.2,97.5
+TC-QA-0820,Responsive Breakpoint Layout Adjustments,Payment Gateway Integration,UI Portal Form,Anisul Islam Rohit,Automation,Passed,612,Staging,2/9/2026,None,None,None,75.3,92.1
+TC-QA-0821,UI Rendering Paint Latency Peak Load,Reporting & Data Analytics,Performance/Load,Mikhail Yakushev,Automation,Passed,105813,Load_Test,3/9/2026,None,None,None,78.4,89.9
+TC-QA-0822,Session Timeout Banner Rendering,User Request Form Submission,UI Portal Form,Jack Lewis,Manual,Passed,656,UAT,2/23/2026,None,None,None,51.8,66
+TC-QA-0823,Workflow State Storage Memory Leak Run,API Integration Layer,Performance/Load,Jack Lewis,Automation,Passed,54149,Staging,2/9/2026,None,None,None,70.3,90.4
+TC-QA-0824,Notification Gateway Retry Queue Loop,Audit Logs & Security,Notification Service,David Kim,Automation,Passed,1767,Load_Test,1/5/2026,None,None,None,97.3,88
+TC-QA-0825,Conditional Branch Route Assignment,Workflow Engine Routing,Workflow Engine,David Kim,Automation,Passed,6542,UAT,1/19/2026,None,None,None,75.5,87.6
+TC-QA-0826,Invalid State Transition Request Rejection,User Request Form Submission,Workflow Engine,Ivy Clark,Automation,Passed,8450,Staging,2/9/2026,None,None,None,96.2,89.6
+TC-QA-0827,CORS Pre-flight Header Validation,Payment Gateway Integration,API Gateway,Mikhail Yakushev,Automation,Passed,1476,Dev-QA,3/23/2026,None,None,None,71.8,87.2
+TC-QA-0828,API Throttle Rate Limit Injection,Workflow Engine Routing,API Gateway,Frank Green,Automation,Passed,1427,Dev-QA,3/16/2026,None,None,None,76.8,85.7
+TC-QA-0829,Multi-channel Notification Routing (SMS/Email),Workflow Engine Routing,Notification Service,Ivy Clark,Automation,Failed,871,UAT,1/5/2026,BUG-5181,Minor,Closed,94.4,97.8
+TC-QA-0830,SMTP Gateway Timeout Graceful Recovery,Workflow Engine Routing,Notification Service,Mikhail Yakushev,Automation,Passed,1558,Staging,1/19/2026,None,None,None,84.2,96.3
+TC-QA-0831,Spike Load Recovery Stabilization,Payment Gateway Integration,Performance/Load,Jack Lewis,Automation,Passed,53461,Load_Test,3/23/2026,None,None,None,80.5,95.4
+TC-QA-0832,UI Rendering Paint Latency Peak Load,Search & Advanced Filtering,Performance/Load,David Kim,Automation,Passed,113637,Staging,1/26/2026,None,None,None,76.1,88
+TC-QA-0833,Malformed JSON Request Body Rejection,Workflow Engine Routing,API Gateway,David Kim,Automation,Passed,521,Load_Test,2/2/2026,None,None,None,85.4,87
+TC-QA-0834,Form Timeout Handler under Slow Network,Search & Advanced Filtering,UI Portal Form,Frank Green,Manual,Passed,1152,Load_Test,2/16/2026,None,None,None,45.8,70.8
+TC-QA-0835,State Transition Serialization Loop,Payment Gateway Integration,Workflow Engine,David Kim,Automation,Passed,3915,Load_Test,3/16/2026,None,None,None,72.1,98.5
+TC-QA-0836,Parallel Workflow Fork Behavior,Session & Auth Handshake,Workflow Engine,Frank Green,Automation,Failed,9590,UAT,1/12/2026,BUG-5182,Critical,Open,80.1,93.2
+TC-QA-0837,Conditional Branch Route Assignment,System Configurations,Workflow Engine,David Kim,Automation,Passed,8295,Load_Test,1/26/2026,None,None,None,89.8,100
+TC-QA-0838,Bulk Export Memory Consumption Profiling,Session & Auth Handshake,Performance/Load,David Kim,Automation,Passed,69252,Load_Test,2/9/2026,None,None,None,91.9,91.1
+TC-QA-0839,Bulk Insert Transaction Isolation Level,System Configurations,SQL Server DB,Grace Miller,Automation,Passed,8235,UAT,2/16/2026,None,None,None,76.4,95.9
+TC-QA-0840,Malformed JSON Request Body Rejection,Workflow Engine Routing,API Gateway,Frank Green,Automation,Passed,1159,Dev-QA,2/9/2026,None,None,None,92.2,89.7
+TC-QA-0841,Malformed JSON Request Body Rejection,API Integration Layer,API Gateway,Jack Lewis,Automation,Passed,1343,Staging,2/9/2026,None,None,None,73.9,98.1
+TC-QA-0842,Nested Approval Engine Workflow,User Request Form Submission,Workflow Engine,Jack Lewis,Manual,Failed,4783,UAT,2/16/2026,BUG-5183,Major,Closed,56.7,77.3
+TC-QA-0843,SLA Timer Breach Triggered Re-routing,Reporting & Data Analytics,Workflow Engine,Grace Miller,Automation,Passed,3139,UAT,2/9/2026,None,None,None,85.9,97
+TC-QA-0844,Multi-channel Notification Routing (SMS/Email),User Profile Customization,Notification Service,Jack Lewis,Automation,Passed,1294,Dev-QA,1/26/2026,None,None,None,83.3,89.9
+TC-QA-0845,SQL Text Field Index Fragmentation Scan,Notification Engine Triggers,SQL Server DB,Grace Miller,Automation,Passed,3455,Staging,3/23/2026,None,None,None,86.9,85.4
+TC-QA-0846,JWT Expiration Payload Parse,User Profile Customization,API Gateway,David Kim,Automation,Passed,1273,Staging,2/23/2026,None,None,None,71.6,92.8
+TC-QA-0847,CORS Pre-flight Header Validation,User Profile Customization,API Gateway,Jack Lewis,Automation,Passed,1298,Dev-QA,2/23/2026,None,None,None,90.8,90.8
+TC-QA-0848,API Throttle Rate Limit Injection,Workflow Engine Routing,API Gateway,David Kim,Automation,Passed,1172,UAT,3/9/2026,None,None,None,86.1,89.7
+TC-QA-0849,GZIP Compression Payload Size Match,API Integration Layer,API Gateway,Mikhail Yakushev,Automation,Passed,492,Dev-QA,1/12/2026,None,None,None,93.1,94.1
+TC-QA-0850,GZIP Compression Payload Size Match,Payment Gateway Integration,API Gateway,Frank Green,Manual,Passed,1379,Staging,3/23/2026,None,None,None,33.2,76.2
+TC-QA-0851,Transaction Rollback on Middle-Tier Drop,API Integration Layer,SQL Server DB,Ivy Clark,Automation,Passed,7021,UAT,2/16/2026,None,None,None,77,98.5
+TC-QA-0852,UI Rendering Paint Latency Peak Load,Search & Advanced Filtering,Performance/Load,Jack Lewis,Automation,Failed,54044,Staging,2/16/2026,BUG-5184,Minor,Open,76.7,98.1
+TC-QA-0853,Nested Approval Engine Workflow,Session & Auth Handshake,Workflow Engine,David Kim,Automation,Passed,7951,UAT,2/23/2026,None,None,None,81.5,96.4
+TC-QA-0854,Mandatory Field Verification,Document Upload & Processing,UI Portal Form,Ivy Clark,Manual,Passed,867,Dev-QA,2/23/2026,None,None,None,35.8,65.2
+TC-QA-0855,Session Timeout Banner Rendering,User Request Form Submission,UI Portal Form,Grace Miller,Automation,Passed,1145,Dev-QA,2/9/2026,None,None,None,90.9,97.8
+TC-QA-0856,Record Init Database State PENDING,User Request Form Submission,SQL Server DB,David Kim,Automation,Failed,4679,Dev-QA,2/23/2026,BUG-5185,Major,Open,72.3,94.9
+TC-QA-0857,UI Rendering Paint Latency Peak Load,Audit Logs & Security,Performance/Load,Jack Lewis,Automation,Failed,51150,UAT,1/5/2026,BUG-5186,Minor,Open,75,86.9
+TC-QA-0858,UI Rendering Paint Latency Peak Load,Audit Logs & Security,Performance/Load,Grace Miller,Automation,Passed,31469,Load_Test,1/19/2026,None,None,None,82.3,87.7
+TC-QA-0859,1000 Concurrent Request Endurance Hold,System Configurations,Performance/Load,Frank Green,Automation,Passed,36259,Staging,2/16/2026,None,None,None,89.3,91.7
+TC-QA-0860,Notification Gateway Retry Queue Loop,User Request Form Submission,Notification Service,Ivy Clark,Automation,Passed,711,Load_Test,1/26/2026,None,None,None,75.6,85.2
+TC-QA-0861,Form Button Disabled Post-Click,Payment Gateway Integration,UI Portal Form,Ivy Clark,Manual,Passed,651,Staging,3/16/2026,None,None,None,35.9,64.2
+TC-QA-0862,Bulk Insert Transaction Isolation Level,Document Upload & Processing,SQL Server DB,Ivy Clark,Automation,Passed,3552,UAT,3/2/2026,None,None,None,81.1,91.4
+TC-QA-0863,API Throttle Rate Limit Injection,Document Upload & Processing,API Gateway,David Kim,Automation,Passed,1539,Load_Test,1/5/2026,None,None,None,80.9,91.9
+TC-QA-0864,Form Timeout Handler under Slow Network,System Configurations,UI Portal Form,Frank Green,Manual,Passed,647,Dev-QA,2/2/2026,None,None,None,56.9,72.5
+TC-QA-0865,XSS Injection Attempt on Form Fields,Notification Engine Triggers,UI Portal Form,Grace Miller,Automation,Blocked,1626,Dev-QA,3/16/2026,BUG-5187,Major,Open,79.3,94.5
+TC-QA-0866,Workflow State Storage Memory Leak Run,System Configurations,Performance/Load,Jack Lewis,Automation,Passed,32313,Dev-QA,2/16/2026,None,None,None,84.3,96.1
+TC-QA-0867,Multi-channel Notification Routing (SMS/Email),API Integration Layer,Notification Service,Grace Miller,Automation,Passed,454,Load_Test,1/26/2026,None,None,None,90.7,96.4
+TC-QA-0868,Notification Gateway Retry Queue Loop,User Request Form Submission,Notification Service,Anisul Islam Rohit,Automation,Passed,510,Dev-QA,1/26/2026,None,None,None,88,88.6
+TC-QA-0869,Spike Load Recovery Stabilization,Search & Advanced Filtering,Performance/Load,Mikhail Yakushev,Automation,Failed,47598,Load_Test,2/9/2026,BUG-5188,Minor,Open,84.6,99.7
+TC-QA-0870,Workflow State Storage Memory Leak Run,User Request Form Submission,Performance/Load,Anisul Islam Rohit,Automation,Failed,73420,Load_Test,1/26/2026,BUG-5189,Critical,Open,95.4,95
+TC-QA-0871,REST Endpoint Path Sanitization,API Integration Layer,API Gateway,Mikhail Yakushev,Automation,Failed,1267,Load_Test,1/19/2026,BUG-5190,Major,Open,71.8,92.4
+TC-QA-0872,JWT Expiration Payload Parse,System Configurations,API Gateway,Anisul Islam Rohit,Manual,Passed,555,UAT,1/26/2026,None,None,None,47.8,70.7
+TC-QA-0873,Transaction Rollback on Middle-Tier Drop,Audit Logs & Security,SQL Server DB,Mikhail Yakushev,Automation,Passed,6963,UAT,2/2/2026,None,None,None,78,91.7
+TC-QA-0874,Database Connection Pool Exhaustion Stress,Notification Engine Triggers,Performance/Load,Ivy Clark,Automation,Failed,40487,Load_Test,2/16/2026,BUG-5191,Major,Open,83.2,91.3
+TC-QA-0875,SMS Provider Queue Backup Fallback,User Profile Customization,Notification Service,Ivy Clark,Automation,Blocked,1187,Staging,2/16/2026,BUG-5192,Minor,Open,93.9,96.4
+TC-QA-0876,Parallel Workflow Fork Behavior,Session & Auth Handshake,Workflow Engine,Anisul Islam Rohit,Automation,Passed,5116,Dev-QA,2/2/2026,None,None,None,82.7,90.6
+TC-QA-0877,SMTP Gateway Timeout Graceful Recovery,Document Upload & Processing,Notification Service,David Kim,Automation,Passed,516,UAT,1/5/2026,None,None,None,70.4,92.5
+TC-QA-0878,Workflow State Storage Memory Leak Run,Search & Advanced Filtering,Performance/Load,Jack Lewis,Automation,Failed,81727,Load_Test,2/16/2026,BUG-5193,Major,Closed,87.9,93.8
+TC-QA-0879,Record Init Database State PENDING,Document Upload & Processing,SQL Server DB,Jack Lewis,Manual,Passed,8250,Dev-QA,2/2/2026,None,None,None,57,78.8
+TC-QA-0880,Parallel Workflow Fork Behavior,API Integration Layer,Workflow Engine,Jack Lewis,Automation,Passed,2472,Dev-QA,2/16/2026,None,None,None,90.6,88.6
+TC-QA-0881,Mandatory Field Verification,System Configurations,UI Portal Form,Mikhail Yakushev,Automation,Passed,1521,UAT,2/2/2026,None,None,None,87,99.2
+TC-QA-0882,CORS Pre-flight Header Validation,Workflow Engine Routing,API Gateway,Frank Green,Automation,Passed,530,Staging,1/12/2026,None,None,None,91.6,94.7
+TC-QA-0883,Concurrent DB Row Update Lock Check,API Integration Layer,SQL Server DB,Frank Green,Manual,Passed,9454,UAT,2/16/2026,None,None,None,35.8,70.7
+TC-QA-0884,Workflow State Storage Memory Leak Run,Session & Auth Handshake,Performance/Load,Frank Green,Automation,Passed,80172,Load_Test,3/23/2026,None,None,None,81.5,98.1
+TC-QA-0885,1000 Concurrent Request Endurance Hold,Document Upload & Processing,Performance/Load,Mikhail Yakushev,Automation,Passed,75140,UAT,2/2/2026,None,None,None,91,99
+TC-QA-0886,SQL Text Field Index Fragmentation Scan,Notification Engine Triggers,SQL Server DB,Grace Miller,Manual,Failed,2012,Staging,1/12/2026,BUG-5194,Minor,Closed,48.4,76.4
+TC-QA-0887,UI Rendering Paint Latency Peak Load,Audit Logs & Security,Performance/Load,Anisul Islam Rohit,Automation,Passed,47607,UAT,2/23/2026,None,None,None,75.1,99.2
+TC-QA-0888,Bulk Insert Transaction Isolation Level,Workflow Engine Routing,SQL Server DB,Anisul Islam Rohit,Automation,Passed,8628,UAT,2/2/2026,None,None,None,97.5,98.1
+TC-QA-0889,SQL Text Field Index Fragmentation Scan,Reporting & Data Analytics,SQL Server DB,Grace Miller,Manual,Passed,4401,Staging,2/16/2026,None,None,None,34.4,61.6
+TC-QA-0890,Special Character Validation in Fields,Search & Advanced Filtering,UI Portal Form,Jack Lewis,Automation,Passed,325,Load_Test,1/5/2026,None,None,None,88.6,96.8
+TC-QA-0891,File Upload Format Constraints Check,Workflow Engine Routing,UI Portal Form,Frank Green,Automation,Passed,1265,Load_Test,2/23/2026,None,None,None,83.3,90.1
+TC-QA-0892,Transaction Rollback on Middle-Tier Drop,Payment Gateway Integration,SQL Server DB,Mikhail Yakushev,Manual,Blocked,8691,UAT,2/9/2026,BUG-5195,Minor,Open,43.2,61.4
+TC-QA-0893,SLA Timer Breach Triggered Re-routing,Document Upload & Processing,Workflow Engine,Grace Miller,Automation,Passed,7941,UAT,1/5/2026,None,None,None,86.9,98
+TC-QA-0894,Nested Approval Engine Workflow,Workflow Engine Routing,Workflow Engine,David Kim,Automation,Passed,9125,Dev-QA,3/2/2026,None,None,None,81.6,87.8
+TC-QA-0895,Workflow State Storage Memory Leak Run,User Request Form Submission,Performance/Load,Mikhail Yakushev,Automation,Passed,35997,Load_Test,3/16/2026,None,None,None,82.4,94.1
+TC-QA-0896,SQL Text Field Index Fragmentation Scan,Reporting & Data Analytics,SQL Server DB,Ivy Clark,Automation,Passed,9630,Dev-QA,3/16/2026,None,None,None,94,98.6
+TC-QA-0897,UI Rendering Paint Latency Peak Load,Notification Engine Triggers,Performance/Load,Frank Green,Automation,Passed,48764,Staging,1/19/2026,None,None,None,83.9,86.3
+TC-QA-0898,Spike Load Recovery Stabilization,Search & Advanced Filtering,Performance/Load,Anisul Islam Rohit,Automation,Failed,45162,Dev-QA,3/16/2026,BUG-5196,Minor,Open,76.8,87.6
+TC-QA-0899,Bulk Export Memory Consumption Profiling,Document Upload & Processing,Performance/Load,Grace Miller,Automation,Passed,33830,UAT,2/9/2026,None,None,None,95.3,96.5
+TC-QA-0900,REST Endpoint Path Sanitization,Notification Engine Triggers,API Gateway,Mikhail Yakushev,Automation,Failed,452,UAT,3/2/2026,BUG-5197,Minor,Closed,72.5,95.4
+TC-QA-0901,GZIP Compression Payload Size Match,Reporting & Data Analytics,API Gateway,Grace Miller,Automation,Passed,1669,Dev-QA,3/16/2026,None,None,None,88,93.4
+TC-QA-0902,Stored Procedure Execution Deadlock Check,Workflow Engine Routing,SQL Server DB,David Kim,Automation,Passed,2730,Load_Test,3/23/2026,None,None,None,86.6,87.8
+TC-QA-0903,Mandatory Field Verification,Audit Logs & Security,UI Portal Form,Ivy Clark,Manual,Passed,1709,Staging,2/2/2026,None,None,None,32.2,73.4
+TC-QA-0904,Concurrent DB Row Update Lock Check,Payment Gateway Integration,SQL Server DB,Ivy Clark,Automation,Passed,8525,UAT,3/2/2026,None,None,None,88.6,93.9
+TC-QA-0905,Responsive Breakpoint Layout Adjustments,User Request Form Submission,UI Portal Form,Frank Green,Automation,Passed,807,UAT,2/23/2026,None,None,None,89,87.2
+TC-QA-0906,Conditional Branch Route Assignment,API Integration Layer,Workflow Engine,Mikhail Yakushev,Manual,Failed,2281,Load_Test,2/2/2026,BUG-5198,Minor,Open,39.6,81.2
+TC-QA-0907,SMTP Gateway Timeout Graceful Recovery,System Configurations,Notification Service,Ivy Clark,Automation,Passed,971,Staging,2/9/2026,None,None,None,74.3,95.8
+TC-QA-0908,Database Connection Pool Exhaustion Stress,API Integration Layer,Performance/Load,Mikhail Yakushev,Automation,Passed,53464,Dev-QA,3/23/2026,None,None,None,81,99.8
+TC-QA-0909,Database Connection Pool Exhaustion Stress,User Request Form Submission,Performance/Load,Frank Green,Automation,Passed,85369,Dev-QA,2/9/2026,None,None,None,91.2,90.9
+TC-QA-0910,SMS Provider Queue Backup Fallback,Notification Engine Triggers,Notification Service,David Kim,Automation,Passed,1322,Dev-QA,1/12/2026,None,None,None,73.7,96.3
+TC-QA-0911,Notification Gateway Retry Queue Loop,API Integration Layer,Notification Service,David Kim,Automation,Passed,481,Dev-QA,3/23/2026,None,None,None,83.5,98.5
+TC-QA-0912,API Throttle Rate Limit Injection,API Integration Layer,API Gateway,Anisul Islam Rohit,Automation,Passed,1686,Staging,3/16/2026,None,None,None,92,97.9
+TC-QA-0913,Concurrent DB Row Update Lock Check,System Configurations,SQL Server DB,Ivy Clark,Automation,Passed,4912,Dev-QA,1/19/2026,None,None,None,96.5,86.8
+TC-QA-0914,SMS Provider Queue Backup Fallback,Payment Gateway Integration,Notification Service,Frank Green,Automation,Passed,1679,Dev-QA,1/26/2026,None,None,None,71,88.6
+TC-QA-0915,Transaction Rollback on Middle-Tier Drop,API Integration Layer,SQL Server DB,Frank Green,Manual,Passed,5075,Staging,2/23/2026,None,None,None,60.3,76.3
+TC-QA-0916,Nested Approval Engine Workflow,System Configurations,Workflow Engine,Jack Lewis,Automation,Passed,2676,Staging,2/23/2026,None,None,None,88,98.6
+TC-QA-0917,JWT Expiration Payload Parse,Reporting & Data Analytics,API Gateway,Frank Green,Manual,Passed,1620,Staging,3/9/2026,None,None,None,36.3,72.1
+TC-QA-0918,Bulk Export Memory Consumption Profiling,User Profile Customization,Performance/Load,David Kim,Automation,Passed,43033,Load_Test,1/12/2026,None,None,None,90,97.9
+TC-QA-0919,Real-time Push Notification Latency Check,User Profile Customization,Notification Service,Ivy Clark,Automation,Passed,1298,Dev-QA,1/12/2026,None,None,None,84.5,93.8
+TC-QA-0920,Bulk Export Memory Consumption Profiling,Document Upload & Processing,Performance/Load,Ivy Clark,Automation,Passed,116321,Staging,1/19/2026,None,None,None,94.1,95.4
+TC-QA-0921,Session Timeout Banner Rendering,Payment Gateway Integration,UI Portal Form,Grace Miller,Manual,Passed,1536,UAT,1/12/2026,None,None,None,49.7,81.3
+TC-QA-0922,File Upload Format Constraints Check,Document Upload & Processing,UI Portal Form,Frank Green,Manual,Blocked,551,Dev-QA,3/16/2026,BUG-5199,Major,Open,38.7,61.2
+TC-QA-0923,Email Template Dynamic Field Merging,System Configurations,Notification Service,Frank Green,Automation,Passed,1623,Load_Test,3/2/2026,None,None,None,95.5,100
+TC-QA-0924,Multi-channel Notification Routing (SMS/Email),Session & Auth Handshake,Notification Service,Anisul Islam Rohit,Automation,Passed,291,UAT,1/5/2026,None,None,None,75.3,89.5
+TC-QA-0925,API Throttle Rate Limit Injection,Reporting & Data Analytics,API Gateway,Frank Green,Automation,Passed,463,Dev-QA,1/12/2026,None,None,None,85.4,88.9
+TC-QA-0926,Database Connection Pool Exhaustion Stress,User Profile Customization,Performance/Load,Jack Lewis,Automation,Passed,63315,Dev-QA,3/23/2026,None,None,None,74,88.1
+TC-QA-0927,Bulk Export Memory Consumption Profiling,Notification Engine Triggers,Performance/Load,Mikhail Yakushev,Automation,Passed,55248,Load_Test,3/9/2026,None,None,None,88.4,97.3
+TC-QA-0928,Real-time Push Notification Latency Check,User Profile Customization,Notification Service,Ivy Clark,Automation,Blocked,1088,Dev-QA,1/5/2026,BUG-5200,Major,Open,72.2,86.9
+TC-QA-0929,Responsive Breakpoint Layout Adjustments,Document Upload & Processing,UI Portal Form,David Kim,Automation,Passed,883,Load_Test,1/19/2026,None,None,None,94.3,88.4
+TC-QA-0930,File Upload Format Constraints Check,User Profile Customization,UI Portal Form,Anisul Islam Rohit,Manual,Passed,452,UAT,3/2/2026,None,None,None,55.5,67.7
+TC-QA-0931,Record Init Database State PENDING,Session & Auth Handshake,SQL Server DB,David Kim,Automation,Failed,6518,Load_Test,3/9/2026,BUG-5201,Critical,Open,74.8,99.2
+TC-QA-0932,Stored Procedure Execution Deadlock Check,Payment Gateway Integration,SQL Server DB,Ivy Clark,Automation,Blocked,6355,Dev-QA,2/23/2026,BUG-5202,Major,Open,77.3,95.3
+TC-QA-0933,Database Connection Pool Exhaustion Stress,System Configurations,Performance/Load,Anisul Islam Rohit,Automation,Passed,104391,Load_Test,1/5/2026,None,None,None,95.7,94.6
+TC-QA-0934,Nested Approval Engine Workflow,Workflow Engine Routing,Workflow Engine,Mikhail Yakushev,Automation,Passed,3499,Dev-QA,2/9/2026,None,None,None,92.4,92.5
+TC-QA-0935,State Transition Serialization Loop,Session & Auth Handshake,Workflow Engine,Mikhail Yakushev,Manual,Failed,4500,Staging,2/2/2026,BUG-5203,Major,Closed,59.6,75.9
+TC-QA-0936,Special Character Validation in Fields,Document Upload & Processing,UI Portal Form,Anisul Islam Rohit,Automation,Passed,785,Dev-QA,1/5/2026,None,None,None,96.9,91.4
+TC-QA-0937,SMS Provider Queue Backup Fallback,Audit Logs & Security,Notification Service,Jack Lewis,Automation,Passed,1586,Staging,2/16/2026,None,None,None,70.4,87.9
+TC-QA-0938,1000 Concurrent Request Endurance Hold,API Integration Layer,Performance/Load,Jack Lewis,Automation,Passed,75227,UAT,3/23/2026,None,None,None,88.5,98.8
+TC-QA-0939,SMS Provider Queue Backup Fallback,Reporting & Data Analytics,Notification Service,Grace Miller,Automation,Blocked,1581,UAT,1/19/2026,BUG-5204,Major,Open,80.3,87
+TC-QA-0940,Invalid State Transition Request Rejection,User Profile Customization,Workflow Engine,Jack Lewis,Automation,Passed,2927,Load_Test,3/16/2026,None,None,None,77,93.1
+TC-QA-0941,Form Timeout Handler under Slow Network,Notification Engine Triggers,UI Portal Form,Jack Lewis,Manual,Passed,1711,Dev-QA,1/26/2026,None,None,None,62.3,83.2
+TC-QA-0942,Spike Load Recovery Stabilization,User Request Form Submission,Performance/Load,Jack Lewis,Automation,Failed,93998,Staging,2/9/2026,BUG-5205,Critical,Closed,79.2,90.3
+TC-QA-0943,Mandatory Field Verification,API Integration Layer,UI Portal Form,Anisul Islam Rohit,Automation,Passed,1082,Dev-QA,1/26/2026,None,None,None,72.4,92.7
+TC-QA-0944,Malformed JSON Request Body Rejection,Document Upload & Processing,API Gateway,Jack Lewis,Automation,Passed,712,UAT,2/23/2026,None,None,None,81.1,89.5
+TC-QA-0945,Stored Procedure Execution Deadlock Check,Session & Auth Handshake,SQL Server DB,Ivy Clark,Automation,Blocked,7376,Dev-QA,1/19/2026,BUG-5206,Major,Open,79.9,91.5
+TC-QA-0946,Nested Approval Engine Workflow,Workflow Engine Routing,Workflow Engine,Grace Miller,Automation,Passed,5232,Dev-QA,3/23/2026,None,None,None,79.3,85.5
+TC-QA-0947,Database Connection Pool Exhaustion Stress,Search & Advanced Filtering,Performance/Load,Mikhail Yakushev,Automation,Blocked,45570,Dev-QA,2/23/2026,BUG-5207,Minor,Open,92.4,95.7
+TC-QA-0948,State Transition Serialization Loop,Session & Auth Handshake,Workflow Engine,Mikhail Yakushev,Manual,Failed,5185,UAT,1/12/2026,BUG-5208,Critical,Open,34.4,68.6
+TC-QA-0949,Special Character Validation in Fields,User Request Form Submission,UI Portal Form,Mikhail Yakushev,Automation,Passed,1422,Staging,2/16/2026,None,None,None,83.4,89.2
+TC-QA-0950,Responsive Breakpoint Layout Adjustments,Workflow Engine Routing,UI Portal Form,Frank Green,Manual,Passed,710,Load_Test,1/12/2026,None,None,None,60.2,84.9
+TC-QA-0951,REST Endpoint Path Sanitization,User Profile Customization,API Gateway,Anisul Islam Rohit,Automation,Failed,411,UAT,1/26/2026,BUG-5209,Minor,Open,76.4,87
+TC-QA-0952,Form Timeout Handler under Slow Network,Workflow Engine Routing,UI Portal Form,Anisul Islam Rohit,Automation,Passed,386,Staging,2/16/2026,None,None,None,81.4,89.6
+TC-QA-0953,Database Connection Pool Exhaustion Stress,Workflow Engine Routing,Performance/Load,David Kim,Automation,Passed,38041,Dev-QA,3/16/2026,None,None,None,71.4,86.7
+TC-QA-0954,SLA Timer Breach Triggered Re-routing,Payment Gateway Integration,Workflow Engine,Mikhail Yakushev,Automation,Passed,2389,UAT,1/5/2026,None,None,None,70,94.9
+TC-QA-0955,Conditional Branch Route Assignment,Notification Engine Triggers,Workflow Engine,Jack Lewis,Automation,Passed,5529,UAT,2/2/2026,None,None,None,96.6,90.5
+TC-QA-0956,Invalid State Transition Request Rejection,Document Upload & Processing,Workflow Engine,Mikhail Yakushev,Automation,Passed,9061,UAT,2/9/2026,None,None,None,80.1,97.2
+TC-QA-0957,Spike Load Recovery Stabilization,Session & Auth Handshake,Performance/Load,Frank Green,Automation,Passed,115229,Load_Test,1/26/2026,None,None,None,86.4,86.3
+TC-QA-0958,XSS Injection Attempt on Form Fields,System Configurations,UI Portal Form,Mikhail Yakushev,Automation,Passed,1540,UAT,1/26/2026,None,None,None,89.7,98.9
+TC-QA-0959,Mandatory Field Verification,Notification Engine Triggers,UI Portal Form,Mikhail Yakushev,Automation,Passed,1292,UAT,1/5/2026,None,None,None,73.6,91.3
+TC-QA-0960,Workflow State Storage Memory Leak Run,Session & Auth Handshake,Performance/Load,David Kim,Automation,Failed,88783,Staging,2/16/2026,BUG-5210,Critical,Closed,81.7,99
+TC-QA-0961,Notification Gateway Retry Queue Loop,Audit Logs & Security,Notification Service,Frank Green,Automation,Blocked,793,Staging,3/9/2026,BUG-5211,Major,Open,92.2,95.4
+TC-QA-0962,UI Rendering Paint Latency Peak Load,Search & Advanced Filtering,Performance/Load,Mikhail Yakushev,Automation,Passed,97303,Staging,1/19/2026,None,None,None,82.3,92.6
+TC-QA-0963,SMTP Gateway Timeout Graceful Recovery,User Profile Customization,Notification Service,Frank Green,Automation,Passed,527,UAT,3/9/2026,None,None,None,89.5,98.2
+TC-QA-0964,SMTP Gateway Timeout Graceful Recovery,Session & Auth Handshake,Notification Service,Mikhail Yakushev,Automation,Passed,651,Load_Test,3/23/2026,None,None,None,77.5,86.8
+TC-QA-0965,JWT Expiration Payload Parse,Session & Auth Handshake,API Gateway,Anisul Islam Rohit,Automation,Passed,768,UAT,2/2/2026,None,None,None,94.5,85.8
+TC-QA-0966,API Throttle Rate Limit Injection,Session & Auth Handshake,API Gateway,Grace Miller,Automation,Passed,1439,Load_Test,2/9/2026,None,None,None,72.3,95.6
+TC-QA-0967,Email Template Dynamic Field Merging,API Integration Layer,Notification Service,Anisul Islam Rohit,Automation,Passed,864,Staging,3/16/2026,None,None,None,92.8,97.4
+TC-QA-0968,REST Endpoint Path Sanitization,Notification Engine Triggers,API Gateway,Anisul Islam Rohit,Automation,Passed,1546,Staging,3/23/2026,None,None,None,90.9,90.7
+TC-QA-0969,Workflow State Storage Memory Leak Run,System Configurations,Performance/Load,Mikhail Yakushev,Automation,Passed,57021,Dev-QA,1/26/2026,None,None,None,79.1,88.1
+TC-QA-0970,UI Rendering Paint Latency Peak Load,Audit Logs & Security,Performance/Load,Jack Lewis,Automation,Passed,86872,Load_Test,1/19/2026,None,None,None,95.3,86.4
+TC-QA-0971,Malformed JSON Request Body Rejection,Audit Logs & Security,API Gateway,Ivy Clark,Manual,Passed,1204,UAT,3/16/2026,None,None,None,39.9,67.8
+TC-QA-0972,Malformed JSON Request Body Rejection,System Configurations,API Gateway,Frank Green,Automation,Passed,1073,UAT,2/23/2026,None,None,None,95.5,99.6
+TC-QA-0973,XSS Injection Attempt on Form Fields,API Integration Layer,UI Portal Form,Ivy Clark,Automation,Passed,973,Dev-QA,1/5/2026,None,None,None,73.1,85.2
+TC-QA-0974,1000 Concurrent Request Endurance Hold,Audit Logs & Security,Performance/Load,Anisul Islam Rohit,Automation,Passed,65082,UAT,3/16/2026,None,None,None,86.8,96.9
+TC-QA-0975,File Upload Format Constraints Check,Session & Auth Handshake,UI Portal Form,Mikhail Yakushev,Automation,Failed,374,UAT,1/19/2026,BUG-5212,Major,Closed,92.8,89.6
+TC-QA-0976,Stored Procedure Execution Deadlock Check,Workflow Engine Routing,SQL Server DB,Grace Miller,Automation,Passed,6453,Staging,1/5/2026,None,None,None,93.1,86.5
+TC-QA-0977,Invalid State Transition Request Rejection,Session & Auth Handshake,Workflow Engine,Ivy Clark,Automation,Passed,3837,Staging,1/26/2026,None,None,None,82,87.2
+TC-QA-0978,Workflow State Storage Memory Leak Run,Workflow Engine Routing,Performance/Load,Mikhail Yakushev,Automation,Passed,44733,Dev-QA,1/19/2026,None,None,None,97.7,88.4
+TC-QA-0979,SLA Timer Breach Triggered Re-routing,Document Upload & Processing,Workflow Engine,Frank Green,Automation,Passed,9575,Staging,1/5/2026,None,None,None,86.9,87.7
+TC-QA-0980,Email Template Dynamic Field Merging,Reporting & Data Analytics,Notification Service,Anisul Islam Rohit,Automation,Passed,1566,Load_Test,3/9/2026,None,None,None,92.9,90.2
+TC-QA-0981,Form Timeout Handler under Slow Network,Search & Advanced Filtering,UI Portal Form,Mikhail Yakushev,Manual,Passed,1656,Staging,1/5/2026,None,None,None,60.2,84.5
+TC-QA-0982,Database Connection Pool Exhaustion Stress,Payment Gateway Integration,Performance/Load,Anisul Islam Rohit,Automation,Passed,92709,Staging,1/12/2026,None,None,None,86.2,99.4
+TC-QA-0983,Conditional Branch Route Assignment,Document Upload & Processing,Workflow Engine,David Kim,Manual,Passed,5154,Load_Test,2/9/2026,None,None,None,47.3,72
+TC-QA-0984,Bulk Insert Transaction Isolation Level,System Configurations,SQL Server DB,David Kim,Automation,Blocked,9549,UAT,2/16/2026,BUG-5213,Minor,Open,85.4,93.1
+TC-QA-0985,Bulk Insert Transaction Isolation Level,Session & Auth Handshake,SQL Server DB,Ivy Clark,Automation,Passed,7856,Dev-QA,3/2/2026,None,None,None,86.2,95.4
+TC-QA-0986,Database Connection Pool Exhaustion Stress,API Integration Layer,Performance/Load,Grace Miller,Automation,Passed,30375,UAT,1/5/2026,None,None,None,80.1,92.1
+TC-QA-0987,JWT Expiration Payload Parse,User Request Form Submission,API Gateway,David Kim,Automation,Failed,1794,UAT,2/2/2026,BUG-5214,Major,Open,93.4,93.3
+TC-QA-0988,Stored Procedure Execution Deadlock Check,Workflow Engine Routing,SQL Server DB,Ivy Clark,Automation,Passed,2960,UAT,2/16/2026,None,None,None,90.5,95.4
+TC-QA-0989,Transaction Rollback on Middle-Tier Drop,User Request Form Submission,SQL Server DB,Mikhail Yakushev,Automation,Passed,5906,UAT,1/5/2026,None,None,None,74.1,87.1
+TC-QA-0990,JWT Expiration Payload Parse,User Request Form Submission,API Gateway,Frank Green,Manual,Passed,1767,UAT,2/23/2026,None,None,None,56,78.7
+TC-QA-0991,Workflow State Storage Memory Leak Run,Search & Advanced Filtering,Performance/Load,Jack Lewis,Automation,Passed,88192,Staging,2/2/2026,None,None,None,73.1,85.9
+TC-QA-0992,1000 Concurrent Request Endurance Hold,Reporting & Data Analytics,Performance/Load,Ivy Clark,Automation,Passed,51017,Staging,2/16/2026,None,None,None,93.3,95.2
+TC-QA-0993,Bulk Insert Transaction Isolation Level,API Integration Layer,SQL Server DB,Ivy Clark,Automation,Passed,4507,UAT,2/16/2026,None,None,None,96.1,89.1
+TC-QA-0994,Responsive Breakpoint Layout Adjustments,Audit Logs & Security,UI Portal Form,Mikhail Yakushev,Manual,Passed,648,Dev-QA,1/19/2026,None,None,None,58.8,84.4
+TC-QA-0995,Notification Gateway Retry Queue Loop,API Integration Layer,Notification Service,Jack Lewis,Automation,Passed,1029,Dev-QA,1/19/2026,None,None,None,71.5,90.6
+TC-QA-0996,Stored Procedure Execution Deadlock Check,Notification Engine Triggers,SQL Server DB,Grace Miller,Automation,Passed,8379,Load_Test,1/5/2026,None,None,None,76.7,87.4
+TC-QA-0997,File Upload Format Constraints Check,Workflow Engine Routing,UI Portal Form,Frank Green,Manual,Failed,584,UAT,3/16/2026,BUG-5215,Critical,Open,39.4,84.4
+TC-QA-0998,Notification Gateway Retry Queue Loop,Reporting & Data Analytics,Notification Service,Ivy Clark,Automation,Passed,390,Load_Test,1/5/2026,None,None,None,97.5,96.3
+TC-QA-0999,Bulk Insert Transaction Isolation Level,Workflow Engine Routing,SQL Server DB,David Kim,Automation,Passed,9977,UAT,3/23/2026,None,None,None,88.9,90
+TC-QA-1000,Spike Load Recovery Stabilization,Document Upload & Processing,Performance/Load,Frank Green,Automation,Failed,49685,Staging,3/9/2026,BUG-5216,Major,Closed,86.4,97.8

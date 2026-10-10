@@ -1,0 +1,1001 @@
+Test Case ID,Test Title,Product Module,Component Layer,Tester Name,Run Type,Status,Duration (ms),Environment,Week Start Date,Linked Defect ID,Defect Severity,Defect Status,Automation Coverage (%),Execution Percentage (%)
+TC-00001,User Access: assign role,User Access,SQL Server DB,Jordan Patel,API Contract,Passed,957,Staging,2026-01-26,None,None,None,84,98
+TC-00002,Reporting: aggregate weekly metrics,Reporting,UI,Jamie Rivera,Performance,Passed,8420,UAT,2026-04-20,None,None,None,40,99
+TC-00003,Integrations: retry webhook,Integrations,UI,Riley Morgan,Performance,Failed,4901,Pre-Production,2026-04-06,None,None,None,73,86
+TC-00004,Test Execution: cancel execution,Test Execution,Workflow Engine,Jordan Patel,Black Box,Passed,6629,Pre-Production,2025-11-24,None,None,None,84,84
+TC-00005,Test Execution: cancel execution,Test Execution,API,Riley Morgan,UI Functional,Passed,2230,Staging,2025-11-10,None,None,None,71,72
+TC-00006,Workflow Engine: resume workflow,Workflow Engine,Workflow Engine,Drew Bennett,Workflow,Passed,5738,QA,2025-12-29,None,None,None,74,97
+TC-00007,Workflow Engine: handle timeout,Workflow Engine,SQL Server DB,Quinn Foster,Workflow,Passed,495,Staging,2025-10-20,None,None,None,63,97
+TC-00008,Test Execution: retry failed case,Test Execution,Workflow Engine,Quinn Foster,Regression,Passed,5664,UAT,2026-05-11,None,None,None,63,79
+TC-00009,Integrations: validate payload,Integrations,Workflow Engine,Avery Chen,API Contract,Passed,1425,UAT,2026-03-16,None,None,None,70,93
+TC-00010,Configuration: save environment,Configuration,API,Avery Chen,Workflow,Blocked,2124,QA,2026-02-16,DEF-00010,High,Fixed,75,63
+TC-00011,User Access: enforce permissions,User Access,API,Jamie Rivera,Black Box,Passed,987,QA,2025-11-17,DEF-00011,Low,Open,88,94
+TC-00012,Data Import: reject malformed row,Data Import,SQL Server DB,Drew Bennett,Performance,Failed,15421,UAT,2026-08-10,DEF-00012,High,Closed,73,78
+TC-00013,User Access: enforce permissions,User Access,SQL Server DB,Jordan Patel,Black Box,Passed,25,UAT,2026-03-16,None,None,None,87,77
+TC-00014,Reporting: aggregate weekly metrics,Reporting,Workflow Engine,Jamie Rivera,Regression,Passed,1350,Pre-Production,2026-06-08,None,None,None,60,73
+TC-00015,Integrations: validate payload,Integrations,UI,Drew Bennett,API Contract,Passed,1040,UAT,2026-08-17,None,None,None,43,86
+TC-00016,User Access: assign role,User Access,UI,Drew Bennett,API Contract,Passed,1919,UAT,2026-01-05,None,None,None,44,82
+TC-00017,Workflow Engine: route approval,Workflow Engine,API,Skyler James,API Contract,Passed,410,QA,2025-12-01,None,None,None,72,79
+TC-00018,Reporting: export report,Reporting,Workflow Engine,Quinn Foster,Integration,Passed,1438,Staging,2026-04-06,None,None,None,81,95
+TC-00019,Workflow Engine: resume workflow,Workflow Engine,UI,Skyler James,Workflow,Passed,5246,UAT,2026-07-06,None,None,None,74,100
+TC-00020,Release Management: rollback build,Release Management,UI,Avery Chen,UI Functional,In Progress,5779,Staging,2026-05-11,None,None,None,76,38
+TC-00021,Test Execution: cancel execution,Test Execution,UI,Avery Chen,Workflow,Failed,5413,UAT,2025-12-01,DEF-00021,Medium,Closed,57,79
+TC-00022,Configuration: apply feature flag,Configuration,UI,Jordan Patel,Regression,Failed,4708,Pre-Production,2026-02-09,DEF-00022,Critical,Closed,38,98
+TC-00023,Data Import: validate CSV,Data Import,API,Quinn Foster,Integration,Passed,1616,Pre-Production,2026-09-07,None,None,None,88,98
+TC-00024,Integrations: sync issue tracker,Integrations,API,Drew Bennett,Performance,Passed,3623,Staging,2026-05-25,None,None,None,77,100
+TC-00025,Reporting: export report,Reporting,Workflow Engine,Riley Morgan,Performance,Passed,15103,Staging,2026-01-26,None,None,None,88,89
+TC-00026,Configuration: save environment,Configuration,Workflow Engine,Quinn Foster,Workflow,Failed,4215,Pre-Production,2026-07-27,DEF-00026,Low,Closed,86,85
+TC-00027,Test Execution: start test run,Test Execution,UI,Casey Nguyen,API Contract,Passed,1214,Staging,2026-02-09,None,None,None,45,73
+TC-00028,User Access: revoke access,User Access,API,Drew Bennett,Black Box,Passed,946,Staging,2025-11-17,None,None,None,79,89
+TC-00029,User Access: enforce permissions,User Access,UI,Morgan Reed,Regression,Failed,881,Staging,2026-06-15,None,None,None,48,96
+TC-00030,Configuration: save environment,Configuration,Workflow Engine,Quinn Foster,UI Functional,Passed,925,UAT,2026-09-28,None,None,None,52,76
+TC-00031,Integrations: validate payload,Integrations,API,Avery Chen,Workflow,Passed,409,UAT,2025-11-24,None,None,None,62,83
+TC-00032,Configuration: apply feature flag,Configuration,Workflow Engine,Jordan Patel,Performance,In Progress,6848,UAT,2026-04-27,None,None,None,88,80
+TC-00033,Integrations: retry webhook,Integrations,UI,Casey Nguyen,Integration,Passed,6444,Staging,2026-02-16,None,None,None,49,97
+TC-00034,Release Management: approve release,Release Management,UI,Drew Bennett,Workflow,Passed,4742,Staging,2025-12-29,None,None,None,58,90
+TC-00035,Defect Tracking: update severity,Defect Tracking,Workflow Engine,Jordan Patel,Regression,Passed,2915,UAT,2026-03-23,None,None,None,66,88
+TC-00036,Data Import: reject malformed row,Data Import,UI,Taylor Brooks,Workflow,Passed,1573,Staging,2026-08-03,None,None,None,69,96
+TC-00037,Data Import: validate CSV,Data Import,API,Quinn Foster,Regression,Passed,1596,UAT,2025-12-15,None,None,None,60,93
+TC-00038,Integrations: sync issue tracker,Integrations,SQL Server DB,Jordan Patel,API Contract,Passed,624,QA,2026-03-23,None,None,None,80,85
+TC-00039,Notifications: respect preferences,Notifications,UI,Jamie Rivera,Workflow,Passed,4358,QA,2026-02-23,None,None,None,56,85
+TC-00040,Configuration: apply feature flag,Configuration,API,Avery Chen,Performance,In Progress,2614,Pre-Production,2025-11-03,None,None,None,94,79
+TC-00041,User Access: enforce permissions,User Access,UI,Skyler James,Workflow,Passed,5889,Staging,2026-09-28,None,None,None,40,89
+TC-00042,Workflow Engine: resume workflow,Workflow Engine,UI,Riley Morgan,Regression,Blocked,3047,QA,2026-02-09,DEF-00042,Medium,Closed,47,30
+TC-00043,Reporting: export report,Reporting,Workflow Engine,Taylor Brooks,API Contract,Passed,2726,QA,2026-08-10,None,None,None,54,72
+TC-00044,Defect Tracking: update severity,Defect Tracking,Workflow Engine,Jamie Rivera,Black Box,Passed,6002,Staging,2026-06-01,None,None,None,83,90
+TC-00045,Data Import: import large file,Data Import,API,Avery Chen,Performance,Passed,8405,UAT,2026-02-02,None,None,None,65,77
+TC-00046,Test Execution: cancel execution,Test Execution,API,Quinn Foster,Performance,Passed,15647,Pre-Production,2026-08-03,None,None,None,65,75
+TC-00047,Release Management: rollback build,Release Management,UI,Morgan Reed,API Contract,Failed,6126,QA,2026-01-26,DEF-00047,High,Fixed,48,73
+TC-00048,Integrations: sync issue tracker,Integrations,API,Skyler James,Black Box,Passed,442,Staging,2026-06-01,None,None,None,80,82
+TC-00049,Reporting: filter dashboard,Reporting,Workflow Engine,Skyler James,Workflow,Passed,6067,Pre-Production,2026-06-15,None,None,None,81,79
+TC-00050,User Access: revoke access,User Access,SQL Server DB,Taylor Brooks,Workflow,Passed,1235,QA,2026-02-09,None,None,None,55,75
+TC-00051,User Access: enforce permissions,User Access,SQL Server DB,Morgan Reed,Regression,Passed,1040,Staging,2026-08-31,None,None,None,91,100
+TC-00052,Data Import: validate CSV,Data Import,API,Quinn Foster,Black Box,Passed,1215,UAT,2026-08-17,None,None,None,86,79
+TC-00053,Configuration: save environment,Configuration,Workflow Engine,Morgan Reed,Integration,Passed,5708,QA,2026-08-03,None,None,None,52,76
+TC-00054,Test Execution: cancel execution,Test Execution,UI,Casey Nguyen,Performance,Blocked,7743,UAT,2026-02-09,DEF-00054,Critical,Reopened,60,63
+TC-00055,Release Management: approve release,Release Management,SQL Server DB,Jordan Patel,API Contract,Passed,745,Staging,2026-03-23,None,None,None,66,87
+TC-00056,Test Execution: start test run,Test Execution,UI,Quinn Foster,Performance,Passed,15142,UAT,2026-09-07,None,None,None,54,97
+TC-00057,Reporting: export report,Reporting,UI,Riley Morgan,Black Box,Passed,2625,QA,2026-01-26,None,None,None,41,84
+TC-00058,Configuration: apply feature flag,Configuration,UI,Drew Bennett,Integration,Blocked,3072,QA,2026-05-04,DEF-00058,High,Reopened,61,78
+TC-00059,Configuration: validate policy,Configuration,UI,Quinn Foster,Performance,Passed,15804,QA,2026-05-04,None,None,None,71,74
+TC-00060,Data Import: import large file,Data Import,UI,Riley Morgan,Performance,Failed,13567,Pre-Production,2025-12-01,DEF-00060,Critical,Reopened,39,75
+TC-00061,Test Execution: start test run,Test Execution,UI,Taylor Brooks,Performance,Passed,16077,Pre-Production,2026-02-09,None,None,None,46,90
+TC-00062,User Access: enforce permissions,User Access,SQL Server DB,Jordan Patel,Integration,In Progress,940,Pre-Production,2026-09-14,None,None,None,90,33
+TC-00063,Data Import: validate CSV,Data Import,SQL Server DB,Jordan Patel,Black Box,Passed,837,QA,2026-07-27,None,None,None,68,86
+TC-00064,Test Execution: cancel execution,Test Execution,API,Avery Chen,Black Box,Passed,1606,Pre-Production,2026-02-02,None,None,None,82,75
+TC-00065,Notifications: respect preferences,Notifications,Workflow Engine,Jamie Rivera,Black Box,Passed,1963,UAT,2026-08-31,None,None,None,63,77
+TC-00066,Defect Tracking: update severity,Defect Tracking,SQL Server DB,Skyler James,Black Box,Failed,1034,Staging,2026-04-06,DEF-00066,Critical,Open,84,90
+TC-00067,Data Import: import large file,Data Import,UI,Jamie Rivera,Regression,Passed,4452,Staging,2026-02-09,None,None,None,60,78
+TC-00068,Release Management: rollback build,Release Management,API,Drew Bennett,Performance,Failed,17733,Pre-Production,2025-11-03,DEF-00068,High,Reopened,87,83
+TC-00069,Defect Tracking: link defect,Defect Tracking,UI,Morgan Reed,Performance,Passed,10064,UAT,2026-01-19,None,None,None,72,83
+TC-00070,Workflow Engine: resume workflow,Workflow Engine,UI,Morgan Reed,UI Functional,Blocked,3146,QA,2025-10-20,DEF-00070,Low,Fixed,56,76
+TC-00071,Workflow Engine: handle timeout,Workflow Engine,UI,Jamie Rivera,Performance,Passed,15326,QA,2026-08-10,None,None,None,51,100
+TC-00072,User Access: revoke access,User Access,Workflow Engine,Casey Nguyen,Integration,Passed,653,Pre-Production,2026-08-03,None,None,None,55,99
+TC-00073,Test Execution: retry failed case,Test Execution,UI,Riley Morgan,UI Functional,Passed,3002,Staging,2026-09-14,None,None,None,72,93
+TC-00074,Data Import: reject malformed row,Data Import,API,Avery Chen,API Contract,Failed,991,UAT,2026-03-09,DEF-00074,Low,Reopened,77,90
+TC-00075,Test Execution: cancel execution,Test Execution,API,Jamie Rivera,Regression,Passed,1479,Pre-Production,2026-09-14,None,None,None,69,100
+TC-00076,Defect Tracking: close resolved defect,Defect Tracking,API,Taylor Brooks,Black Box,Passed,1036,Staging,2026-03-09,None,None,None,76,82
+TC-00077,Data Import: import large file,Data Import,UI,Casey Nguyen,Workflow,Skipped,4318,Staging,2026-04-20,None,None,None,67,72
+TC-00078,Configuration: save environment,Configuration,Workflow Engine,Jamie Rivera,API Contract,Failed,2789,Pre-Production,2025-10-13,DEF-00078,Medium,Open,51,72
+TC-00079,Defect Tracking: link defect,Defect Tracking,Workflow Engine,Morgan Reed,Regression,Passed,365,QA,2025-12-22,None,None,None,67,79
+TC-00080,Defect Tracking: update severity,Defect Tracking,Workflow Engine,Casey Nguyen,Black Box,Blocked,1479,Staging,2026-02-09,None,None,None,68,67
+TC-00081,Configuration: save environment,Configuration,UI,Jamie Rivera,Performance,Passed,4906,QA,2026-08-31,None,None,None,60,87
+TC-00082,Reporting: export report,Reporting,API,Drew Bennett,Black Box,Failed,405,Staging,2026-05-04,DEF-00082,Critical,Open,75,87
+TC-00083,User Access: enforce permissions,User Access,SQL Server DB,Skyler James,API Contract,Skipped,1107,QA,2026-09-07,None,None,None,88,75
+TC-00084,User Access: enforce permissions,User Access,SQL Server DB,Morgan Reed,Regression,Passed,1098,QA,2026-08-24,None,None,None,62,94
+TC-00085,Data Import: import large file,Data Import,Workflow Engine,Jamie Rivera,UI Functional,Passed,4029,UAT,2025-10-13,None,None,None,59,82
+TC-00086,Data Import: reject malformed row,Data Import,API,Avery Chen,Integration,Blocked,1333,QA,2026-10-05,DEF-00086,Medium,In Progress,80,51
+TC-00087,Reporting: export report,Reporting,UI,Morgan Reed,Performance,Failed,8668,Staging,2026-03-16,None,None,None,65,97
+TC-00088,Integrations: sync issue tracker,Integrations,UI,Jordan Patel,Black Box,Passed,4609,UAT,2025-12-01,None,None,None,60,75
+TC-00089,Workflow Engine: route approval,Workflow Engine,UI,Quinn Foster,Workflow,Passed,3159,Staging,2026-08-03,None,None,None,39,76
+TC-00090,Test Execution: retry failed case,Test Execution,API,Skyler James,Black Box,Passed,1526,Staging,2026-09-28,None,None,None,85,96
+TC-00091,Test Execution: retry failed case,Test Execution,UI,Taylor Brooks,Integration,Passed,2242,Staging,2026-06-29,None,None,None,65,81
+TC-00092,Defect Tracking: link defect,Defect Tracking,SQL Server DB,Jamie Rivera,Integration,Passed,255,Staging,2026-02-02,None,None,None,73,90
+TC-00093,User Access: revoke access,User Access,UI,Jordan Patel,Black Box,Passed,6327,UAT,2026-07-20,None,None,None,65,91
+TC-00094,Workflow Engine: resume workflow,Workflow Engine,Workflow Engine,Jamie Rivera,UI Functional,Failed,3742,Staging,2025-10-13,DEF-00094,Low,Open,70,82
+TC-00095,Configuration: apply feature flag,Configuration,UI,Morgan Reed,UI Functional,Passed,990,Staging,2026-02-16,None,None,None,54,86
+TC-00096,User Access: enforce permissions,User Access,UI,Quinn Foster,Performance,Passed,12781,Pre-Production,2026-09-28,None,None,None,73,84
+TC-00097,Integrations: validate payload,Integrations,API,Skyler James,UI Functional,Skipped,1015,Pre-Production,2026-04-13,None,None,None,96,94
+TC-00098,Defect Tracking: update severity,Defect Tracking,UI,Skyler James,Performance,Passed,11322,QA,2026-01-05,None,None,None,67,79
+TC-00099,Notifications: send alert,Notifications,SQL Server DB,Drew Bennett,Regression,Failed,1236,Pre-Production,2026-05-25,DEF-00099,Critical,In Progress,83,96
+TC-00100,Integrations: validate payload,Integrations,UI,Jordan Patel,Regression,Passed,5550,QA,2025-12-15,None,None,None,50,100
+TC-00101,User Access: assign role,User Access,UI,Riley Morgan,Black Box,Passed,3503,UAT,2026-02-23,None,None,None,51,93
+TC-00102,Test Execution: cancel execution,Test Execution,Workflow Engine,Quinn Foster,Regression,Passed,6995,QA,2026-06-15,None,None,None,63,100
+TC-00103,Release Management: create release,Release Management,Workflow Engine,Jordan Patel,UI Functional,Failed,3294,Staging,2026-07-13,DEF-00103,Critical,Closed,70,99
+TC-00104,Test Execution: start test run,Test Execution,SQL Server DB,Avery Chen,Workflow,In Progress,1184,Pre-Production,2026-09-07,None,None,None,66,77
+TC-00105,Integrations: validate payload,Integrations,UI,Skyler James,UI Functional,Blocked,2631,QA,2026-09-07,None,None,None,55,69
+TC-00106,Defect Tracking: update severity,Defect Tracking,Workflow Engine,Avery Chen,Workflow,Passed,1610,UAT,2026-09-28,None,None,None,67,100
+TC-00107,Release Management: approve release,Release Management,UI,Jamie Rivera,Regression,Passed,4573,UAT,2026-08-31,None,None,None,38,81
+TC-00108,Defect Tracking: update severity,Defect Tracking,API,Skyler James,Regression,Passed,1555,Pre-Production,2026-07-20,None,None,None,79,74
+TC-00109,Integrations: sync issue tracker,Integrations,API,Skyler James,Integration,In Progress,135,QA,2025-12-29,None,None,None,97,56
+TC-00110,Test Execution: start test run,Test Execution,UI,Jordan Patel,UI Functional,Passed,1208,QA,2026-03-30,None,None,None,45,89
+TC-00111,Release Management: create release,Release Management,UI,Avery Chen,Workflow,Passed,466,QA,2026-05-04,None,None,None,47,76
+TC-00112,Release Management: create release,Release Management,UI,Jordan Patel,Workflow,Failed,1115,Staging,2026-03-23,DEF-00112,Low,In Progress,71,76
+TC-00113,Test Execution: retry failed case,Test Execution,Workflow Engine,Casey Nguyen,UI Functional,Passed,4899,Staging,2025-11-17,None,None,None,86,97
+TC-00114,Integrations: validate payload,Integrations,UI,Casey Nguyen,Regression,Passed,6255,UAT,2026-05-25,None,None,None,69,78
+TC-00115,Reporting: filter dashboard,Reporting,API,Skyler James,Black Box,Passed,2091,UAT,2026-04-20,None,None,None,90,88
+TC-00116,Release Management: approve release,Release Management,SQL Server DB,Casey Nguyen,Performance,In Progress,5932,Staging,2026-01-12,None,None,None,71,34
+TC-00117,Release Management: create release,Release Management,SQL Server DB,Riley Morgan,Integration,Passed,769,Pre-Production,2025-11-17,None,None,None,70,90
+TC-00118,Defect Tracking: link defect,Defect Tracking,UI,Jordan Patel,Regression,Failed,5909,Staging,2026-10-05,DEF-00118,Low,Reopened,70,75
+TC-00119,User Access: revoke access,User Access,Workflow Engine,Casey Nguyen,API Contract,Failed,4137,UAT,2026-09-28,None,None,None,73,72
+TC-00120,Integrations: validate payload,Integrations,SQL Server DB,Drew Bennett,Performance,Passed,9975,Staging,2025-11-10,None,None,None,87,98
+TC-00121,Notifications: send alert,Notifications,Workflow Engine,Drew Bennett,Workflow,Failed,2366,Staging,2026-08-31,DEF-00121,Critical,Closed,70,86
+TC-00122,Configuration: apply feature flag,Configuration,SQL Server DB,Casey Nguyen,Integration,Passed,910,UAT,2026-07-20,None,None,None,70,98
+TC-00123,Reporting: aggregate weekly metrics,Reporting,Workflow Engine,Jamie Rivera,Integration,Failed,313,QA,2025-10-27,DEF-00123,High,In Progress,68,93
+TC-00124,Reporting: export report,Reporting,Workflow Engine,Riley Morgan,Workflow,Passed,816,Staging,2025-12-29,None,None,None,59,77
+TC-00125,Release Management: create release,Release Management,UI,Drew Bennett,Regression,Passed,761,Staging,2026-09-21,None,None,None,48,80
+TC-00126,Test Execution: retry failed case,Test Execution,UI,Jordan Patel,Regression,Passed,549,Pre-Production,2026-06-22,None,None,None,57,85
+TC-00127,Defect Tracking: link defect,Defect Tracking,API,Jamie Rivera,Regression,Passed,448,Pre-Production,2025-11-10,None,None,None,78,94
+TC-00128,Defect Tracking: link defect,Defect Tracking,Workflow Engine,Morgan Reed,API Contract,Failed,3587,UAT,2026-06-22,None,None,None,82,86
+TC-00129,Reporting: aggregate weekly metrics,Reporting,API,Riley Morgan,API Contract,Passed,1503,Pre-Production,2025-10-13,None,None,None,60,82
+TC-00130,Test Execution: retry failed case,Test Execution,SQL Server DB,Quinn Foster,Black Box,Passed,964,Pre-Production,2025-11-03,None,None,None,67,100
+TC-00131,Reporting: aggregate weekly metrics,Reporting,UI,Quinn Foster,Integration,Passed,1076,Staging,2025-12-08,None,None,None,46,83
+TC-00132,Data Import: reject malformed row,Data Import,Workflow Engine,Morgan Reed,UI Functional,Failed,5153,Pre-Production,2026-07-06,None,None,None,76,91
+TC-00133,Integrations: validate payload,Integrations,API,Drew Bennett,API Contract,Passed,1266,QA,2026-07-20,None,None,None,81,100
+TC-00134,Configuration: validate policy,Configuration,Workflow Engine,Taylor Brooks,UI Functional,Passed,739,Pre-Production,2026-06-29,None,None,None,55,75
+TC-00135,Defect Tracking: update severity,Defect Tracking,Workflow Engine,Morgan Reed,Workflow,Passed,6894,Pre-Production,2025-10-06,None,None,None,88,98
+TC-00136,Workflow Engine: resume workflow,Workflow Engine,UI,Morgan Reed,Workflow,Passed,5449,Pre-Production,2025-11-24,None,None,None,55,97
+TC-00137,Notifications: suppress duplicate,Notifications,Workflow Engine,Jamie Rivera,Workflow,Passed,2289,UAT,2026-01-26,None,None,None,71,88
+TC-00138,Notifications: suppress duplicate,Notifications,Workflow Engine,Jamie Rivera,Workflow,Passed,1825,Pre-Production,2025-10-06,None,None,None,55,83
+TC-00139,Notifications: send alert,Notifications,API,Riley Morgan,Performance,Passed,4855,UAT,2026-08-03,None,None,None,85,90
+TC-00140,Test Execution: cancel execution,Test Execution,UI,Skyler James,Integration,Passed,1827,Staging,2025-10-13,None,None,None,68,86
+TC-00141,Workflow Engine: route approval,Workflow Engine,UI,Riley Morgan,API Contract,Passed,1704,UAT,2026-06-01,None,None,None,57,87
+TC-00142,Data Import: import large file,Data Import,SQL Server DB,Taylor Brooks,Performance,Passed,5861,QA,2026-01-26,None,None,None,66,77
+TC-00143,Test Execution: retry failed case,Test Execution,UI,Drew Bennett,Regression,Blocked,2915,Staging,2026-03-30,DEF-00143,Low,Closed,40,50
+TC-00144,Notifications: respect preferences,Notifications,API,Jamie Rivera,Black Box,Failed,165,UAT,2026-02-16,DEF-00144,High,Open,87,100
+TC-00145,Defect Tracking: close resolved defect,Defect Tracking,UI,Riley Morgan,API Contract,Blocked,1235,QA,2026-08-24,None,None,None,65,37
+TC-00146,Integrations: retry webhook,Integrations,UI,Quinn Foster,Integration,Failed,4632,QA,2026-04-20,DEF-00146,Critical,In Progress,63,79
+TC-00147,Defect Tracking: link defect,Defect Tracking,API,Casey Nguyen,API Contract,Passed,778,Pre-Production,2026-06-15,None,None,None,83,80
+TC-00148,Test Execution: start test run,Test Execution,SQL Server DB,Morgan Reed,Workflow,Failed,415,Staging,2026-02-23,DEF-00148,Low,Open,93,93
+TC-00149,Notifications: suppress duplicate,Notifications,Workflow Engine,Morgan Reed,UI Functional,Blocked,4189,UAT,2026-02-09,None,None,None,79,81
+TC-00150,Data Import: import large file,Data Import,API,Casey Nguyen,Regression,Passed,414,QA,2026-02-23,None,None,None,88,89
+TC-00151,Test Execution: start test run,Test Execution,Workflow Engine,Taylor Brooks,Workflow,Skipped,6612,Staging,2026-05-04,None,None,None,55,74
+TC-00152,Test Execution: cancel execution,Test Execution,UI,Riley Morgan,Performance,Skipped,12643,Pre-Production,2025-10-06,None,None,None,75,77
+TC-00153,Configuration: save environment,Configuration,Workflow Engine,Avery Chen,Workflow,Blocked,6767,UAT,2026-07-13,None,None,None,61,32
+TC-00154,Test Execution: cancel execution,Test Execution,API,Riley Morgan,Black Box,Passed,1819,Pre-Production,2025-11-17,None,None,None,73,91
+TC-00155,Workflow Engine: route approval,Workflow Engine,UI,Casey Nguyen,Workflow,Passed,3027,QA,2026-07-20,None,None,None,76,93
+TC-00156,Configuration: save environment,Configuration,UI,Morgan Reed,Performance,Passed,16580,UAT,2026-01-19,None,None,None,46,95
+TC-00157,Notifications: suppress duplicate,Notifications,API,Avery Chen,Regression,Passed,2250,Staging,2026-08-31,None,None,None,92,88
+TC-00158,Reporting: filter dashboard,Reporting,Workflow Engine,Quinn Foster,Performance,Passed,7188,UAT,2026-07-13,None,None,None,71,87
+TC-00159,Release Management: create release,Release Management,SQL Server DB,Taylor Brooks,UI Functional,Skipped,368,Staging,2025-11-03,None,None,None,62,87
+TC-00160,Configuration: save environment,Configuration,UI,Skyler James,API Contract,Blocked,3811,Staging,2026-08-10,DEF-00160,Critical,Open,53,44
+TC-00161,Notifications: respect preferences,Notifications,Workflow Engine,Drew Bennett,Regression,Failed,5917,UAT,2026-03-09,DEF-00161,Low,In Progress,50,74
+TC-00162,Defect Tracking: update severity,Defect Tracking,Workflow Engine,Avery Chen,Integration,Passed,819,Pre-Production,2026-07-06,None,None,None,65,96
+TC-00163,Notifications: suppress duplicate,Notifications,UI,Morgan Reed,Workflow,Passed,5792,QA,2026-03-16,None,None,None,54,92
+TC-00164,Reporting: filter dashboard,Reporting,Workflow Engine,Drew Bennett,Workflow,Passed,1337,Pre-Production,2025-12-08,None,None,None,87,93
+TC-00165,Integrations: sync issue tracker,Integrations,UI,Riley Morgan,Performance,Passed,4901,Pre-Production,2026-01-12,None,None,None,38,72
+TC-00166,Configuration: apply feature flag,Configuration,Workflow Engine,Morgan Reed,Black Box,Passed,6771,Pre-Production,2025-10-27,None,None,None,59,77
+TC-00167,User Access: assign role,User Access,API,Skyler James,Workflow,Passed,276,Pre-Production,2025-10-06,None,None,None,91,84
+TC-00168,Configuration: save environment,Configuration,API,Jamie Rivera,UI Functional,Passed,1342,UAT,2025-12-01,None,None,None,68,89
+TC-00169,Defect Tracking: update severity,Defect Tracking,API,Avery Chen,Integration,Failed,831,Staging,2026-07-27,DEF-00169,Low,Open,96,84
+TC-00170,Test Execution: start test run,Test Execution,UI,Quinn Foster,Regression,Passed,2593,QA,2026-10-05,None,None,None,40,76
+TC-00171,Workflow Engine: handle timeout,Workflow Engine,UI,Jordan Patel,Black Box,Passed,4578,UAT,2026-01-19,None,None,None,62,99
+TC-00172,Configuration: validate policy,Configuration,Workflow Engine,Jordan Patel,Workflow,Passed,2547,UAT,2026-05-18,None,None,None,87,91
+TC-00173,Integrations: sync issue tracker,Integrations,API,Avery Chen,Regression,Passed,132,Pre-Production,2026-09-21,None,None,None,66,87
+TC-00174,Workflow Engine: route approval,Workflow Engine,UI,Drew Bennett,API Contract,Passed,3012,QA,2026-08-31,None,None,None,74,88
+TC-00175,Defect Tracking: link defect,Defect Tracking,UI,Skyler James,UI Functional,Passed,1850,UAT,2026-04-27,None,None,None,41,75
+TC-00176,Release Management: rollback build,Release Management,UI,Skyler James,Workflow,Passed,494,Staging,2025-12-22,None,None,None,38,92
+TC-00177,Notifications: suppress duplicate,Notifications,SQL Server DB,Riley Morgan,Black Box,Skipped,458,Staging,2026-03-02,None,None,None,70,97
+TC-00178,Data Import: validate CSV,Data Import,Workflow Engine,Taylor Brooks,Performance,Passed,9691,UAT,2026-07-13,None,None,None,55,74
+TC-00179,Notifications: send alert,Notifications,API,Riley Morgan,UI Functional,Passed,722,Staging,2026-10-05,None,None,None,87,91
+TC-00180,Release Management: rollback build,Release Management,UI,Jordan Patel,Performance,Passed,1846,Pre-Production,2026-03-02,None,None,None,43,92
+TC-00181,Integrations: validate payload,Integrations,SQL Server DB,Jordan Patel,Regression,Passed,825,Pre-Production,2026-07-20,None,None,None,89,95
+TC-00182,Test Execution: start test run,Test Execution,API,Avery Chen,Regression,Blocked,2281,UAT,2026-03-09,DEF-00182,Medium,In Progress,65,68
+TC-00183,Data Import: reject malformed row,Data Import,SQL Server DB,Taylor Brooks,Performance,Passed,10205,Staging,2026-03-09,None,None,None,58,86
+TC-00184,Release Management: approve release,Release Management,UI,Taylor Brooks,Workflow,Passed,6028,UAT,2026-01-12,None,None,None,57,79
+TC-00185,Workflow Engine: resume workflow,Workflow Engine,UI,Drew Bennett,Performance,Passed,14186,Staging,2025-12-15,None,None,None,48,77
+TC-00186,User Access: enforce permissions,User Access,API,Drew Bennett,Performance,Passed,7730,Staging,2026-01-26,None,None,None,63,74
+TC-00187,Integrations: retry webhook,Integrations,UI,Jamie Rivera,UI Functional,Passed,4859,Pre-Production,2025-12-29,None,None,None,74,94
+TC-00188,Reporting: export report,Reporting,Workflow Engine,Jamie Rivera,Performance,Blocked,3108,UAT,2026-04-06,None,None,None,58,71
+TC-00189,Data Import: reject malformed row,Data Import,Workflow Engine,Drew Bennett,Performance,Passed,7960,UAT,2026-09-21,None,None,None,73,86
+TC-00190,Configuration: apply feature flag,Configuration,UI,Riley Morgan,Integration,Failed,3365,QA,2026-08-31,DEF-00190,High,Open,46,95
+TC-00191,Data Import: reject malformed row,Data Import,SQL Server DB,Skyler James,Integration,Passed,16,Pre-Production,2025-12-29,None,None,None,57,74
+TC-00192,Integrations: validate payload,Integrations,SQL Server DB,Drew Bennett,UI Functional,Passed,206,QA,2025-11-17,None,None,None,58,92
+TC-00193,Test Execution: start test run,Test Execution,UI,Quinn Foster,Performance,Failed,9636,UAT,2025-11-17,DEF-00193,Medium,Open,65,80
+TC-00194,Release Management: rollback build,Release Management,API,Quinn Foster,Integration,Passed,1034,Staging,2025-10-20,None,None,None,71,76
+TC-00195,Reporting: filter dashboard,Reporting,Workflow Engine,Quinn Foster,Integration,Passed,5997,QA,2026-04-27,None,None,None,59,100
+TC-00196,Defect Tracking: close resolved defect,Defect Tracking,UI,Jamie Rivera,API Contract,Passed,1402,UAT,2025-10-06,None,None,None,42,75
+TC-00197,Test Execution: retry failed case,Test Execution,API,Riley Morgan,Workflow,Passed,2344,QA,2026-06-08,None,None,None,63,99
+TC-00198,Defect Tracking: close resolved defect,Defect Tracking,API,Drew Bennett,Black Box,Passed,1805,Staging,2025-11-24,None,None,None,80,82
+TC-00199,Release Management: rollback build,Release Management,UI,Drew Bennett,Workflow,Passed,1351,UAT,2026-07-13,None,None,None,58,100
+TC-00200,Reporting: export report,Reporting,API,Jordan Patel,Workflow,Passed,40,Staging,2025-11-24,None,None,None,69,83
+TC-00201,Release Management: approve release,Release Management,UI,Morgan Reed,UI Functional,Passed,582,Pre-Production,2026-03-23,None,None,None,44,83
+TC-00202,Notifications: suppress duplicate,Notifications,SQL Server DB,Casey Nguyen,Integration,Skipped,255,Pre-Production,2025-12-22,None,None,None,80,77
+TC-00203,Reporting: export report,Reporting,Workflow Engine,Skyler James,Black Box,Passed,3871,Pre-Production,2025-12-15,None,None,None,53,87
+TC-00204,Workflow Engine: resume workflow,Workflow Engine,UI,Jordan Patel,UI Functional,Passed,3788,Pre-Production,2026-06-22,None,None,None,56,74
+TC-00205,Integrations: sync issue tracker,Integrations,Workflow Engine,Morgan Reed,UI Functional,Passed,4118,Staging,2026-03-30,None,None,None,78,95
+TC-00206,Reporting: filter dashboard,Reporting,SQL Server DB,Casey Nguyen,Integration,Passed,213,Staging,2026-02-16,None,None,None,60,86
+TC-00207,Release Management: rollback build,Release Management,UI,Casey Nguyen,Performance,Blocked,4213,Staging,2026-07-06,None,None,None,43,59
+TC-00208,Release Management: approve release,Release Management,API,Taylor Brooks,Integration,Passed,1858,Staging,2026-04-20,None,None,None,96,97
+TC-00209,Test Execution: start test run,Test Execution,API,Jordan Patel,Integration,Passed,373,UAT,2026-03-23,None,None,None,86,97
+TC-00210,Reporting: aggregate weekly metrics,Reporting,API,Skyler James,Regression,Passed,53,UAT,2026-09-07,None,None,None,97,93
+TC-00211,Release Management: create release,Release Management,UI,Jordan Patel,Integration,Passed,2697,Pre-Production,2026-07-13,None,None,None,70,81
+TC-00212,Reporting: filter dashboard,Reporting,UI,Jamie Rivera,Black Box,Passed,1715,Staging,2025-12-01,None,None,None,50,81
+TC-00213,Configuration: save environment,Configuration,Workflow Engine,Avery Chen,UI Functional,Passed,3212,Pre-Production,2026-09-28,None,None,None,64,86
+TC-00214,Test Execution: start test run,Test Execution,UI,Jordan Patel,API Contract,Passed,503,UAT,2026-02-23,None,None,None,44,94
+TC-00215,Test Execution: cancel execution,Test Execution,SQL Server DB,Taylor Brooks,UI Functional,Passed,1203,Pre-Production,2026-08-10,None,None,None,80,72
+TC-00216,Test Execution: cancel execution,Test Execution,SQL Server DB,Taylor Brooks,Regression,Skipped,1218,QA,2026-06-29,None,None,None,63,90
+TC-00217,Test Execution: cancel execution,Test Execution,UI,Drew Bennett,Regression,Failed,3602,Staging,2026-04-13,DEF-00217,Low,Open,56,89
+TC-00218,User Access: revoke access,User Access,API,Drew Bennett,API Contract,Passed,1589,QA,2025-12-01,None,None,None,89,100
+TC-00219,Data Import: validate CSV,Data Import,API,Morgan Reed,Black Box,Passed,261,QA,2026-07-27,None,None,None,62,89
+TC-00220,Defect Tracking: link defect,Defect Tracking,UI,Casey Nguyen,Performance,Failed,14400,Staging,2025-12-22,None,None,None,76,94
+TC-00221,Reporting: aggregate weekly metrics,Reporting,UI,Riley Morgan,Performance,Passed,1954,QA,2026-05-25,None,None,None,58,82
+TC-00222,Workflow Engine: resume workflow,Workflow Engine,UI,Riley Morgan,Regression,Passed,3654,QA,2026-06-22,None,None,None,70,99
+TC-00223,Test Execution: retry failed case,Test Execution,UI,Jordan Patel,Workflow,Blocked,4382,Staging,2026-04-20,None,None,None,66,82
+TC-00224,Test Execution: retry failed case,Test Execution,UI,Morgan Reed,Performance,Passed,11167,Staging,2025-11-24,None,None,None,64,91
+TC-00225,Test Execution: cancel execution,Test Execution,Workflow Engine,Quinn Foster,Performance,Passed,5318,Staging,2026-07-27,None,None,None,68,88
+TC-00226,Release Management: approve release,Release Management,API,Skyler James,Performance,Passed,6542,Staging,2026-01-12,None,None,None,77,81
+TC-00227,Reporting: filter dashboard,Reporting,Workflow Engine,Casey Nguyen,Regression,Passed,6014,Staging,2025-10-27,None,None,None,85,94
+TC-00228,Defect Tracking: close resolved defect,Defect Tracking,Workflow Engine,Avery Chen,UI Functional,Passed,3347,Pre-Production,2026-04-06,None,None,None,79,88
+TC-00229,Reporting: filter dashboard,Reporting,API,Jamie Rivera,Integration,Passed,348,Pre-Production,2025-12-08,None,None,None,95,93
+TC-00230,Reporting: filter dashboard,Reporting,SQL Server DB,Avery Chen,Performance,Passed,12775,Pre-Production,2026-06-01,None,None,None,63,88
+TC-00231,Release Management: approve release,Release Management,API,Taylor Brooks,Integration,Skipped,409,Staging,2026-02-16,None,None,None,91,73
+TC-00232,Integrations: validate payload,Integrations,UI,Drew Bennett,Workflow,Passed,1841,Staging,2026-08-10,None,None,None,39,76
+TC-00233,Configuration: save environment,Configuration,Workflow Engine,Taylor Brooks,API Contract,Failed,1980,Staging,2026-04-06,DEF-00233,High,Closed,54,79
+TC-00234,Reporting: export report,Reporting,UI,Drew Bennett,Integration,Passed,1775,QA,2026-10-05,None,None,None,46,82
+TC-00235,Workflow Engine: resume workflow,Workflow Engine,SQL Server DB,Drew Bennett,UI Functional,Passed,461,UAT,2026-06-29,None,None,None,67,77
+TC-00236,Defect Tracking: link defect,Defect Tracking,API,Jordan Patel,Black Box,Passed,2328,Pre-Production,2025-12-22,None,None,None,91,81
+TC-00237,Workflow Engine: handle timeout,Workflow Engine,UI,Casey Nguyen,Workflow,Passed,593,UAT,2026-04-06,None,None,None,51,91
+TC-00238,Data Import: validate CSV,Data Import,Workflow Engine,Casey Nguyen,API Contract,Passed,945,UAT,2026-03-16,None,None,None,83,88
+TC-00239,Release Management: rollback build,Release Management,UI,Morgan Reed,Workflow,Passed,5015,Staging,2025-12-15,None,None,None,58,94
+TC-00240,Test Execution: start test run,Test Execution,Workflow Engine,Quinn Foster,UI Functional,Passed,5190,UAT,2026-08-31,None,None,None,53,82
+TC-00241,Configuration: save environment,Configuration,SQL Server DB,Taylor Brooks,API Contract,Failed,711,UAT,2026-06-22,DEF-00241,Low,In Progress,87,76
+TC-00242,Test Execution: cancel execution,Test Execution,Workflow Engine,Morgan Reed,Black Box,Failed,7061,UAT,2026-03-30,None,None,None,58,95
+TC-00243,Notifications: suppress duplicate,Notifications,Workflow Engine,Jordan Patel,Regression,Passed,6329,QA,2026-06-01,None,None,None,63,88
+TC-00244,Defect Tracking: close resolved defect,Defect Tracking,UI,Taylor Brooks,Regression,Passed,846,Staging,2025-11-10,None,None,None,51,94
+TC-00245,Data Import: reject malformed row,Data Import,Workflow Engine,Skyler James,Integration,Passed,3400,Staging,2026-02-09,None,None,None,63,94
+TC-00246,Release Management: rollback build,Release Management,Workflow Engine,Casey Nguyen,Performance,Passed,2071,Staging,2025-11-10,None,None,None,72,80
+TC-00247,Data Import: reject malformed row,Data Import,API,Quinn Foster,Regression,Passed,474,QA,2026-08-31,None,None,None,60,99
+TC-00248,Defect Tracking: update severity,Defect Tracking,UI,Drew Bennett,API Contract,Passed,4522,Staging,2026-03-23,None,None,None,68,98
+TC-00249,Configuration: save environment,Configuration,UI,Avery Chen,Performance,Passed,9455,UAT,2026-07-13,None,None,None,52,94
+TC-00250,Test Execution: retry failed case,Test Execution,UI,Drew Bennett,Integration,Passed,5670,UAT,2025-12-29,None,None,None,38,92
+TC-00251,Release Management: rollback build,Release Management,API,Avery Chen,API Contract,Passed,1514,Staging,2026-03-02,None,None,None,88,100
+TC-00252,Defect Tracking: link defect,Defect Tracking,UI,Jamie Rivera,Performance,Passed,15547,QA,2025-12-15,None,None,None,58,98
+TC-00253,Notifications: respect preferences,Notifications,API,Jordan Patel,Black Box,Passed,803,Staging,2026-07-27,None,None,None,77,72
+TC-00254,Notifications: send alert,Notifications,Workflow Engine,Skyler James,Regression,Passed,3771,Pre-Production,2026-06-22,None,None,None,81,83
+TC-00255,User Access: enforce permissions,User Access,API,Quinn Foster,Workflow,Passed,1234,Pre-Production,2026-06-15,None,None,None,75,94
+TC-00256,Notifications: send alert,Notifications,API,Quinn Foster,Integration,Passed,1658,UAT,2026-04-06,None,None,None,71,93
+TC-00257,Test Execution: start test run,Test Execution,UI,Quinn Foster,UI Functional,Skipped,4741,QA,2025-11-10,DEF-00257,Low,Reopened,75,72
+TC-00258,User Access: revoke access,User Access,UI,Skyler James,Integration,Skipped,4969,QA,2026-01-26,None,None,None,54,98
+TC-00259,Defect Tracking: close resolved defect,Defect Tracking,UI,Riley Morgan,Regression,Blocked,1908,QA,2026-02-16,DEF-00259,Medium,Closed,66,74
+TC-00260,Integrations: validate payload,Integrations,Workflow Engine,Jordan Patel,Performance,Passed,3894,UAT,2026-04-27,None,None,None,80,85
+TC-00261,Defect Tracking: close resolved defect,Defect Tracking,SQL Server DB,Riley Morgan,API Contract,Blocked,122,Staging,2026-04-27,DEF-00261,Low,Open,65,72
+TC-00262,Reporting: export report,Reporting,API,Jamie Rivera,Regression,Passed,1487,Pre-Production,2026-01-12,None,None,None,77,84
+TC-00263,Test Execution: retry failed case,Test Execution,UI,Riley Morgan,Black Box,Passed,3726,Staging,2026-02-16,None,None,None,41,82
+TC-00264,Integrations: sync issue tracker,Integrations,API,Quinn Foster,Integration,Passed,322,QA,2026-09-28,None,None,None,86,92
+TC-00265,User Access: revoke access,User Access,SQL Server DB,Quinn Foster,Integration,Passed,1281,Pre-Production,2026-02-16,None,None,None,68,81
+TC-00266,Test Execution: start test run,Test Execution,Workflow Engine,Taylor Brooks,Black Box,Failed,580,UAT,2026-10-05,None,None,None,86,99
+TC-00267,Release Management: rollback build,Release Management,UI,Drew Bennett,Regression,Passed,4320,UAT,2025-11-03,None,None,None,40,87
+TC-00268,Integrations: sync issue tracker,Integrations,Workflow Engine,Casey Nguyen,Workflow,Passed,5032,UAT,2026-07-06,None,None,None,79,76
+TC-00269,Defect Tracking: update severity,Defect Tracking,UI,Jordan Patel,Black Box,Passed,3897,Staging,2026-03-09,None,None,None,39,89
+TC-00270,Reporting: export report,Reporting,Workflow Engine,Morgan Reed,Integration,Passed,4327,Staging,2026-01-19,None,None,None,58,95
+TC-00271,Configuration: save environment,Configuration,UI,Avery Chen,Regression,Blocked,3987,Pre-Production,2026-08-31,DEF-00271,Medium,In Progress,50,38
+TC-00272,Notifications: respect preferences,Notifications,Workflow Engine,Avery Chen,Black Box,Passed,6988,UAT,2026-06-08,None,None,None,79,81
+TC-00273,User Access: enforce permissions,User Access,API,Drew Bennett,Integration,Passed,1420,QA,2025-12-01,None,None,None,92,78
+TC-00274,User Access: enforce permissions,User Access,API,Riley Morgan,Integration,Passed,502,Staging,2026-03-09,None,None,None,96,97
+TC-00275,User Access: assign role,User Access,UI,Taylor Brooks,Black Box,Passed,1921,UAT,2026-03-23,None,None,None,38,100
+TC-00276,Reporting: aggregate weekly metrics,Reporting,Workflow Engine,Morgan Reed,Integration,Passed,4651,Staging,2025-12-01,None,None,None,75,78
+TC-00277,Defect Tracking: link defect,Defect Tracking,SQL Server DB,Quinn Foster,Integration,Passed,622,QA,2026-10-05,None,None,None,81,90
+TC-00278,Data Import: import large file,Data Import,UI,Avery Chen,Workflow,Passed,4398,Staging,2025-10-06,None,None,None,63,82
+TC-00279,Configuration: apply feature flag,Configuration,SQL Server DB,Jordan Patel,Workflow,Passed,328,UAT,2025-11-24,None,None,None,63,88
+TC-00280,Release Management: rollback build,Release Management,API,Jordan Patel,Workflow,Passed,1241,UAT,2025-12-15,None,None,None,71,84
+TC-00281,Reporting: export report,Reporting,UI,Skyler James,Integration,Passed,3437,Staging,2026-02-16,None,None,None,44,100
+TC-00282,Reporting: aggregate weekly metrics,Reporting,UI,Taylor Brooks,Integration,Skipped,5693,Pre-Production,2026-03-16,None,None,None,59,91
+TC-00283,User Access: enforce permissions,User Access,UI,Taylor Brooks,Black Box,Passed,4274,Staging,2026-01-12,None,None,None,42,94
+TC-00284,Data Import: reject malformed row,Data Import,UI,Taylor Brooks,UI Functional,Blocked,6186,Pre-Production,2026-04-20,None,None,None,52,75
+TC-00285,Reporting: aggregate weekly metrics,Reporting,Workflow Engine,Casey Nguyen,Workflow,Skipped,4099,UAT,2026-04-06,None,None,None,81,99
+TC-00286,User Access: assign role,User Access,Workflow Engine,Drew Bennett,Performance,Passed,9735,UAT,2026-03-30,None,None,None,52,87
+TC-00287,Defect Tracking: close resolved defect,Defect Tracking,SQL Server DB,Drew Bennett,API Contract,Failed,1245,Staging,2026-03-23,DEF-00287,High,In Progress,64,94
+TC-00288,Workflow Engine: resume workflow,Workflow Engine,UI,Jamie Rivera,Workflow,Passed,2398,Staging,2025-11-10,None,None,None,69,72
+TC-00289,Release Management: approve release,Release Management,SQL Server DB,Skyler James,Integration,Passed,378,QA,2025-11-03,None,None,None,60,92
+TC-00290,Test Execution: cancel execution,Test Execution,API,Avery Chen,API Contract,Passed,252,Pre-Production,2026-07-13,None,None,None,66,96
+TC-00291,Configuration: save environment,Configuration,API,Jordan Patel,UI Functional,Passed,919,UAT,2025-11-17,None,None,None,69,81
+TC-00292,Integrations: retry webhook,Integrations,UI,Taylor Brooks,Performance,Passed,13129,Pre-Production,2025-12-01,None,None,None,45,74
+TC-00293,Defect Tracking: update severity,Defect Tracking,API,Casey Nguyen,Performance,Passed,16529,QA,2026-07-20,None,None,None,71,85
+TC-00294,Defect Tracking: close resolved defect,Defect Tracking,SQL Server DB,Skyler James,UI Functional,Failed,707,Staging,2026-05-18,DEF-00294,Low,In Progress,59,87
+TC-00295,Configuration: save environment,Configuration,API,Taylor Brooks,Black Box,Skipped,1317,UAT,2025-10-27,None,None,None,90,87
+TC-00296,Test Execution: cancel execution,Test Execution,API,Jamie Rivera,Black Box,Passed,1059,UAT,2026-06-08,None,None,None,83,95
+TC-00297,Workflow Engine: resume workflow,Workflow Engine,Workflow Engine,Skyler James,Performance,Passed,5611,Pre-Production,2026-07-13,None,None,None,61,84
+TC-00298,Data Import: import large file,Data Import,API,Quinn Foster,Workflow,Skipped,640,QA,2026-05-18,None,None,None,74,97
+TC-00299,Test Execution: start test run,Test Execution,Workflow Engine,Morgan Reed,UI Functional,Blocked,5144,Staging,2026-09-14,DEF-00299,Critical,In Progress,76,53
+TC-00300,User Access: enforce permissions,User Access,Workflow Engine,Riley Morgan,Performance,Passed,17231,Staging,2026-06-22,None,None,None,50,83
+TC-00301,Test Execution: cancel execution,Test Execution,SQL Server DB,Casey Nguyen,Black Box,Blocked,381,UAT,2026-01-19,DEF-00301,Critical,Open,76,54
+TC-00302,Data Import: import large file,Data Import,API,Drew Bennett,Black Box,Passed,774,QA,2026-02-02,None,None,None,92,94
+TC-00303,Notifications: respect preferences,Notifications,API,Casey Nguyen,Regression,Passed,466,UAT,2026-02-16,None,None,None,71,81
+TC-00304,Test Execution: start test run,Test Execution,Workflow Engine,Skyler James,Workflow,Passed,828,UAT,2026-03-23,None,None,None,87,94
+TC-00305,Workflow Engine: resume workflow,Workflow Engine,UI,Jamie Rivera,UI Functional,Passed,394,Staging,2026-03-30,None,None,None,43,85
+TC-00306,Defect Tracking: link defect,Defect Tracking,UI,Quinn Foster,Black Box,Failed,3064,UAT,2026-10-05,DEF-00306,High,Open,63,92
+TC-00307,Configuration: save environment,Configuration,SQL Server DB,Jamie Rivera,Regression,Passed,1222,Staging,2025-12-15,None,None,None,65,98
+TC-00308,Data Import: import large file,Data Import,API,Jordan Patel,Black Box,Passed,126,QA,2026-04-20,None,None,None,66,84
+TC-00309,Reporting: filter dashboard,Reporting,SQL Server DB,Jamie Rivera,Regression,Passed,367,Pre-Production,2025-12-15,None,None,None,73,97
+TC-00310,Test Execution: cancel execution,Test Execution,SQL Server DB,Skyler James,Workflow,Passed,550,QA,2025-10-13,None,None,None,90,91
+TC-00311,Data Import: import large file,Data Import,SQL Server DB,Jamie Rivera,Black Box,Passed,694,UAT,2025-12-22,None,None,None,68,100
+TC-00312,Configuration: save environment,Configuration,SQL Server DB,Quinn Foster,Workflow,Passed,109,Pre-Production,2026-02-23,None,None,None,57,77
+TC-00313,Data Import: reject malformed row,Data Import,API,Riley Morgan,Regression,Failed,968,Pre-Production,2026-03-16,DEF-00313,High,In Progress,89,96
+TC-00314,Configuration: apply feature flag,Configuration,Workflow Engine,Casey Nguyen,Regression,Passed,3149,Pre-Production,2026-01-26,None,None,None,76,78
+TC-00315,User Access: assign role,User Access,SQL Server DB,Riley Morgan,Workflow,Skipped,144,QA,2025-11-03,None,None,None,90,80
+TC-00316,Configuration: apply feature flag,Configuration,SQL Server DB,Skyler James,Performance,Passed,8187,UAT,2026-06-08,DEF-00316,Medium,Open,82,82
+TC-00317,Release Management: rollback build,Release Management,API,Quinn Foster,Performance,Failed,13400,Staging,2025-10-13,None,None,None,60,78
+TC-00318,Data Import: import large file,Data Import,UI,Drew Bennett,Integration,Passed,4085,Staging,2025-12-29,None,None,None,39,77
+TC-00319,Configuration: save environment,Configuration,SQL Server DB,Drew Bennett,Performance,Passed,15574,Staging,2026-09-21,None,None,None,90,80
+TC-00320,Integrations: validate payload,Integrations,SQL Server DB,Casey Nguyen,Black Box,Blocked,623,Pre-Production,2025-10-20,None,None,None,92,63
+TC-00321,Reporting: filter dashboard,Reporting,UI,Jamie Rivera,Black Box,Passed,2036,Pre-Production,2026-03-23,None,None,None,39,76
+TC-00322,Reporting: aggregate weekly metrics,Reporting,API,Skyler James,Regression,Blocked,1400,UAT,2026-02-09,None,None,None,88,43
+TC-00323,Defect Tracking: link defect,Defect Tracking,API,Drew Bennett,Regression,Passed,667,Staging,2025-11-10,None,None,None,88,95
+TC-00324,Configuration: save environment,Configuration,API,Skyler James,Workflow,Passed,2272,UAT,2026-05-04,None,None,None,85,82
+TC-00325,Release Management: rollback build,Release Management,Workflow Engine,Morgan Reed,Workflow,Passed,5725,QA,2026-03-23,None,None,None,51,84
+TC-00326,Reporting: filter dashboard,Reporting,UI,Morgan Reed,UI Functional,Passed,1621,UAT,2026-06-01,None,None,None,72,93
+TC-00327,Integrations: sync issue tracker,Integrations,Workflow Engine,Quinn Foster,Workflow,Passed,5260,Staging,2026-08-24,None,None,None,65,89
+TC-00328,User Access: enforce permissions,User Access,SQL Server DB,Morgan Reed,UI Functional,Passed,1270,UAT,2026-04-20,None,None,None,83,85
+TC-00329,Workflow Engine: route approval,Workflow Engine,API,Taylor Brooks,API Contract,Passed,825,QA,2025-12-29,None,None,None,97,87
+TC-00330,Test Execution: cancel execution,Test Execution,Workflow Engine,Quinn Foster,API Contract,Passed,4371,Pre-Production,2026-04-27,None,None,None,64,85
+TC-00331,Integrations: sync issue tracker,Integrations,UI,Skyler James,UI Functional,Passed,4064,QA,2025-12-29,None,None,None,74,79
+TC-00332,Test Execution: start test run,Test Execution,SQL Server DB,Drew Bennett,UI Functional,Passed,292,QA,2026-03-30,None,None,None,82,95
+TC-00333,Release Management: approve release,Release Management,SQL Server DB,Quinn Foster,Regression,Passed,827,Pre-Production,2026-08-17,None,None,None,84,75
+TC-00334,Data Import: import large file,Data Import,API,Avery Chen,Workflow,Blocked,1943,QA,2025-10-20,None,None,None,72,41
+TC-00335,Workflow Engine: handle timeout,Workflow Engine,SQL Server DB,Jamie Rivera,API Contract,Passed,1205,QA,2025-12-01,None,None,None,64,93
+TC-00336,Test Execution: cancel execution,Test Execution,UI,Skyler James,API Contract,Passed,3644,Pre-Production,2026-08-03,DEF-00336,High,Closed,50,82
+TC-00337,Configuration: save environment,Configuration,API,Jamie Rivera,Workflow,Failed,1698,QA,2026-06-22,DEF-00337,High,Open,74,96
+TC-00338,Integrations: sync issue tracker,Integrations,SQL Server DB,Riley Morgan,Performance,Passed,5065,Pre-Production,2025-12-08,None,None,None,86,74
+TC-00339,Workflow Engine: resume workflow,Workflow Engine,API,Avery Chen,Workflow,Passed,337,Staging,2026-09-07,None,None,None,78,88
+TC-00340,Release Management: create release,Release Management,UI,Quinn Foster,Performance,Passed,10686,QA,2026-05-04,None,None,None,71,91
+TC-00341,Configuration: validate policy,Configuration,Workflow Engine,Avery Chen,Performance,Passed,8173,QA,2025-12-15,None,None,None,51,88
+TC-00342,Data Import: import large file,Data Import,UI,Casey Nguyen,Regression,Passed,568,Staging,2025-12-29,None,None,None,75,99
+TC-00343,Test Execution: cancel execution,Test Execution,UI,Jamie Rivera,Integration,Skipped,5158,QA,2026-09-14,None,None,None,70,84
+TC-00344,Notifications: send alert,Notifications,UI,Morgan Reed,Integration,Passed,5340,Staging,2026-01-05,None,None,None,76,83
+TC-00345,Notifications: send alert,Notifications,Workflow Engine,Casey Nguyen,Workflow,Passed,1880,Pre-Production,2026-08-31,None,None,None,51,91
+TC-00346,Workflow Engine: handle timeout,Workflow Engine,UI,Drew Bennett,Regression,Passed,2279,Pre-Production,2026-02-02,None,None,None,76,85
+TC-00347,Configuration: apply feature flag,Configuration,API,Jamie Rivera,UI Functional,Passed,2176,Pre-Production,2025-10-13,None,None,None,87,95
+TC-00348,Test Execution: cancel execution,Test Execution,API,Drew Bennett,UI Functional,Failed,2177,Staging,2026-04-06,DEF-00348,Medium,Reopened,89,80
+TC-00349,Defect Tracking: close resolved defect,Defect Tracking,Workflow Engine,Riley Morgan,Workflow,Passed,5450,Pre-Production,2026-06-22,None,None,None,59,98
+TC-00350,Test Execution: start test run,Test Execution,Workflow Engine,Avery Chen,Black Box,Passed,4438,Pre-Production,2026-08-17,None,None,None,52,87
+TC-00351,Workflow Engine: route approval,Workflow Engine,API,Jamie Rivera,API Contract,Passed,2369,UAT,2026-03-09,None,None,None,93,99
+TC-00352,Test Execution: cancel execution,Test Execution,UI,Taylor Brooks,Workflow,Passed,4036,Staging,2026-03-23,None,None,None,42,83
+TC-00353,Integrations: sync issue tracker,Integrations,API,Taylor Brooks,API Contract,Passed,2353,UAT,2025-11-03,None,None,None,63,74
+TC-00354,Integrations: validate payload,Integrations,Workflow Engine,Casey Nguyen,UI Functional,Failed,3612,Pre-Production,2026-03-02,None,None,None,79,95
+TC-00355,User Access: assign role,User Access,UI,Quinn Foster,Regression,Passed,2918,Pre-Production,2025-10-13,None,None,None,44,87
+TC-00356,Data Import: import large file,Data Import,API,Quinn Foster,Black Box,Passed,1175,Pre-Production,2026-09-07,DEF-00356,High,Open,83,74
+TC-00357,Data Import: import large file,Data Import,Workflow Engine,Jamie Rivera,Workflow,Passed,5306,Pre-Production,2026-08-17,DEF-00357,Critical,In Progress,71,97
+TC-00358,Configuration: apply feature flag,Configuration,Workflow Engine,Jordan Patel,Black Box,Passed,4616,QA,2026-06-08,None,None,None,80,95
+TC-00359,Release Management: create release,Release Management,UI,Jordan Patel,Integration,Passed,4345,Pre-Production,2026-01-12,DEF-00359,Low,Open,67,89
+TC-00360,Release Management: create release,Release Management,UI,Casey Nguyen,Black Box,Skipped,5375,QA,2025-10-13,None,None,None,64,75
+TC-00361,User Access: enforce permissions,User Access,Workflow Engine,Quinn Foster,UI Functional,Passed,6277,QA,2025-12-22,None,None,None,61,74
+TC-00362,User Access: assign role,User Access,UI,Jamie Rivera,Black Box,Passed,6002,UAT,2026-06-08,None,None,None,56,96
+TC-00363,Notifications: send alert,Notifications,UI,Skyler James,Black Box,Passed,3981,Staging,2025-12-01,None,None,None,76,97
+TC-00364,Data Import: reject malformed row,Data Import,Workflow Engine,Quinn Foster,API Contract,Skipped,1518,Staging,2026-06-22,None,None,None,84,74
+TC-00365,Release Management: rollback build,Release Management,API,Morgan Reed,Integration,Passed,593,QA,2025-12-08,None,None,None,78,84
+TC-00366,Release Management: create release,Release Management,UI,Jordan Patel,UI Functional,Failed,5592,UAT,2025-12-22,DEF-00366,Critical,Open,51,87
+TC-00367,Test Execution: retry failed case,Test Execution,Workflow Engine,Quinn Foster,API Contract,Skipped,3956,UAT,2026-03-16,None,None,None,75,77
+TC-00368,Release Management: approve release,Release Management,API,Taylor Brooks,Workflow,Passed,1177,Pre-Production,2026-06-08,DEF-00368,Critical,Open,73,96
+TC-00369,Integrations: sync issue tracker,Integrations,Workflow Engine,Jamie Rivera,Workflow,Passed,2547,Pre-Production,2026-04-06,None,None,None,70,90
+TC-00370,Integrations: validate payload,Integrations,UI,Morgan Reed,UI Functional,Passed,1366,Staging,2026-05-04,None,None,None,47,75
+TC-00371,Configuration: apply feature flag,Configuration,Workflow Engine,Taylor Brooks,API Contract,Failed,6596,Staging,2026-02-16,DEF-00371,Low,Closed,60,90
+TC-00372,Data Import: import large file,Data Import,API,Taylor Brooks,Regression,Passed,1555,Pre-Production,2025-12-22,None,None,None,61,80
+TC-00373,Release Management: approve release,Release Management,API,Avery Chen,Performance,Passed,13540,QA,2026-08-24,None,None,None,69,73
+TC-00374,Integrations: validate payload,Integrations,UI,Jamie Rivera,Integration,Passed,1627,Staging,2026-08-10,None,None,None,43,89
+TC-00375,Notifications: send alert,Notifications,Workflow Engine,Taylor Brooks,Integration,Passed,6447,QA,2025-12-22,None,None,None,88,77
+TC-00376,Configuration: apply feature flag,Configuration,SQL Server DB,Drew Bennett,Regression,Failed,819,Pre-Production,2026-01-12,DEF-00376,High,Open,85,97
+TC-00377,Configuration: save environment,Configuration,API,Jamie Rivera,Performance,Passed,4367,UAT,2026-03-23,None,None,None,59,85
+TC-00378,Defect Tracking: link defect,Defect Tracking,SQL Server DB,Jordan Patel,UI Functional,Passed,226,Pre-Production,2025-11-03,DEF-00378,Low,Open,58,83
+TC-00379,Test Execution: cancel execution,Test Execution,UI,Avery Chen,API Contract,Passed,1119,Pre-Production,2026-08-03,None,None,None,69,79
+TC-00380,Workflow Engine: resume workflow,Workflow Engine,UI,Skyler James,API Contract,Passed,5380,QA,2025-11-24,None,None,None,73,73
+TC-00381,Reporting: filter dashboard,Reporting,Workflow Engine,Jordan Patel,UI Functional,In Progress,6311,QA,2026-09-14,None,None,None,85,50
+TC-00382,Release Management: create release,Release Management,Workflow Engine,Jamie Rivera,API Contract,Passed,5936,QA,2026-07-20,None,None,None,77,88
+TC-00383,Configuration: apply feature flag,Configuration,UI,Casey Nguyen,Workflow,Passed,2423,UAT,2026-02-02,None,None,None,47,86
+TC-00384,Defect Tracking: close resolved defect,Defect Tracking,Workflow Engine,Avery Chen,Integration,Passed,215,Pre-Production,2026-03-02,None,None,None,60,76
+TC-00385,Configuration: save environment,Configuration,UI,Riley Morgan,Workflow,Passed,4820,QA,2026-09-21,None,None,None,39,94
+TC-00386,Configuration: save environment,Configuration,API,Casey Nguyen,Performance,Passed,15397,UAT,2026-04-06,None,None,None,77,83
+TC-00387,Workflow Engine: resume workflow,Workflow Engine,UI,Jamie Rivera,UI Functional,Passed,2078,Staging,2026-02-02,None,None,None,58,83
+TC-00388,Release Management: approve release,Release Management,UI,Jamie Rivera,Integration,Failed,621,Staging,2026-09-14,DEF-00388,Medium,Fixed,45,97
+TC-00389,Test Execution: retry failed case,Test Execution,UI,Casey Nguyen,Performance,Passed,13689,UAT,2025-10-20,None,None,None,74,93
+TC-00390,Integrations: sync issue tracker,Integrations,UI,Casey Nguyen,UI Functional,Passed,3755,Staging,2026-04-13,None,None,None,40,74
+TC-00391,Test Execution: start test run,Test Execution,UI,Morgan Reed,UI Functional,Passed,4505,QA,2026-05-04,None,None,None,54,79
+TC-00392,Release Management: rollback build,Release Management,API,Jordan Patel,Workflow,Passed,893,UAT,2026-09-14,None,None,None,81,91
+TC-00393,Release Management: approve release,Release Management,API,Casey Nguyen,Black Box,Passed,2174,Pre-Production,2026-10-05,None,None,None,72,77
+TC-00394,User Access: assign role,User Access,Workflow Engine,Jordan Patel,Integration,Passed,1699,Pre-Production,2026-03-09,None,None,None,83,91
+TC-00395,Release Management: approve release,Release Management,API,Avery Chen,Black Box,Passed,2372,UAT,2026-08-03,None,None,None,70,75
+TC-00396,Integrations: sync issue tracker,Integrations,API,Jordan Patel,Black Box,Passed,1799,UAT,2026-07-06,None,None,None,61,74
+TC-00397,Data Import: validate CSV,Data Import,UI,Quinn Foster,Black Box,Passed,1904,Pre-Production,2026-03-30,None,None,None,49,79
+TC-00398,Release Management: approve release,Release Management,API,Morgan Reed,Black Box,Passed,1986,QA,2026-02-16,None,None,None,70,96
+TC-00399,Workflow Engine: resume workflow,Workflow Engine,UI,Casey Nguyen,Black Box,Passed,4876,Pre-Production,2026-07-13,None,None,None,41,91
+TC-00400,Notifications: respect preferences,Notifications,Workflow Engine,Casey Nguyen,Black Box,Blocked,6219,QA,2026-02-02,None,None,None,66,74
+TC-00401,User Access: revoke access,User Access,API,Jordan Patel,Performance,Passed,9025,Staging,2026-03-30,None,None,None,86,85
+TC-00402,Configuration: validate policy,Configuration,UI,Avery Chen,Performance,Passed,15019,UAT,2026-08-31,None,None,None,45,92
+TC-00403,Release Management: rollback build,Release Management,API,Avery Chen,UI Functional,Passed,747,UAT,2025-12-08,None,None,None,91,75
+TC-00404,Reporting: export report,Reporting,UI,Jordan Patel,Performance,Failed,9384,UAT,2026-01-19,DEF-00404,Critical,In Progress,66,86
+TC-00405,Release Management: rollback build,Release Management,UI,Avery Chen,Regression,Passed,2310,Pre-Production,2026-03-16,None,None,None,47,84
+TC-00406,Release Management: rollback build,Release Management,UI,Riley Morgan,Regression,Passed,5193,Staging,2026-02-02,None,None,None,60,98
+TC-00407,Release Management: approve release,Release Management,API,Quinn Foster,API Contract,Passed,804,Staging,2026-02-23,None,None,None,69,78
+TC-00408,Defect Tracking: update severity,Defect Tracking,SQL Server DB,Quinn Foster,Performance,Passed,4901,Staging,2026-02-16,None,None,None,67,89
+TC-00409,Workflow Engine: route approval,Workflow Engine,UI,Riley Morgan,Regression,Passed,3327,QA,2025-10-27,None,None,None,68,96
+TC-00410,Defect Tracking: close resolved defect,Defect Tracking,UI,Casey Nguyen,Regression,Passed,722,Pre-Production,2026-05-04,None,None,None,73,99
+TC-00411,Defect Tracking: close resolved defect,Defect Tracking,API,Avery Chen,API Contract,Passed,1347,Pre-Production,2026-07-20,None,None,None,90,81
+TC-00412,Workflow Engine: route approval,Workflow Engine,API,Skyler James,UI Functional,Passed,573,QA,2026-08-03,None,None,None,93,94
+TC-00413,Configuration: apply feature flag,Configuration,SQL Server DB,Jamie Rivera,UI Functional,Failed,1286,Pre-Production,2026-06-01,DEF-00413,Critical,Fixed,89,98
+TC-00414,Release Management: rollback build,Release Management,API,Jordan Patel,Performance,Passed,15636,UAT,2025-12-29,None,None,None,89,76
+TC-00415,Defect Tracking: link defect,Defect Tracking,UI,Avery Chen,UI Functional,Passed,4789,Pre-Production,2026-01-05,None,None,None,59,85
+TC-00416,Workflow Engine: route approval,Workflow Engine,API,Jordan Patel,Performance,Passed,11594,QA,2026-09-07,None,None,None,76,72
+TC-00417,User Access: revoke access,User Access,SQL Server DB,Taylor Brooks,API Contract,Passed,933,Staging,2025-11-03,None,None,None,66,90
+TC-00418,Integrations: retry webhook,Integrations,Workflow Engine,Taylor Brooks,Workflow,Passed,216,Pre-Production,2025-12-29,None,None,None,84,90
+TC-00419,Configuration: validate policy,Configuration,UI,Jordan Patel,Black Box,Passed,4789,Staging,2025-11-17,None,None,None,52,100
+TC-00420,Release Management: rollback build,Release Management,Workflow Engine,Taylor Brooks,API Contract,Passed,7195,Pre-Production,2025-10-13,None,None,None,69,77
+TC-00421,Release Management: rollback build,Release Management,SQL Server DB,Skyler James,Regression,Passed,919,QA,2026-09-14,None,None,None,90,75
+TC-00422,Reporting: export report,Reporting,Workflow Engine,Skyler James,Integration,Passed,5992,Pre-Production,2026-04-13,None,None,None,55,73
+TC-00423,Workflow Engine: resume workflow,Workflow Engine,UI,Skyler James,Performance,Passed,14781,QA,2026-04-20,None,None,None,45,85
+TC-00424,Test Execution: start test run,Test Execution,Workflow Engine,Jordan Patel,Performance,Passed,10445,Pre-Production,2026-09-21,None,None,None,60,73
+TC-00425,Defect Tracking: update severity,Defect Tracking,Workflow Engine,Quinn Foster,Workflow,Passed,7186,Staging,2026-05-25,None,None,None,74,76
+TC-00426,User Access: assign role,User Access,API,Morgan Reed,Black Box,Passed,434,Pre-Production,2026-07-20,None,None,None,78,97
+TC-00427,Configuration: save environment,Configuration,API,Riley Morgan,Regression,Passed,785,Pre-Production,2026-07-27,None,None,None,72,82
+TC-00428,Data Import: reject malformed row,Data Import,UI,Avery Chen,Black Box,Passed,1641,UAT,2026-07-27,None,None,None,53,75
+TC-00429,Data Import: reject malformed row,Data Import,API,Avery Chen,API Contract,Passed,1684,QA,2026-02-23,None,None,None,85,90
+TC-00430,Defect Tracking: link defect,Defect Tracking,UI,Jamie Rivera,API Contract,Passed,5806,Pre-Production,2026-01-26,None,None,None,73,75
+TC-00431,Configuration: validate policy,Configuration,UI,Casey Nguyen,Performance,Passed,9546,UAT,2025-12-15,None,None,None,75,77
+TC-00432,Configuration: validate policy,Configuration,UI,Casey Nguyen,Regression,Passed,6193,Staging,2025-12-29,None,None,None,57,98
+TC-00433,Workflow Engine: handle timeout,Workflow Engine,API,Drew Bennett,Workflow,Passed,842,QA,2026-06-08,None,None,None,76,79
+TC-00434,Defect Tracking: update severity,Defect Tracking,SQL Server DB,Drew Bennett,Workflow,Passed,567,Staging,2026-02-02,None,None,None,73,100
+TC-00435,Notifications: send alert,Notifications,API,Jordan Patel,Workflow,Passed,2056,UAT,2025-12-15,None,None,None,90,73
+TC-00436,Release Management: approve release,Release Management,Workflow Engine,Jordan Patel,Black Box,Passed,5076,UAT,2025-11-10,None,None,None,53,91
+TC-00437,Data Import: validate CSV,Data Import,UI,Morgan Reed,Black Box,Passed,1257,UAT,2026-04-13,None,None,None,60,85
+TC-00438,Release Management: rollback build,Release Management,API,Skyler James,Workflow,Passed,82,UAT,2026-01-26,None,None,None,89,86
+TC-00439,Test Execution: start test run,Test Execution,Workflow Engine,Avery Chen,Integration,Passed,2945,Pre-Production,2026-06-08,None,None,None,56,90
+TC-00440,Test Execution: start test run,Test Execution,UI,Quinn Foster,Regression,Passed,1078,Staging,2026-06-29,None,None,None,55,94
+TC-00441,Configuration: apply feature flag,Configuration,UI,Jordan Patel,UI Functional,Skipped,3294,UAT,2026-06-15,None,None,None,61,95
+TC-00442,Reporting: export report,Reporting,UI,Morgan Reed,Performance,Failed,10558,Pre-Production,2026-02-16,DEF-00442,Critical,Open,48,80
+TC-00443,Notifications: suppress duplicate,Notifications,API,Riley Morgan,Black Box,Passed,2374,QA,2026-08-24,None,None,None,62,79
+TC-00444,Defect Tracking: link defect,Defect Tracking,SQL Server DB,Riley Morgan,Workflow,Passed,427,UAT,2026-06-15,None,None,None,91,79
+TC-00445,Data Import: import large file,Data Import,UI,Taylor Brooks,Regression,Passed,675,Pre-Production,2026-08-03,None,None,None,47,83
+TC-00446,Data Import: validate CSV,Data Import,UI,Jamie Rivera,Regression,Passed,6486,UAT,2026-04-20,None,None,None,56,95
+TC-00447,Defect Tracking: close resolved defect,Defect Tracking,UI,Jordan Patel,Regression,Failed,3899,UAT,2025-12-29,DEF-00447,High,Open,51,86
+TC-00448,Integrations: validate payload,Integrations,Workflow Engine,Jamie Rivera,Integration,Passed,2053,QA,2026-03-16,None,None,None,88,92
+TC-00449,Release Management: create release,Release Management,Workflow Engine,Avery Chen,Performance,Failed,3171,Pre-Production,2026-03-09,DEF-00449,Low,Open,69,74
+TC-00450,Test Execution: start test run,Test Execution,SQL Server DB,Riley Morgan,UI Functional,Passed,426,UAT,2026-06-22,None,None,None,73,87
+TC-00451,Configuration: save environment,Configuration,SQL Server DB,Morgan Reed,Workflow,Passed,673,Staging,2026-05-25,None,None,None,60,87
+TC-00452,Release Management: rollback build,Release Management,UI,Skyler James,Integration,Failed,594,Pre-Production,2025-10-06,DEF-00452,Critical,Closed,50,97
+TC-00453,Data Import: reject malformed row,Data Import,Workflow Engine,Drew Bennett,Integration,Passed,3111,UAT,2026-02-09,None,None,None,85,98
+TC-00454,Reporting: aggregate weekly metrics,Reporting,Workflow Engine,Morgan Reed,Black Box,Failed,2012,Staging,2026-01-12,DEF-00454,Medium,Open,84,78
+TC-00455,Test Execution: start test run,Test Execution,UI,Avery Chen,Workflow,Passed,2460,Staging,2026-09-07,None,None,None,48,97
+TC-00456,Integrations: retry webhook,Integrations,API,Drew Bennett,Regression,Passed,791,QA,2026-03-09,None,None,None,67,92
+TC-00457,Data Import: reject malformed row,Data Import,Workflow Engine,Quinn Foster,Performance,Passed,9030,Pre-Production,2025-11-03,None,None,None,81,74
+TC-00458,Workflow Engine: route approval,Workflow Engine,Workflow Engine,Skyler James,UI Functional,Passed,2177,Staging,2026-05-11,None,None,None,51,75
+TC-00459,User Access: assign role,User Access,SQL Server DB,Drew Bennett,Regression,Passed,570,UAT,2026-09-14,None,None,None,88,96
+TC-00460,Defect Tracking: close resolved defect,Defect Tracking,SQL Server DB,Jordan Patel,Integration,Failed,330,UAT,2026-07-20,DEF-00460,Critical,Closed,85,74
+TC-00461,Reporting: filter dashboard,Reporting,Workflow Engine,Casey Nguyen,UI Functional,Skipped,7127,UAT,2026-08-24,None,None,None,73,81
+TC-00462,Release Management: create release,Release Management,API,Casey Nguyen,API Contract,Passed,188,UAT,2026-09-14,None,None,None,96,96
+TC-00463,Reporting: export report,Reporting,SQL Server DB,Taylor Brooks,Performance,Failed,8029,Staging,2025-12-01,DEF-00463,Critical,Closed,65,99
+TC-00464,Release Management: approve release,Release Management,API,Drew Bennett,Workflow,Skipped,733,QA,2026-03-16,None,None,None,68,86
+TC-00465,Release Management: create release,Release Management,Workflow Engine,Riley Morgan,Performance,Passed,5131,Staging,2026-07-13,None,None,None,81,74
+TC-00466,Workflow Engine: route approval,Workflow Engine,SQL Server DB,Avery Chen,Regression,Passed,995,UAT,2026-10-05,None,None,None,63,92
+TC-00467,Integrations: retry webhook,Integrations,Workflow Engine,Casey Nguyen,API Contract,Skipped,5396,Staging,2026-04-13,None,None,None,55,94
+TC-00468,Workflow Engine: resume workflow,Workflow Engine,Workflow Engine,Casey Nguyen,Integration,Passed,5772,Staging,2026-05-11,None,None,None,71,84
+TC-00469,Notifications: send alert,Notifications,SQL Server DB,Jamie Rivera,UI Functional,Blocked,25,Pre-Production,2026-02-09,DEF-00469,Critical,In Progress,89,78
+TC-00470,Workflow Engine: route approval,Workflow Engine,API,Casey Nguyen,UI Functional,Passed,805,UAT,2026-03-23,None,None,None,95,84
+TC-00471,Configuration: validate policy,Configuration,SQL Server DB,Casey Nguyen,API Contract,Failed,856,QA,2026-04-13,DEF-00471,Critical,Closed,69,72
+TC-00472,Reporting: export report,Reporting,Workflow Engine,Jordan Patel,Regression,Passed,5388,Pre-Production,2026-08-31,None,None,None,67,86
+TC-00473,User Access: assign role,User Access,SQL Server DB,Jordan Patel,API Contract,Passed,521,QA,2025-10-20,None,None,None,93,86
+TC-00474,User Access: enforce permissions,User Access,API,Taylor Brooks,API Contract,Passed,586,Pre-Production,2025-10-27,None,None,None,88,73
+TC-00475,User Access: revoke access,User Access,API,Jamie Rivera,API Contract,Passed,724,Pre-Production,2026-09-07,None,None,None,67,100
+TC-00476,Workflow Engine: handle timeout,Workflow Engine,Workflow Engine,Skyler James,API Contract,Passed,1009,Staging,2026-08-17,None,None,None,79,83
+TC-00477,Notifications: send alert,Notifications,API,Avery Chen,API Contract,Failed,934,UAT,2026-06-29,DEF-00477,Critical,Open,97,97
+TC-00478,Integrations: sync issue tracker,Integrations,API,Casey Nguyen,UI Functional,Passed,348,UAT,2026-05-04,None,None,None,63,85
+TC-00479,Defect Tracking: close resolved defect,Defect Tracking,Workflow Engine,Jordan Patel,UI Functional,Passed,1177,QA,2025-12-15,None,None,None,74,80
+TC-00480,Data Import: validate CSV,Data Import,API,Quinn Foster,Integration,Passed,1467,QA,2026-02-09,None,None,None,60,78
+TC-00481,Defect Tracking: link defect,Defect Tracking,API,Skyler James,Black Box,Passed,1417,Staging,2026-08-10,None,None,None,68,77
+TC-00482,Test Execution: cancel execution,Test Execution,API,Riley Morgan,UI Functional,In Progress,331,Staging,2026-08-31,None,None,None,72,53
+TC-00483,Release Management: create release,Release Management,SQL Server DB,Avery Chen,Regression,Failed,1286,Staging,2026-05-18,DEF-00483,High,Open,65,92
+TC-00484,User Access: revoke access,User Access,API,Drew Bennett,Integration,Passed,1746,QA,2026-01-19,None,None,None,89,83
+TC-00485,Integrations: validate payload,Integrations,Workflow Engine,Quinn Foster,API Contract,Passed,1934,Pre-Production,2026-04-13,None,None,None,74,89
+TC-00486,Test Execution: start test run,Test Execution,SQL Server DB,Riley Morgan,Regression,Passed,586,QA,2026-02-09,None,None,None,74,79
+TC-00487,Test Execution: cancel execution,Test Execution,Workflow Engine,Jamie Rivera,Regression,Failed,958,QA,2025-10-06,DEF-00487,Critical,Open,63,82
+TC-00488,Reporting: export report,Reporting,UI,Jamie Rivera,API Contract,Passed,1937,Pre-Production,2025-10-13,None,None,None,45,96
+TC-00489,Reporting: filter dashboard,Reporting,UI,Skyler James,Black Box,Passed,2464,Staging,2025-12-22,None,None,None,47,85
+TC-00490,User Access: assign role,User Access,Workflow Engine,Quinn Foster,API Contract,Blocked,1147,UAT,2026-06-08,None,None,None,57,75
+TC-00491,Data Import: validate CSV,Data Import,API,Riley Morgan,UI Functional,Passed,2308,QA,2025-12-01,None,None,None,89,82
+TC-00492,User Access: assign role,User Access,Workflow Engine,Taylor Brooks,Integration,Passed,5768,UAT,2026-06-08,None,None,None,86,98
+TC-00493,Data Import: reject malformed row,Data Import,SQL Server DB,Morgan Reed,Workflow,Failed,890,Staging,2026-03-23,DEF-00493,High,In Progress,79,82
+TC-00494,Integrations: retry webhook,Integrations,API,Jamie Rivera,UI Functional,Passed,329,Pre-Production,2025-12-08,None,None,None,81,88
+TC-00495,Defect Tracking: update severity,Defect Tracking,API,Riley Morgan,Regression,Passed,75,Pre-Production,2026-09-07,None,None,None,92,87
+TC-00496,Configuration: validate policy,Configuration,API,Avery Chen,Performance,Passed,3185,Staging,2025-12-22,None,None,None,70,91
+TC-00497,Configuration: save environment,Configuration,API,Avery Chen,Performance,Skipped,17070,UAT,2026-06-22,None,None,None,94,80
+TC-00498,Configuration: apply feature flag,Configuration,UI,Avery Chen,Regression,Passed,5407,Staging,2026-03-16,None,None,None,45,96
+TC-00499,Release Management: approve release,Release Management,API,Avery Chen,Performance,Blocked,9481,UAT,2025-11-17,None,None,None,91,50
+TC-00500,Test Execution: retry failed case,Test Execution,UI,Drew Bennett,API Contract,Passed,950,Staging,2026-01-05,None,None,None,55,83
+TC-00501,Configuration: apply feature flag,Configuration,UI,Jamie Rivera,UI Functional,Failed,1810,UAT,2025-11-10,None,None,None,61,92
+TC-00502,Reporting: filter dashboard,Reporting,API,Morgan Reed,Performance,Blocked,3639,Staging,2025-10-27,None,None,None,60,46
+TC-00503,Reporting: filter dashboard,Reporting,UI,Skyler James,Black Box,Passed,1938,QA,2026-01-26,None,None,None,43,99
+TC-00504,Test Execution: start test run,Test Execution,SQL Server DB,Jamie Rivera,Workflow,Passed,13,Pre-Production,2026-02-09,None,None,None,78,87
+TC-00505,Workflow Engine: handle timeout,Workflow Engine,SQL Server DB,Taylor Brooks,Performance,Blocked,12682,Staging,2026-07-27,None,None,None,86,64
+TC-00506,Data Import: validate CSV,Data Import,SQL Server DB,Morgan Reed,Regression,Passed,619,QA,2025-12-08,None,None,None,79,92
+TC-00507,Test Execution: cancel execution,Test Execution,SQL Server DB,Taylor Brooks,Regression,Blocked,1137,Staging,2025-10-27,DEF-00507,Critical,Reopened,86,74
+TC-00508,Reporting: export report,Reporting,API,Quinn Foster,UI Functional,Passed,152,QA,2026-09-07,None,None,None,72,80
+TC-00509,Configuration: apply feature flag,Configuration,UI,Drew Bennett,Integration,Passed,3527,UAT,2025-11-24,None,None,None,76,73
+TC-00510,Defect Tracking: close resolved defect,Defect Tracking,Workflow Engine,Morgan Reed,Integration,Passed,1085,Pre-Production,2026-08-17,None,None,None,55,92
+TC-00511,Notifications: respect preferences,Notifications,API,Taylor Brooks,Regression,Passed,2199,Pre-Production,2025-11-10,None,None,None,88,90
+TC-00512,User Access: assign role,User Access,API,Morgan Reed,Integration,Passed,602,QA,2025-12-22,None,None,None,94,77
+TC-00513,Reporting: export report,Reporting,Workflow Engine,Quinn Foster,Performance,Passed,6979,UAT,2025-10-27,None,None,None,74,73
+TC-00514,Defect Tracking: update severity,Defect Tracking,UI,Drew Bennett,API Contract,Passed,5510,UAT,2026-08-31,None,None,None,64,72
+TC-00515,Workflow Engine: resume workflow,Workflow Engine,SQL Server DB,Jordan Patel,API Contract,Passed,762,UAT,2025-12-22,None,None,None,58,75
+TC-00516,Notifications: send alert,Notifications,UI,Jamie Rivera,Black Box,Passed,1919,UAT,2025-12-08,None,None,None,47,77
+TC-00517,User Access: enforce permissions,User Access,API,Jamie Rivera,Workflow,Passed,2218,Staging,2025-11-17,None,None,None,73,72
+TC-00518,Notifications: respect preferences,Notifications,UI,Morgan Reed,Integration,Failed,5611,Staging,2026-05-11,DEF-00518,Low,Reopened,45,88
+TC-00519,Defect Tracking: update severity,Defect Tracking,UI,Jordan Patel,Performance,Passed,17086,UAT,2025-12-29,None,None,None,60,96
+TC-00520,Defect Tracking: update severity,Defect Tracking,SQL Server DB,Casey Nguyen,UI Functional,Passed,795,Staging,2026-09-07,None,None,None,76,94
+TC-00521,Integrations: validate payload,Integrations,API,Drew Bennett,API Contract,Failed,387,QA,2025-12-01,DEF-00521,Medium,Closed,90,77
+TC-00522,Defect Tracking: close resolved defect,Defect Tracking,Workflow Engine,Morgan Reed,API Contract,Passed,6014,Pre-Production,2026-08-03,None,None,None,74,97
+TC-00523,Integrations: sync issue tracker,Integrations,UI,Jordan Patel,Performance,Passed,7206,Pre-Production,2026-02-23,None,None,None,39,92
+TC-00524,Test Execution: cancel execution,Test Execution,API,Jamie Rivera,Workflow,Passed,1897,Staging,2026-03-30,None,None,None,63,87
+TC-00525,Workflow Engine: route approval,Workflow Engine,API,Casey Nguyen,Black Box,In Progress,1827,QA,2026-08-24,None,None,None,61,43
+TC-00526,Defect Tracking: link defect,Defect Tracking,UI,Drew Bennett,Performance,Passed,13818,QA,2026-08-03,DEF-00526,Critical,Open,63,89
+TC-00527,Release Management: create release,Release Management,API,Drew Bennett,UI Functional,Passed,427,Staging,2026-06-15,None,None,None,74,80
+TC-00528,Release Management: rollback build,Release Management,UI,Jamie Rivera,API Contract,Passed,447,UAT,2025-10-13,None,None,None,65,95
+TC-00529,Data Import: reject malformed row,Data Import,API,Taylor Brooks,API Contract,Passed,931,QA,2026-08-03,None,None,None,96,98
+TC-00530,Reporting: aggregate weekly metrics,Reporting,Workflow Engine,Casey Nguyen,API Contract,Blocked,769,UAT,2026-05-11,None,None,None,63,81
+TC-00531,Data Import: validate CSV,Data Import,UI,Riley Morgan,API Contract,Passed,3606,UAT,2026-08-24,None,None,None,68,74
+TC-00532,Integrations: retry webhook,Integrations,API,Riley Morgan,UI Functional,Passed,2371,Staging,2026-05-11,None,None,None,88,79
+TC-00533,Configuration: apply feature flag,Configuration,Workflow Engine,Riley Morgan,API Contract,Failed,2508,Staging,2026-03-09,None,None,None,57,84
+TC-00534,Defect Tracking: link defect,Defect Tracking,Workflow Engine,Riley Morgan,UI Functional,Skipped,306,Staging,2026-01-05,None,None,None,83,90
+TC-00535,Configuration: save environment,Configuration,SQL Server DB,Jordan Patel,UI Functional,Passed,16,Staging,2026-06-08,None,None,None,65,72
+TC-00536,Data Import: import large file,Data Import,SQL Server DB,Morgan Reed,Black Box,Passed,1188,UAT,2026-03-09,None,None,None,87,72
+TC-00537,Workflow Engine: handle timeout,Workflow Engine,SQL Server DB,Avery Chen,API Contract,Passed,1104,Pre-Production,2025-10-13,None,None,None,87,98
+TC-00538,Test Execution: cancel execution,Test Execution,UI,Drew Bennett,Integration,Passed,2289,Pre-Production,2026-02-02,None,None,None,41,84
+TC-00539,Workflow Engine: handle timeout,Workflow Engine,Workflow Engine,Avery Chen,UI Functional,Passed,6490,Staging,2025-12-15,None,None,None,56,100
+TC-00540,Release Management: approve release,Release Management,SQL Server DB,Avery Chen,Integration,Passed,626,QA,2026-08-17,None,None,None,68,93
+TC-00541,Reporting: filter dashboard,Reporting,API,Avery Chen,Regression,Passed,2139,Pre-Production,2026-04-06,None,None,None,81,98
+TC-00542,Notifications: respect preferences,Notifications,API,Casey Nguyen,Regression,Passed,1842,Pre-Production,2026-06-22,None,None,None,71,81
+TC-00543,Test Execution: cancel execution,Test Execution,Workflow Engine,Quinn Foster,Regression,Passed,670,Staging,2026-05-18,None,None,None,55,100
+TC-00544,Defect Tracking: link defect,Defect Tracking,UI,Avery Chen,Regression,Passed,1393,UAT,2026-03-30,None,None,None,75,78
+TC-00545,Release Management: approve release,Release Management,SQL Server DB,Skyler James,API Contract,Passed,1192,UAT,2026-03-23,None,None,None,87,85
+TC-00546,Data Import: reject malformed row,Data Import,API,Avery Chen,Regression,Passed,1824,QA,2026-07-20,None,None,None,63,100
+TC-00547,Integrations: retry webhook,Integrations,SQL Server DB,Taylor Brooks,Performance,Passed,15717,Pre-Production,2026-02-23,None,None,None,77,79
+TC-00548,User Access: enforce permissions,User Access,UI,Drew Bennett,API Contract,Passed,3427,UAT,2025-12-01,None,None,None,73,76
+TC-00549,Defect Tracking: link defect,Defect Tracking,UI,Morgan Reed,UI Functional,Passed,1976,Staging,2026-10-05,None,None,None,72,87
+TC-00550,Integrations: sync issue tracker,Integrations,UI,Jamie Rivera,Workflow,Failed,2223,Staging,2026-08-03,None,None,None,40,89
+TC-00551,Release Management: rollback build,Release Management,Workflow Engine,Drew Bennett,Regression,Passed,5584,UAT,2026-09-14,DEF-00551,High,In Progress,59,81
+TC-00552,Defect Tracking: close resolved defect,Defect Tracking,API,Riley Morgan,API Contract,Passed,1964,Pre-Production,2026-05-11,None,None,None,80,72
+TC-00553,Defect Tracking: link defect,Defect Tracking,API,Jamie Rivera,Regression,Passed,1909,Pre-Production,2025-12-01,None,None,None,71,95
+TC-00554,Notifications: respect preferences,Notifications,API,Morgan Reed,UI Functional,Passed,927,UAT,2026-03-16,None,None,None,93,81
+TC-00555,User Access: assign role,User Access,Workflow Engine,Quinn Foster,UI Functional,Passed,2902,QA,2026-04-27,None,None,None,53,89
+TC-00556,Release Management: rollback build,Release Management,UI,Casey Nguyen,Black Box,Passed,4111,UAT,2026-01-19,None,None,None,55,74
+TC-00557,User Access: assign role,User Access,UI,Drew Bennett,Performance,Failed,8068,UAT,2026-02-02,DEF-00557,Medium,Closed,60,74
+TC-00558,Configuration: save environment,Configuration,Workflow Engine,Quinn Foster,Integration,Passed,4915,QA,2026-06-08,None,None,None,88,77
+TC-00559,Reporting: export report,Reporting,API,Avery Chen,UI Functional,Passed,1137,QA,2026-06-22,None,None,None,79,99
+TC-00560,Defect Tracking: update severity,Defect Tracking,Workflow Engine,Taylor Brooks,API Contract,Blocked,4141,Pre-Production,2025-12-29,None,None,None,58,73
+TC-00561,Release Management: rollback build,Release Management,API,Jordan Patel,Workflow,Passed,2221,UAT,2026-02-23,None,None,None,79,91
+TC-00562,User Access: revoke access,User Access,Workflow Engine,Jordan Patel,Regression,Passed,5453,Pre-Production,2026-05-04,None,None,None,60,97
+TC-00563,Reporting: filter dashboard,Reporting,SQL Server DB,Skyler James,Black Box,Passed,611,UAT,2026-02-16,None,None,None,55,90
+TC-00564,Defect Tracking: link defect,Defect Tracking,API,Jordan Patel,Workflow,Passed,287,QA,2026-07-20,None,None,None,64,81
+TC-00565,Data Import: import large file,Data Import,Workflow Engine,Drew Bennett,Black Box,Passed,4091,Pre-Production,2026-01-26,None,None,None,82,80
+TC-00566,Data Import: import large file,Data Import,UI,Casey Nguyen,Performance,Failed,13733,Staging,2025-11-10,DEF-00566,High,In Progress,40,87
+TC-00567,Integrations: retry webhook,Integrations,API,Quinn Foster,UI Functional,Passed,967,Staging,2025-11-03,None,None,None,94,91
+TC-00568,User Access: assign role,User Access,Workflow Engine,Drew Bennett,Regression,Passed,3470,Pre-Production,2026-04-06,None,None,None,71,76
+TC-00569,Data Import: reject malformed row,Data Import,SQL Server DB,Morgan Reed,Workflow,Passed,1113,QA,2026-03-02,DEF-00569,Low,Closed,67,85
+TC-00570,Test Execution: retry failed case,Test Execution,UI,Quinn Foster,API Contract,Passed,4811,Pre-Production,2026-01-26,None,None,None,55,78
+TC-00571,Test Execution: cancel execution,Test Execution,API,Taylor Brooks,Black Box,Passed,874,QA,2025-12-22,None,None,None,96,87
+TC-00572,Test Execution: start test run,Test Execution,API,Jamie Rivera,Performance,Passed,13631,UAT,2026-04-20,None,None,None,71,88
+TC-00573,Configuration: validate policy,Configuration,UI,Quinn Foster,Black Box,Skipped,790,UAT,2026-09-21,None,None,None,69,84
+TC-00574,Data Import: reject malformed row,Data Import,Workflow Engine,Quinn Foster,Workflow,Failed,3881,UAT,2026-05-04,DEF-00574,Low,Open,67,86
+TC-00575,Reporting: aggregate weekly metrics,Reporting,UI,Quinn Foster,Black Box,Failed,3257,Staging,2026-08-10,None,None,None,72,77
+TC-00576,Notifications: suppress duplicate,Notifications,SQL Server DB,Jamie Rivera,Regression,Passed,95,Staging,2026-03-09,None,None,None,59,100
+TC-00577,Reporting: filter dashboard,Reporting,API,Jamie Rivera,Regression,Passed,642,Pre-Production,2025-11-24,None,None,None,70,81
+TC-00578,Data Import: import large file,Data Import,Workflow Engine,Jordan Patel,UI Functional,Passed,4180,UAT,2026-04-27,None,None,None,74,96
+TC-00579,Release Management: rollback build,Release Management,UI,Casey Nguyen,API Contract,Passed,3943,UAT,2026-07-13,None,None,None,71,94
+TC-00580,Workflow Engine: route approval,Workflow Engine,API,Taylor Brooks,UI Functional,Passed,157,Pre-Production,2025-12-01,None,None,None,84,81
+TC-00581,Reporting: aggregate weekly metrics,Reporting,Workflow Engine,Jordan Patel,Workflow,Passed,5590,QA,2025-11-24,None,None,None,83,91
+TC-00582,Test Execution: retry failed case,Test Execution,UI,Morgan Reed,Regression,Passed,3101,QA,2025-12-29,None,None,None,61,81
+TC-00583,Notifications: respect preferences,Notifications,Workflow Engine,Jamie Rivera,Regression,Passed,852,UAT,2026-08-03,None,None,None,65,89
+TC-00584,Configuration: save environment,Configuration,Workflow Engine,Drew Bennett,Workflow,Passed,3776,QA,2026-07-20,None,None,None,86,76
+TC-00585,Workflow Engine: resume workflow,Workflow Engine,API,Riley Morgan,UI Functional,Passed,2361,UAT,2026-06-08,None,None,None,82,92
+TC-00586,Notifications: send alert,Notifications,UI,Taylor Brooks,UI Functional,Failed,6021,QA,2026-09-21,None,None,None,66,81
+TC-00587,Release Management: approve release,Release Management,API,Riley Morgan,Integration,Failed,1608,QA,2026-07-20,None,None,None,93,80
+TC-00588,Integrations: sync issue tracker,Integrations,SQL Server DB,Morgan Reed,Regression,In Progress,492,Pre-Production,2026-06-01,None,None,None,76,33
+TC-00589,User Access: enforce permissions,User Access,UI,Jamie Rivera,UI Functional,Passed,3090,Staging,2025-11-24,None,None,None,45,89
+TC-00590,Release Management: rollback build,Release Management,SQL Server DB,Skyler James,Regression,Passed,512,QA,2026-09-14,None,None,None,71,100
+TC-00591,Integrations: retry webhook,Integrations,UI,Riley Morgan,UI Functional,Passed,6347,UAT,2026-03-30,None,None,None,70,98
+TC-00592,User Access: assign role,User Access,SQL Server DB,Taylor Brooks,Performance,Blocked,3203,Staging,2026-03-30,None,None,None,88,78
+TC-00593,Notifications: respect preferences,Notifications,UI,Drew Bennett,Workflow,Passed,5716,UAT,2026-03-02,None,None,None,60,80
+TC-00594,Release Management: approve release,Release Management,UI,Riley Morgan,Integration,Passed,547,QA,2026-06-29,None,None,None,70,74
+TC-00595,User Access: revoke access,User Access,API,Jordan Patel,Workflow,Blocked,1950,UAT,2026-03-16,None,None,None,59,83
+TC-00596,Data Import: import large file,Data Import,Workflow Engine,Avery Chen,API Contract,Passed,1639,Staging,2026-08-31,None,None,None,64,82
+TC-00597,Reporting: export report,Reporting,UI,Drew Bennett,API Contract,Passed,418,UAT,2026-04-06,None,None,None,75,79
+TC-00598,Data Import: import large file,Data Import,API,Drew Bennett,API Contract,Failed,1049,QA,2026-04-20,None,None,None,92,89
+TC-00599,Release Management: rollback build,Release Management,Workflow Engine,Skyler James,Integration,Passed,1676,UAT,2026-02-23,None,None,None,76,75
+TC-00600,Reporting: aggregate weekly metrics,Reporting,Workflow Engine,Taylor Brooks,Regression,Passed,5815,QA,2026-03-23,None,None,None,58,72
+TC-00601,Data Import: validate CSV,Data Import,API,Skyler James,API Contract,Passed,2337,QA,2026-01-19,None,None,None,61,92
+TC-00602,Data Import: validate CSV,Data Import,API,Casey Nguyen,Workflow,Passed,2203,Staging,2025-10-27,None,None,None,73,75
+TC-00603,Test Execution: cancel execution,Test Execution,SQL Server DB,Jamie Rivera,Integration,Skipped,1287,Pre-Production,2026-01-26,None,None,None,85,93
+TC-00604,User Access: enforce permissions,User Access,SQL Server DB,Riley Morgan,API Contract,Passed,234,QA,2026-09-14,None,None,None,77,89
+TC-00605,Integrations: validate payload,Integrations,Workflow Engine,Jamie Rivera,Integration,Passed,3105,Pre-Production,2026-08-17,None,None,None,54,91
+TC-00606,Release Management: create release,Release Management,Workflow Engine,Jordan Patel,Black Box,Passed,6832,QA,2025-12-29,None,None,None,84,88
+TC-00607,Data Import: reject malformed row,Data Import,Workflow Engine,Jordan Patel,UI Functional,Passed,665,Staging,2026-01-26,None,None,None,81,94
+TC-00608,Workflow Engine: handle timeout,Workflow Engine,API,Jordan Patel,Performance,Passed,2276,UAT,2026-04-06,None,None,None,66,92
+TC-00609,Release Management: approve release,Release Management,API,Jordan Patel,Integration,Passed,2257,Staging,2026-09-21,None,None,None,76,86
+TC-00610,Test Execution: retry failed case,Test Execution,SQL Server DB,Riley Morgan,API Contract,Failed,694,Staging,2026-04-27,DEF-00610,Critical,Closed,89,81
+TC-00611,Reporting: aggregate weekly metrics,Reporting,SQL Server DB,Taylor Brooks,Integration,Passed,447,UAT,2025-10-13,None,None,None,67,77
+TC-00612,Release Management: approve release,Release Management,SQL Server DB,Avery Chen,API Contract,Passed,1152,Staging,2026-08-17,None,None,None,89,94
+TC-00613,Notifications: respect preferences,Notifications,Workflow Engine,Jordan Patel,Regression,Passed,5627,QA,2025-12-29,None,None,None,80,90
+TC-00614,User Access: enforce permissions,User Access,UI,Casey Nguyen,Regression,Passed,5627,Pre-Production,2026-07-06,None,None,None,75,87
+TC-00615,Test Execution: cancel execution,Test Execution,UI,Jordan Patel,API Contract,Passed,5625,Pre-Production,2026-02-09,None,None,None,62,72
+TC-00616,Notifications: suppress duplicate,Notifications,Workflow Engine,Quinn Foster,Workflow,Passed,4496,QA,2025-11-17,None,None,None,62,90
+TC-00617,User Access: assign role,User Access,Workflow Engine,Riley Morgan,Workflow,Passed,5747,Staging,2026-07-13,None,None,None,72,92
+TC-00618,Configuration: save environment,Configuration,API,Riley Morgan,Black Box,Skipped,119,QA,2026-06-01,None,None,None,88,93
+TC-00619,User Access: revoke access,User Access,Workflow Engine,Drew Bennett,Performance,Passed,14207,QA,2025-10-20,None,None,None,67,79
+TC-00620,Integrations: validate payload,Integrations,UI,Casey Nguyen,Performance,Failed,14776,Staging,2026-04-20,DEF-00620,Critical,Closed,43,95
+TC-00621,Release Management: approve release,Release Management,UI,Taylor Brooks,UI Functional,Passed,5288,UAT,2026-08-17,None,None,None,75,81
+TC-00622,User Access: revoke access,User Access,Workflow Engine,Jamie Rivera,API Contract,Passed,1070,Pre-Production,2026-05-11,None,None,None,63,74
+TC-00623,Notifications: respect preferences,Notifications,API,Taylor Brooks,API Contract,Passed,726,UAT,2026-01-26,None,None,None,97,93
+TC-00624,Notifications: send alert,Notifications,UI,Riley Morgan,UI Functional,Passed,2349,QA,2026-05-25,None,None,None,67,74
+TC-00625,Workflow Engine: route approval,Workflow Engine,Workflow Engine,Jamie Rivera,Performance,Passed,4546,UAT,2025-10-20,None,None,None,56,80
+TC-00626,User Access: assign role,User Access,SQL Server DB,Taylor Brooks,UI Functional,Failed,1293,UAT,2025-12-01,DEF-00626,High,Closed,74,95
+TC-00627,Release Management: rollback build,Release Management,UI,Jamie Rivera,API Contract,Passed,5222,QA,2026-03-23,None,None,None,73,82
+TC-00628,Release Management: approve release,Release Management,SQL Server DB,Quinn Foster,UI Functional,Passed,342,Staging,2026-07-20,None,None,None,91,74
+TC-00629,Reporting: aggregate weekly metrics,Reporting,UI,Avery Chen,Workflow,Passed,5737,UAT,2026-07-20,None,None,None,71,95
+TC-00630,Release Management: create release,Release Management,SQL Server DB,Skyler James,API Contract,Passed,129,QA,2025-12-08,None,None,None,70,77
+TC-00631,User Access: revoke access,User Access,API,Avery Chen,API Contract,Blocked,1799,UAT,2026-05-11,DEF-00631,Critical,Reopened,87,67
+TC-00632,Configuration: validate policy,Configuration,UI,Avery Chen,Integration,Failed,5119,Staging,2026-06-29,None,None,None,51,74
+TC-00633,Notifications: suppress duplicate,Notifications,API,Jordan Patel,Integration,Passed,34,Staging,2025-10-27,None,None,None,70,92
+TC-00634,Test Execution: start test run,Test Execution,SQL Server DB,Skyler James,Integration,Passed,1137,Pre-Production,2026-08-17,None,None,None,58,95
+TC-00635,User Access: revoke access,User Access,UI,Morgan Reed,Integration,Failed,3024,QA,2026-01-05,DEF-00635,High,Open,47,75
+TC-00636,Data Import: reject malformed row,Data Import,API,Skyler James,Regression,Passed,2088,Staging,2026-09-07,None,None,None,78,82
+TC-00637,User Access: enforce permissions,User Access,UI,Riley Morgan,Performance,Passed,10683,QA,2026-05-25,None,None,None,56,92
+TC-00638,Notifications: respect preferences,Notifications,API,Drew Bennett,Regression,Failed,672,UAT,2025-12-29,DEF-00638,High,In Progress,90,76
+TC-00639,Integrations: validate payload,Integrations,Workflow Engine,Drew Bennett,API Contract,Passed,6536,QA,2026-06-01,None,None,None,68,82
+TC-00640,Data Import: validate CSV,Data Import,API,Riley Morgan,Performance,Passed,7563,Pre-Production,2025-12-22,None,None,None,59,73
+TC-00641,Defect Tracking: update severity,Defect Tracking,API,Quinn Foster,Performance,Blocked,15887,QA,2025-10-06,DEF-00641,Medium,In Progress,73,84
+TC-00642,Notifications: respect preferences,Notifications,API,Jamie Rivera,Integration,Passed,193,QA,2026-09-07,None,None,None,62,72
+TC-00643,Release Management: approve release,Release Management,API,Casey Nguyen,UI Functional,Failed,1167,Staging,2026-03-02,DEF-00643,Medium,Closed,73,93
+TC-00644,Data Import: import large file,Data Import,UI,Taylor Brooks,Integration,Passed,1254,Staging,2026-02-09,None,None,None,56,88
+TC-00645,Integrations: sync issue tracker,Integrations,UI,Avery Chen,Black Box,Failed,1533,Pre-Production,2025-10-13,DEF-00645,Low,In Progress,63,83
+TC-00646,User Access: assign role,User Access,API,Jordan Patel,Workflow,Passed,190,QA,2025-11-24,None,None,None,60,76
+TC-00647,Data Import: reject malformed row,Data Import,UI,Taylor Brooks,Integration,Passed,3847,QA,2026-01-05,None,None,None,51,76
+TC-00648,User Access: enforce permissions,User Access,UI,Taylor Brooks,UI Functional,Failed,2997,Pre-Production,2026-04-27,None,None,None,50,87
+TC-00649,Release Management: create release,Release Management,UI,Riley Morgan,API Contract,Passed,2980,UAT,2026-02-02,None,None,None,71,91
+TC-00650,Data Import: validate CSV,Data Import,Workflow Engine,Avery Chen,API Contract,Passed,1396,Pre-Production,2026-01-26,None,None,None,71,74
+TC-00651,Test Execution: retry failed case,Test Execution,API,Drew Bennett,API Contract,Passed,1505,QA,2026-09-28,None,None,None,83,99
+TC-00652,Release Management: rollback build,Release Management,SQL Server DB,Riley Morgan,Integration,Passed,977,Pre-Production,2025-11-17,None,None,None,86,95
+TC-00653,Workflow Engine: handle timeout,Workflow Engine,API,Jordan Patel,Performance,Passed,7597,Staging,2026-06-15,None,None,None,93,75
+TC-00654,Test Execution: retry failed case,Test Execution,SQL Server DB,Skyler James,API Contract,Passed,172,QA,2026-02-09,None,None,None,61,89
+TC-00655,Test Execution: retry failed case,Test Execution,Workflow Engine,Taylor Brooks,UI Functional,Failed,5199,UAT,2026-04-13,DEF-00655,Critical,Closed,80,92
+TC-00656,Release Management: approve release,Release Management,UI,Jordan Patel,Black Box,Passed,3196,QA,2025-12-08,None,None,None,47,84
+TC-00657,Notifications: respect preferences,Notifications,Workflow Engine,Jordan Patel,API Contract,Passed,6509,Pre-Production,2026-05-25,DEF-00657,Low,In Progress,82,98
+TC-00658,Reporting: filter dashboard,Reporting,API,Jordan Patel,Integration,Passed,1169,Staging,2026-01-26,None,None,None,77,74
+TC-00659,Workflow Engine: route approval,Workflow Engine,SQL Server DB,Drew Bennett,Integration,Passed,74,Staging,2025-10-13,None,None,None,91,75
+TC-00660,Defect Tracking: close resolved defect,Defect Tracking,UI,Jordan Patel,Black Box,Passed,1098,UAT,2025-10-20,None,None,None,44,95
+TC-00661,Notifications: send alert,Notifications,UI,Riley Morgan,Workflow,Passed,2697,UAT,2026-08-31,None,None,None,75,73
+TC-00662,Release Management: create release,Release Management,SQL Server DB,Skyler James,Black Box,Passed,1079,Pre-Production,2025-12-01,None,None,None,70,98
+TC-00663,Defect Tracking: update severity,Defect Tracking,UI,Quinn Foster,Performance,Passed,16143,Pre-Production,2026-03-16,None,None,None,51,85
+TC-00664,Release Management: approve release,Release Management,API,Jamie Rivera,Regression,Passed,2273,QA,2025-12-01,None,None,None,88,92
+TC-00665,Workflow Engine: resume workflow,Workflow Engine,UI,Riley Morgan,UI Functional,Blocked,2017,QA,2026-04-06,None,None,None,38,47
+TC-00666,User Access: assign role,User Access,Workflow Engine,Riley Morgan,API Contract,Passed,6209,Pre-Production,2026-09-28,DEF-00666,Medium,In Progress,82,78
+TC-00667,Workflow Engine: handle timeout,Workflow Engine,SQL Server DB,Avery Chen,Performance,Passed,14650,Pre-Production,2026-03-16,None,None,None,91,91
+TC-00668,Workflow Engine: handle timeout,Workflow Engine,API,Jordan Patel,Workflow,Skipped,53,Pre-Production,2026-04-06,None,None,None,77,95
+TC-00669,User Access: assign role,User Access,API,Avery Chen,Regression,Passed,1531,QA,2025-11-17,None,None,None,89,95
+TC-00670,Workflow Engine: route approval,Workflow Engine,SQL Server DB,Morgan Reed,Black Box,Passed,797,Pre-Production,2025-12-08,None,None,None,64,98
+TC-00671,Test Execution: cancel execution,Test Execution,UI,Casey Nguyen,UI Functional,Passed,3159,UAT,2025-12-29,None,None,None,56,84
+TC-00672,Configuration: save environment,Configuration,SQL Server DB,Avery Chen,Regression,Passed,749,Staging,2026-06-01,None,None,None,90,73
+TC-00673,Integrations: retry webhook,Integrations,Workflow Engine,Jamie Rivera,API Contract,Passed,2751,Pre-Production,2026-01-26,None,None,None,84,96
+TC-00674,Release Management: approve release,Release Management,API,Drew Bennett,UI Functional,Passed,914,QA,2026-04-20,None,None,None,88,100
+TC-00675,Data Import: validate CSV,Data Import,Workflow Engine,Jordan Patel,Regression,Passed,1513,QA,2026-04-20,None,None,None,71,76
+TC-00676,Test Execution: cancel execution,Test Execution,UI,Drew Bennett,Integration,Passed,5722,Staging,2026-05-11,None,None,None,57,82
+TC-00677,Data Import: import large file,Data Import,UI,Casey Nguyen,API Contract,Passed,1071,UAT,2026-06-29,None,None,None,50,73
+TC-00678,Release Management: approve release,Release Management,UI,Skyler James,Performance,Passed,16909,QA,2026-04-06,None,None,None,53,97
+TC-00679,Data Import: validate CSV,Data Import,UI,Drew Bennett,Integration,Passed,632,Staging,2026-01-05,None,None,None,47,76
+TC-00680,User Access: enforce permissions,User Access,UI,Casey Nguyen,API Contract,Passed,6294,Pre-Production,2025-10-06,None,None,None,40,74
+TC-00681,Workflow Engine: handle timeout,Workflow Engine,API,Jamie Rivera,Performance,Passed,6034,Staging,2025-10-27,None,None,None,63,86
+TC-00682,Release Management: approve release,Release Management,UI,Jordan Patel,Workflow,Passed,5313,QA,2026-06-15,None,None,None,65,73
+TC-00683,Defect Tracking: update severity,Defect Tracking,SQL Server DB,Skyler James,Workflow,Passed,1115,Pre-Production,2026-06-08,None,None,None,82,80
+TC-00684,Integrations: validate payload,Integrations,UI,Avery Chen,Performance,Passed,5576,Staging,2026-01-19,None,None,None,73,90
+TC-00685,Reporting: export report,Reporting,SQL Server DB,Riley Morgan,Performance,Failed,17092,QA,2026-10-05,DEF-00685,Critical,In Progress,68,91
+TC-00686,Defect Tracking: link defect,Defect Tracking,Workflow Engine,Quinn Foster,Integration,Passed,1782,Staging,2026-02-23,None,None,None,78,78
+TC-00687,Integrations: retry webhook,Integrations,UI,Jamie Rivera,Performance,Passed,10924,QA,2026-03-16,None,None,None,70,85
+TC-00688,Data Import: reject malformed row,Data Import,UI,Quinn Foster,Performance,Failed,9715,Pre-Production,2026-04-20,DEF-00688,Low,Fixed,54,88
+TC-00689,Defect Tracking: close resolved defect,Defect Tracking,UI,Skyler James,API Contract,Passed,4788,QA,2026-08-10,None,None,None,53,80
+TC-00690,Defect Tracking: close resolved defect,Defect Tracking,API,Skyler James,Regression,Passed,947,QA,2026-03-09,None,None,None,70,83
+TC-00691,Defect Tracking: update severity,Defect Tracking,SQL Server DB,Avery Chen,Integration,Passed,411,Pre-Production,2026-03-23,None,None,None,76,99
+TC-00692,User Access: revoke access,User Access,SQL Server DB,Riley Morgan,Integration,Blocked,1116,Staging,2026-03-30,None,None,None,90,80
+TC-00693,Notifications: send alert,Notifications,UI,Quinn Foster,Regression,Passed,3720,Pre-Production,2026-04-27,None,None,None,65,88
+TC-00694,Release Management: rollback build,Release Management,Workflow Engine,Jamie Rivera,UI Functional,Passed,1889,UAT,2026-05-18,None,None,None,77,92
+TC-00695,User Access: assign role,User Access,SQL Server DB,Casey Nguyen,API Contract,Blocked,941,Staging,2026-06-22,None,None,None,91,47
+TC-00696,Data Import: import large file,Data Import,UI,Skyler James,Integration,Failed,5637,UAT,2026-09-14,DEF-00696,Low,Fixed,54,76
+TC-00697,Configuration: save environment,Configuration,Workflow Engine,Quinn Foster,Black Box,Failed,4395,QA,2026-03-02,DEF-00697,High,Fixed,52,80
+TC-00698,Test Execution: start test run,Test Execution,API,Taylor Brooks,Black Box,Passed,1446,QA,2025-11-03,None,None,None,93,77
+TC-00699,Defect Tracking: update severity,Defect Tracking,Workflow Engine,Riley Morgan,Workflow,Passed,3690,Staging,2025-10-06,None,None,None,66,81
+TC-00700,Notifications: respect preferences,Notifications,UI,Riley Morgan,Integration,Passed,1316,Staging,2026-07-06,None,None,None,52,73
+TC-00701,Test Execution: retry failed case,Test Execution,UI,Avery Chen,Black Box,Passed,1086,Staging,2026-05-11,None,None,None,69,83
+TC-00702,Integrations: sync issue tracker,Integrations,UI,Taylor Brooks,UI Functional,Passed,5500,QA,2026-04-20,None,None,None,57,98
+TC-00703,Release Management: rollback build,Release Management,UI,Skyler James,Performance,Passed,12302,UAT,2026-07-20,None,None,None,73,96
+TC-00704,Data Import: import large file,Data Import,Workflow Engine,Riley Morgan,API Contract,Passed,5659,Pre-Production,2026-05-25,None,None,None,81,92
+TC-00705,Data Import: import large file,Data Import,UI,Jamie Rivera,API Contract,Passed,3995,UAT,2026-08-03,None,None,None,55,92
+TC-00706,Data Import: validate CSV,Data Import,UI,Riley Morgan,UI Functional,Failed,2435,Staging,2025-11-03,None,None,None,62,96
+TC-00707,Workflow Engine: handle timeout,Workflow Engine,API,Jordan Patel,Performance,Failed,8449,Pre-Production,2026-06-01,None,None,None,70,100
+TC-00708,Integrations: retry webhook,Integrations,UI,Casey Nguyen,Black Box,Passed,959,Pre-Production,2026-03-23,None,None,None,61,99
+TC-00709,Notifications: send alert,Notifications,API,Drew Bennett,UI Functional,Passed,638,Pre-Production,2026-06-01,None,None,None,89,97
+TC-00710,Release Management: create release,Release Management,Workflow Engine,Jordan Patel,API Contract,Passed,4688,Pre-Production,2026-09-14,None,None,None,67,86
+TC-00711,Reporting: aggregate weekly metrics,Reporting,API,Riley Morgan,Integration,Skipped,355,Staging,2026-08-10,None,None,None,93,95
+TC-00712,Test Execution: start test run,Test Execution,Workflow Engine,Jamie Rivera,UI Functional,Passed,5006,Pre-Production,2025-10-20,None,None,None,69,95
+TC-00713,Defect Tracking: link defect,Defect Tracking,UI,Drew Bennett,Regression,Passed,6415,Pre-Production,2025-11-10,None,None,None,39,94
+TC-00714,Notifications: send alert,Notifications,UI,Skyler James,Workflow,Passed,3190,QA,2026-09-14,None,None,None,68,88
+TC-00715,Integrations: validate payload,Integrations,SQL Server DB,Drew Bennett,Workflow,Failed,1245,UAT,2025-12-22,DEF-00715,Critical,Reopened,93,75
+TC-00716,Data Import: reject malformed row,Data Import,API,Jordan Patel,UI Functional,Passed,1859,Staging,2026-01-19,None,None,None,84,81
+TC-00717,Defect Tracking: update severity,Defect Tracking,SQL Server DB,Morgan Reed,Integration,Failed,926,QA,2026-09-14,DEF-00717,High,In Progress,85,80
+TC-00718,Workflow Engine: route approval,Workflow Engine,API,Jamie Rivera,API Contract,Passed,443,Staging,2025-12-22,None,None,None,80,74
+TC-00719,Configuration: save environment,Configuration,SQL Server DB,Taylor Brooks,Black Box,Passed,37,QA,2026-03-09,None,None,None,75,84
+TC-00720,Reporting: export report,Reporting,API,Avery Chen,Black Box,Blocked,608,Pre-Production,2026-02-23,None,None,None,67,41
+TC-00721,Test Execution: retry failed case,Test Execution,UI,Riley Morgan,Black Box,Passed,2248,UAT,2026-02-02,None,None,None,59,76
+TC-00722,Test Execution: retry failed case,Test Execution,SQL Server DB,Skyler James,Regression,Failed,884,QA,2026-05-25,DEF-00722,Medium,Reopened,70,91
+TC-00723,User Access: assign role,User Access,Workflow Engine,Quinn Foster,Performance,Passed,3427,Pre-Production,2025-12-08,None,None,None,66,100
+TC-00724,Reporting: filter dashboard,Reporting,UI,Drew Bennett,Integration,Passed,5947,QA,2026-05-25,None,None,None,47,72
+TC-00725,Test Execution: cancel execution,Test Execution,SQL Server DB,Quinn Foster,UI Functional,Skipped,924,Pre-Production,2026-09-14,None,None,None,70,83
+TC-00726,Configuration: apply feature flag,Configuration,SQL Server DB,Jamie Rivera,Integration,Passed,1300,QA,2026-05-18,None,None,None,83,80
+TC-00727,Data Import: validate CSV,Data Import,Workflow Engine,Drew Bennett,Black Box,Passed,2399,Pre-Production,2025-11-24,None,None,None,87,95
+TC-00728,Notifications: respect preferences,Notifications,UI,Drew Bennett,UI Functional,Passed,6413,QA,2025-12-08,None,None,None,64,90
+TC-00729,Notifications: send alert,Notifications,SQL Server DB,Morgan Reed,UI Functional,Blocked,1293,QA,2026-05-04,DEF-00729,Critical,Fixed,64,46
+TC-00730,Notifications: suppress duplicate,Notifications,UI,Riley Morgan,Performance,Passed,9464,QA,2026-06-01,None,None,None,54,90
+TC-00731,Test Execution: cancel execution,Test Execution,API,Avery Chen,Regression,Passed,1571,UAT,2026-05-18,None,None,None,74,73
+TC-00732,Reporting: filter dashboard,Reporting,API,Casey Nguyen,Workflow,Passed,117,Pre-Production,2026-02-23,None,None,None,97,94
+TC-00733,Defect Tracking: link defect,Defect Tracking,UI,Jamie Rivera,Workflow,Passed,2737,QA,2025-11-17,None,None,None,55,74
+TC-00734,Reporting: filter dashboard,Reporting,API,Drew Bennett,Regression,Passed,569,Staging,2025-10-20,None,None,None,83,72
+TC-00735,Data Import: reject malformed row,Data Import,UI,Casey Nguyen,Performance,Passed,14703,QA,2026-06-15,None,None,None,64,93
+TC-00736,Reporting: filter dashboard,Reporting,UI,Avery Chen,Performance,Skipped,7136,Staging,2026-09-28,None,None,None,47,75
+TC-00737,Integrations: sync issue tracker,Integrations,API,Avery Chen,Performance,Passed,6198,Pre-Production,2026-04-27,None,None,None,91,97
+TC-00738,Configuration: save environment,Configuration,API,Riley Morgan,Performance,Passed,9410,UAT,2026-04-06,None,None,None,86,72
+TC-00739,Configuration: apply feature flag,Configuration,SQL Server DB,Drew Bennett,Black Box,Passed,433,Pre-Production,2026-02-16,None,None,None,86,90
+TC-00740,Defect Tracking: close resolved defect,Defect Tracking,UI,Drew Bennett,Workflow,Passed,367,Staging,2026-07-06,None,None,None,66,82
+TC-00741,Test Execution: start test run,Test Execution,SQL Server DB,Taylor Brooks,Integration,Skipped,1059,Pre-Production,2025-12-01,None,None,None,89,81
+TC-00742,Configuration: save environment,Configuration,SQL Server DB,Avery Chen,Black Box,In Progress,264,QA,2025-12-22,None,None,None,75,37
+TC-00743,Notifications: suppress duplicate,Notifications,SQL Server DB,Jamie Rivera,Black Box,Failed,232,Pre-Production,2026-09-14,None,None,None,69,72
+TC-00744,User Access: assign role,User Access,Workflow Engine,Riley Morgan,Regression,Passed,1816,QA,2025-11-24,None,None,None,57,92
+TC-00745,Data Import: reject malformed row,Data Import,Workflow Engine,Casey Nguyen,Regression,Passed,6964,QA,2026-03-23,None,None,None,66,100
+TC-00746,Defect Tracking: close resolved defect,Defect Tracking,Workflow Engine,Taylor Brooks,API Contract,Passed,3990,QA,2026-01-05,None,None,None,55,88
+TC-00747,Test Execution: start test run,Test Execution,API,Drew Bennett,Integration,Passed,456,Pre-Production,2025-12-29,None,None,None,67,88
+TC-00748,Workflow Engine: route approval,Workflow Engine,API,Avery Chen,UI Functional,Passed,38,Staging,2026-06-22,None,None,None,64,83
+TC-00749,Test Execution: retry failed case,Test Execution,UI,Quinn Foster,Black Box,Passed,1504,Staging,2026-02-09,None,None,None,42,100
+TC-00750,Data Import: validate CSV,Data Import,SQL Server DB,Taylor Brooks,Performance,Failed,16616,UAT,2025-12-29,DEF-00750,Medium,In Progress,79,87
+TC-00751,Workflow Engine: handle timeout,Workflow Engine,Workflow Engine,Taylor Brooks,API Contract,Passed,1780,QA,2025-12-01,None,None,None,71,97
+TC-00752,Test Execution: start test run,Test Execution,UI,Drew Bennett,API Contract,Blocked,3188,UAT,2025-10-27,None,None,None,53,36
+TC-00753,Reporting: aggregate weekly metrics,Reporting,UI,Jamie Rivera,Black Box,Passed,2301,Staging,2026-02-02,None,None,None,42,91
+TC-00754,Data Import: validate CSV,Data Import,API,Taylor Brooks,Black Box,Failed,2124,Staging,2026-03-02,None,None,None,82,91
+TC-00755,Workflow Engine: route approval,Workflow Engine,UI,Jamie Rivera,API Contract,Passed,4018,Pre-Production,2026-02-09,None,None,None,64,88
+TC-00756,Defect Tracking: close resolved defect,Defect Tracking,UI,Taylor Brooks,Black Box,Passed,1719,Staging,2026-02-09,None,None,None,42,74
+TC-00757,Workflow Engine: route approval,Workflow Engine,Workflow Engine,Drew Bennett,Workflow,Passed,3520,QA,2026-04-13,None,None,None,72,81
+TC-00758,Test Execution: retry failed case,Test Execution,Workflow Engine,Avery Chen,Integration,Passed,2078,Staging,2025-11-24,None,None,None,84,88
+TC-00759,Data Import: validate CSV,Data Import,API,Riley Morgan,Regression,Passed,777,Staging,2026-06-15,None,None,None,89,100
+TC-00760,Defect Tracking: link defect,Defect Tracking,API,Taylor Brooks,Performance,In Progress,15609,Pre-Production,2025-12-01,None,None,None,73,37
+TC-00761,User Access: revoke access,User Access,UI,Morgan Reed,Regression,Passed,6317,UAT,2026-03-23,None,None,None,49,80
+TC-00762,Workflow Engine: handle timeout,Workflow Engine,Workflow Engine,Taylor Brooks,Workflow,Passed,5686,Pre-Production,2026-05-11,None,None,None,57,83
+TC-00763,Configuration: apply feature flag,Configuration,Workflow Engine,Jordan Patel,Workflow,Passed,3683,Staging,2026-07-20,None,None,None,76,84
+TC-00764,Release Management: create release,Release Management,API,Jamie Rivera,Integration,Failed,758,Staging,2026-06-29,DEF-00764,Critical,Closed,63,90
+TC-00765,Notifications: send alert,Notifications,SQL Server DB,Jordan Patel,Performance,Skipped,10992,Staging,2025-11-17,None,None,None,58,95
+TC-00766,Test Execution: retry failed case,Test Execution,SQL Server DB,Morgan Reed,Regression,Passed,524,QA,2026-06-01,None,None,None,83,86
+TC-00767,Configuration: save environment,Configuration,UI,Avery Chen,Black Box,Passed,4234,Pre-Production,2026-01-12,None,None,None,58,94
+TC-00768,Data Import: validate CSV,Data Import,UI,Jamie Rivera,Performance,Passed,11183,UAT,2026-05-25,None,None,None,55,100
+TC-00769,Data Import: reject malformed row,Data Import,SQL Server DB,Riley Morgan,Integration,Passed,915,Pre-Production,2026-09-07,None,None,None,93,80
+TC-00770,Notifications: send alert,Notifications,Workflow Engine,Morgan Reed,Black Box,Passed,5469,Pre-Production,2026-04-20,None,None,None,84,73
+TC-00771,Data Import: reject malformed row,Data Import,API,Taylor Brooks,UI Functional,Passed,1817,UAT,2026-03-23,None,None,None,95,93
+TC-00772,Integrations: validate payload,Integrations,API,Jamie Rivera,Performance,Passed,4532,QA,2026-07-27,None,None,None,97,76
+TC-00773,Integrations: sync issue tracker,Integrations,API,Quinn Foster,Integration,Failed,1341,Staging,2026-02-09,DEF-00773,Medium,Closed,70,74
+TC-00774,Configuration: validate policy,Configuration,SQL Server DB,Riley Morgan,Performance,Passed,6337,Staging,2026-03-23,None,None,None,63,97
+TC-00775,Notifications: suppress duplicate,Notifications,Workflow Engine,Casey Nguyen,Performance,Skipped,13178,UAT,2026-03-09,None,None,None,52,86
+TC-00776,Workflow Engine: resume workflow,Workflow Engine,API,Skyler James,Workflow,Failed,2232,Pre-Production,2026-06-29,DEF-00776,Low,Fixed,84,82
+TC-00777,Reporting: aggregate weekly metrics,Reporting,SQL Server DB,Quinn Foster,UI Functional,Passed,595,UAT,2026-06-29,None,None,None,81,99
+TC-00778,Data Import: import large file,Data Import,API,Riley Morgan,UI Functional,Failed,1209,UAT,2026-08-31,DEF-00778,Medium,In Progress,72,79
+TC-00779,Notifications: suppress duplicate,Notifications,UI,Quinn Foster,Black Box,Passed,1402,Staging,2025-10-20,None,None,None,61,73
+TC-00780,Defect Tracking: close resolved defect,Defect Tracking,API,Taylor Brooks,API Contract,Failed,1005,QA,2026-02-16,DEF-00780,Critical,In Progress,97,80
+TC-00781,Defect Tracking: update severity,Defect Tracking,API,Riley Morgan,Regression,Passed,46,Pre-Production,2026-01-19,None,None,None,86,98
+TC-00782,Workflow Engine: resume workflow,Workflow Engine,UI,Casey Nguyen,Black Box,Passed,5550,Staging,2026-01-12,None,None,None,43,79
+TC-00783,Configuration: apply feature flag,Configuration,UI,Jamie Rivera,API Contract,Passed,2294,Staging,2026-03-02,None,None,None,64,95
+TC-00784,Reporting: filter dashboard,Reporting,SQL Server DB,Jamie Rivera,Integration,Passed,27,QA,2026-09-21,None,None,None,74,95
+TC-00785,User Access: revoke access,User Access,Workflow Engine,Jordan Patel,Performance,Passed,12823,Pre-Production,2026-08-17,None,None,None,77,82
+TC-00786,Configuration: apply feature flag,Configuration,API,Skyler James,API Contract,Passed,1607,Pre-Production,2026-03-02,None,None,None,97,87
+TC-00787,Defect Tracking: link defect,Defect Tracking,Workflow Engine,Quinn Foster,Integration,Passed,4654,Pre-Production,2026-08-24,None,None,None,71,83
+TC-00788,Workflow Engine: route approval,Workflow Engine,Workflow Engine,Avery Chen,Regression,Passed,5361,Staging,2025-10-06,None,None,None,52,80
+TC-00789,Data Import: validate CSV,Data Import,UI,Drew Bennett,UI Functional,Passed,1750,UAT,2025-12-22,None,None,None,71,85
+TC-00790,Reporting: aggregate weekly metrics,Reporting,SQL Server DB,Taylor Brooks,Regression,Passed,296,Staging,2026-09-07,None,None,None,66,72
+TC-00791,Data Import: validate CSV,Data Import,UI,Casey Nguyen,UI Functional,Passed,1915,Pre-Production,2026-09-07,None,None,None,58,96
+TC-00792,Workflow Engine: handle timeout,Workflow Engine,SQL Server DB,Riley Morgan,Performance,Passed,16183,UAT,2026-06-29,None,None,None,57,98
+TC-00793,Reporting: filter dashboard,Reporting,UI,Riley Morgan,Workflow,Passed,5994,Pre-Production,2026-08-03,None,None,None,76,79
+TC-00794,User Access: revoke access,User Access,UI,Quinn Foster,Black Box,Passed,3279,Pre-Production,2025-11-17,None,None,None,38,98
+TC-00795,Defect Tracking: link defect,Defect Tracking,SQL Server DB,Jamie Rivera,Black Box,Passed,854,QA,2026-07-13,None,None,None,67,72
+TC-00796,Configuration: apply feature flag,Configuration,UI,Riley Morgan,API Contract,Blocked,5924,Staging,2026-02-02,DEF-00796,Low,Open,57,68
+TC-00797,User Access: assign role,User Access,UI,Casey Nguyen,API Contract,Blocked,4186,Pre-Production,2026-04-20,None,None,None,61,51
+TC-00798,Release Management: rollback build,Release Management,UI,Riley Morgan,Black Box,Passed,5279,Staging,2026-08-24,None,None,None,60,98
+TC-00799,Workflow Engine: route approval,Workflow Engine,SQL Server DB,Casey Nguyen,API Contract,Passed,20,UAT,2026-05-25,None,None,None,76,97
+TC-00800,Reporting: filter dashboard,Reporting,UI,Jordan Patel,Performance,Passed,8117,Staging,2026-06-29,None,None,None,67,75
+TC-00801,Notifications: respect preferences,Notifications,API,Morgan Reed,Regression,Passed,2028,Pre-Production,2026-03-02,None,None,None,89,75
+TC-00802,Workflow Engine: handle timeout,Workflow Engine,SQL Server DB,Jamie Rivera,UI Functional,Failed,865,Pre-Production,2026-06-22,DEF-00802,Critical,Reopened,93,100
+TC-00803,User Access: revoke access,User Access,SQL Server DB,Skyler James,API Contract,Passed,959,QA,2026-07-27,None,None,None,77,99
+TC-00804,Configuration: apply feature flag,Configuration,SQL Server DB,Drew Bennett,UI Functional,Blocked,1150,UAT,2026-02-02,None,None,None,90,45
+TC-00805,User Access: enforce permissions,User Access,API,Casey Nguyen,Performance,Passed,3868,UAT,2026-06-29,None,None,None,69,75
+TC-00806,Test Execution: start test run,Test Execution,API,Skyler James,API Contract,Failed,1617,UAT,2025-10-13,None,None,None,68,88
+TC-00807,User Access: assign role,User Access,Workflow Engine,Quinn Foster,UI Functional,Failed,1060,UAT,2026-05-25,DEF-00807,Low,In Progress,70,84
+TC-00808,Workflow Engine: handle timeout,Workflow Engine,API,Skyler James,Regression,Passed,1683,Staging,2026-05-25,None,None,None,74,78
+TC-00809,Reporting: export report,Reporting,Workflow Engine,Casey Nguyen,Regression,Passed,5396,Pre-Production,2026-05-04,None,None,None,76,79
+TC-00810,Configuration: apply feature flag,Configuration,UI,Morgan Reed,API Contract,Passed,5844,Pre-Production,2026-09-07,None,None,None,60,94
+TC-00811,Test Execution: retry failed case,Test Execution,Workflow Engine,Avery Chen,Performance,Failed,12585,Staging,2026-07-27,DEF-00811,Low,Closed,58,89
+TC-00812,Test Execution: retry failed case,Test Execution,API,Drew Bennett,Integration,Passed,1427,UAT,2026-08-17,None,None,None,67,80
+TC-00813,User Access: assign role,User Access,SQL Server DB,Quinn Foster,Performance,Passed,17549,Pre-Production,2026-09-21,None,None,None,73,98
+TC-00814,Workflow Engine: route approval,Workflow Engine,API,Skyler James,Black Box,Passed,1331,UAT,2026-08-24,None,None,None,91,92
+TC-00815,User Access: enforce permissions,User Access,API,Jordan Patel,Integration,Failed,1170,Pre-Production,2026-03-09,DEF-00815,Medium,Closed,87,94
+TC-00816,Release Management: rollback build,Release Management,UI,Casey Nguyen,Black Box,Passed,3135,Staging,2026-02-16,None,None,None,75,79
+TC-00817,Test Execution: cancel execution,Test Execution,API,Skyler James,Integration,Passed,1828,Staging,2026-02-09,None,None,None,88,97
+TC-00818,User Access: enforce permissions,User Access,API,Morgan Reed,Integration,Passed,1208,UAT,2025-12-29,None,None,None,95,91
+TC-00819,Defect Tracking: close resolved defect,Defect Tracking,SQL Server DB,Skyler James,Regression,Passed,868,UAT,2025-11-17,None,None,None,58,74
+TC-00820,Notifications: suppress duplicate,Notifications,SQL Server DB,Avery Chen,API Contract,Failed,1180,UAT,2026-06-22,DEF-00820,High,Reopened,85,72
+TC-00821,Notifications: suppress duplicate,Notifications,Workflow Engine,Skyler James,Integration,Passed,6806,UAT,2026-04-27,None,None,None,64,99
+TC-00822,Integrations: retry webhook,Integrations,API,Avery Chen,Workflow,Passed,1570,Staging,2025-11-10,None,None,None,63,81
+TC-00823,Defect Tracking: update severity,Defect Tracking,Workflow Engine,Avery Chen,Integration,Passed,1187,UAT,2026-02-09,None,None,None,52,100
+TC-00824,Data Import: import large file,Data Import,SQL Server DB,Drew Bennett,Workflow,Passed,1236,Staging,2026-01-12,None,None,None,91,100
+TC-00825,Configuration: validate policy,Configuration,Workflow Engine,Drew Bennett,Black Box,Failed,4868,QA,2025-10-27,DEF-00825,Critical,In Progress,79,91
+TC-00826,Defect Tracking: close resolved defect,Defect Tracking,UI,Morgan Reed,Workflow,Passed,1552,UAT,2026-05-04,None,None,None,69,89
+TC-00827,Defect Tracking: close resolved defect,Defect Tracking,API,Skyler James,Black Box,Passed,1512,Staging,2026-01-05,None,None,None,81,81
+TC-00828,Defect Tracking: update severity,Defect Tracking,Workflow Engine,Morgan Reed,Black Box,Passed,3021,UAT,2026-05-18,None,None,None,76,78
+TC-00829,Test Execution: cancel execution,Test Execution,API,Drew Bennett,Workflow,Passed,1759,Pre-Production,2025-12-01,None,None,None,66,91
+TC-00830,Release Management: create release,Release Management,API,Jamie Rivera,Black Box,Passed,432,Pre-Production,2026-04-06,None,None,None,82,75
+TC-00831,Release Management: approve release,Release Management,UI,Avery Chen,Workflow,Passed,6402,QA,2026-08-24,None,None,None,66,89
+TC-00832,Integrations: retry webhook,Integrations,UI,Quinn Foster,Integration,Passed,2996,Staging,2026-05-04,None,None,None,63,93
+TC-00833,Integrations: validate payload,Integrations,UI,Morgan Reed,API Contract,Passed,1516,UAT,2026-02-09,None,None,None,65,87
+TC-00834,Release Management: rollback build,Release Management,UI,Morgan Reed,Performance,Passed,9808,QA,2026-09-21,None,None,None,50,91
+TC-00835,Integrations: retry webhook,Integrations,SQL Server DB,Jamie Rivera,Integration,Failed,382,Pre-Production,2026-03-30,DEF-00835,Medium,Open,79,87
+TC-00836,Release Management: rollback build,Release Management,Workflow Engine,Taylor Brooks,Workflow,Passed,572,Staging,2026-01-05,None,None,None,81,99
+TC-00837,Data Import: validate CSV,Data Import,UI,Jamie Rivera,Regression,Failed,457,QA,2026-04-20,DEF-00837,Critical,Fixed,51,96
+TC-00838,Notifications: respect preferences,Notifications,UI,Jordan Patel,Performance,Passed,9912,QA,2026-02-09,None,None,None,64,78
+TC-00839,Workflow Engine: resume workflow,Workflow Engine,UI,Taylor Brooks,Workflow,Passed,3266,UAT,2026-07-13,None,None,None,40,82
+TC-00840,Notifications: send alert,Notifications,UI,Skyler James,UI Functional,Passed,1074,Staging,2026-09-07,None,None,None,49,98
+TC-00841,Defect Tracking: close resolved defect,Defect Tracking,API,Jordan Patel,Black Box,Skipped,1521,Pre-Production,2026-06-29,None,None,None,63,88
+TC-00842,Notifications: suppress duplicate,Notifications,API,Skyler James,API Contract,Passed,2396,Staging,2026-09-07,None,None,None,65,100
+TC-00843,Release Management: create release,Release Management,UI,Jamie Rivera,Workflow,Passed,5057,Pre-Production,2026-10-05,None,None,None,54,81
+TC-00844,Reporting: aggregate weekly metrics,Reporting,Workflow Engine,Morgan Reed,Integration,Blocked,4230,UAT,2026-08-31,None,None,None,84,52
+TC-00845,Workflow Engine: resume workflow,Workflow Engine,API,Riley Morgan,Integration,Failed,410,QA,2026-04-13,DEF-00845,High,Closed,79,80
+TC-00846,Reporting: aggregate weekly metrics,Reporting,UI,Jordan Patel,Black Box,Passed,6122,Pre-Production,2026-02-09,None,None,None,66,100
+TC-00847,Configuration: apply feature flag,Configuration,UI,Morgan Reed,API Contract,Passed,3772,UAT,2026-01-12,None,None,None,52,92
+TC-00848,Defect Tracking: link defect,Defect Tracking,SQL Server DB,Morgan Reed,Performance,Passed,9777,Pre-Production,2026-08-03,None,None,None,92,74
+TC-00849,User Access: assign role,User Access,Workflow Engine,Riley Morgan,Workflow,Passed,372,UAT,2026-01-12,DEF-00849,Low,Open,80,76
+TC-00850,Workflow Engine: resume workflow,Workflow Engine,UI,Morgan Reed,API Contract,Passed,2948,UAT,2026-03-30,None,None,None,63,97
+TC-00851,Notifications: send alert,Notifications,Workflow Engine,Riley Morgan,UI Functional,Passed,3096,Staging,2026-04-20,None,None,None,83,88
+TC-00852,Integrations: sync issue tracker,Integrations,API,Casey Nguyen,Regression,Passed,553,Pre-Production,2026-07-20,None,None,None,66,76
+TC-00853,Workflow Engine: resume workflow,Workflow Engine,API,Jordan Patel,UI Functional,Passed,1243,QA,2026-04-06,None,None,None,64,100
+TC-00854,Notifications: respect preferences,Notifications,API,Morgan Reed,Performance,Passed,1976,Pre-Production,2025-12-01,None,None,None,71,94
+TC-00855,Notifications: suppress duplicate,Notifications,SQL Server DB,Riley Morgan,Integration,Passed,1197,QA,2026-03-02,None,None,None,89,72
+TC-00856,Defect Tracking: link defect,Defect Tracking,API,Avery Chen,Workflow,Passed,2228,Pre-Production,2026-04-27,None,None,None,93,83
+TC-00857,Configuration: save environment,Configuration,SQL Server DB,Jamie Rivera,Integration,Failed,983,Staging,2026-01-12,DEF-00857,Critical,Closed,89,91
+TC-00858,Defect Tracking: close resolved defect,Defect Tracking,SQL Server DB,Morgan Reed,Performance,Passed,15586,Staging,2026-01-19,None,None,None,80,99
+TC-00859,Configuration: validate policy,Configuration,API,Drew Bennett,Integration,In Progress,719,Staging,2026-09-21,None,None,None,94,52
+TC-00860,Integrations: validate payload,Integrations,API,Drew Bennett,Regression,Passed,540,QA,2026-01-12,None,None,None,72,78
+TC-00861,Reporting: aggregate weekly metrics,Reporting,UI,Taylor Brooks,Black Box,Passed,4716,UAT,2026-06-15,None,None,None,53,86
+TC-00862,Release Management: approve release,Release Management,UI,Taylor Brooks,Black Box,Passed,5916,UAT,2026-06-15,None,None,None,43,80
+TC-00863,Integrations: sync issue tracker,Integrations,API,Jordan Patel,Integration,Failed,2079,QA,2026-08-10,DEF-00863,Medium,In Progress,62,95
+TC-00864,Test Execution: start test run,Test Execution,SQL Server DB,Skyler James,API Contract,Passed,359,Pre-Production,2026-02-16,None,None,None,70,82
+TC-00865,Release Management: approve release,Release Management,SQL Server DB,Skyler James,Integration,Skipped,474,Staging,2026-08-17,None,None,None,65,98
+TC-00866,User Access: assign role,User Access,Workflow Engine,Avery Chen,Performance,Failed,8010,Staging,2026-06-22,DEF-00866,High,In Progress,67,83
+TC-00867,Reporting: aggregate weekly metrics,Reporting,API,Riley Morgan,Workflow,Passed,930,UAT,2026-01-26,None,None,None,70,79
+TC-00868,Data Import: import large file,Data Import,Workflow Engine,Jamie Rivera,Integration,Passed,1705,UAT,2026-09-21,None,None,None,70,96
+TC-00869,User Access: revoke access,User Access,API,Jordan Patel,Workflow,Passed,1558,UAT,2025-11-17,None,None,None,83,84
+TC-00870,Workflow Engine: resume workflow,Workflow Engine,UI,Jordan Patel,UI Functional,Passed,631,QA,2026-08-24,None,None,None,70,99
+TC-00871,Configuration: save environment,Configuration,API,Taylor Brooks,Workflow,Passed,2110,Staging,2025-12-15,None,None,None,83,94
+TC-00872,Data Import: validate CSV,Data Import,SQL Server DB,Taylor Brooks,Black Box,Skipped,1099,QA,2026-06-08,None,None,None,63,100
+TC-00873,Configuration: validate policy,Configuration,Workflow Engine,Morgan Reed,Performance,Passed,16739,UAT,2026-06-29,None,None,None,82,77
+TC-00874,Test Execution: start test run,Test Execution,SQL Server DB,Jordan Patel,UI Functional,Passed,50,QA,2026-02-02,None,None,None,57,89
+TC-00875,Reporting: export report,Reporting,UI,Quinn Foster,API Contract,Skipped,1573,Pre-Production,2026-05-04,None,None,None,72,89
+TC-00876,Release Management: create release,Release Management,API,Quinn Foster,API Contract,In Progress,2272,Staging,2026-06-08,None,None,None,70,56
+TC-00877,Notifications: suppress duplicate,Notifications,API,Avery Chen,Workflow,Passed,1560,Staging,2026-07-27,None,None,None,67,73
+TC-00878,Test Execution: cancel execution,Test Execution,Workflow Engine,Jamie Rivera,UI Functional,Passed,6578,Pre-Production,2026-01-05,None,None,None,58,97
+TC-00879,Workflow Engine: route approval,Workflow Engine,UI,Avery Chen,API Contract,Passed,2714,UAT,2026-10-05,None,None,None,56,74
+TC-00880,Test Execution: cancel execution,Test Execution,API,Quinn Foster,UI Functional,Failed,249,Pre-Production,2026-07-27,DEF-00880,Low,Reopened,77,82
+TC-00881,Release Management: rollback build,Release Management,Workflow Engine,Casey Nguyen,API Contract,Passed,3772,QA,2026-07-13,None,None,None,62,80
+TC-00882,Release Management: create release,Release Management,UI,Jordan Patel,API Contract,Passed,6300,Pre-Production,2025-11-17,None,None,None,59,97
+TC-00883,Workflow Engine: handle timeout,Workflow Engine,API,Drew Bennett,Integration,Passed,864,UAT,2026-03-30,None,None,None,60,96
+TC-00884,Configuration: validate policy,Configuration,UI,Jamie Rivera,Workflow,Passed,2590,UAT,2026-06-29,None,None,None,75,93
+TC-00885,Data Import: reject malformed row,Data Import,UI,Jamie Rivera,UI Functional,Passed,5871,Staging,2026-04-13,None,None,None,54,96
+TC-00886,Workflow Engine: handle timeout,Workflow Engine,UI,Drew Bennett,Regression,Passed,5850,Pre-Production,2025-10-13,None,None,None,60,87
+TC-00887,Workflow Engine: resume workflow,Workflow Engine,UI,Casey Nguyen,Black Box,In Progress,2470,QA,2026-08-10,None,None,None,61,30
+TC-00888,Reporting: aggregate weekly metrics,Reporting,API,Jamie Rivera,Performance,Passed,5303,Staging,2025-11-24,None,None,None,64,94
+TC-00889,Workflow Engine: handle timeout,Workflow Engine,Workflow Engine,Avery Chen,API Contract,Passed,1347,Pre-Production,2026-07-20,None,None,None,88,92
+TC-00890,Integrations: sync issue tracker,Integrations,API,Jordan Patel,UI Functional,Passed,773,Pre-Production,2026-09-21,DEF-00890,Low,Closed,84,84
+TC-00891,Data Import: import large file,Data Import,API,Jordan Patel,Performance,Passed,9517,Staging,2026-05-18,None,None,None,68,86
+TC-00892,Defect Tracking: close resolved defect,Defect Tracking,API,Morgan Reed,Regression,Passed,449,Staging,2026-02-16,None,None,None,91,73
+TC-00893,User Access: enforce permissions,User Access,API,Skyler James,Regression,Passed,1035,Pre-Production,2026-02-16,None,None,None,92,96
+TC-00894,User Access: revoke access,User Access,Workflow Engine,Jordan Patel,Integration,Passed,6406,Staging,2026-08-17,None,None,None,81,89
+TC-00895,User Access: revoke access,User Access,SQL Server DB,Quinn Foster,Performance,Passed,17623,Staging,2026-06-29,None,None,None,63,94
+TC-00896,Test Execution: start test run,Test Execution,UI,Jamie Rivera,Integration,Passed,5026,Pre-Production,2026-08-03,None,None,None,52,97
+TC-00897,Data Import: import large file,Data Import,API,Jordan Patel,API Contract,Passed,2206,QA,2026-05-25,None,None,None,76,90
+TC-00898,Defect Tracking: close resolved defect,Defect Tracking,SQL Server DB,Morgan Reed,Performance,Failed,12050,QA,2026-07-06,DEF-00898,High,In Progress,65,80
+TC-00899,Test Execution: retry failed case,Test Execution,UI,Taylor Brooks,Performance,Passed,8145,UAT,2026-04-06,None,None,None,52,75
+TC-00900,Data Import: reject malformed row,Data Import,UI,Taylor Brooks,Regression,Passed,3878,QA,2026-06-15,None,None,None,38,86
+TC-00901,Configuration: apply feature flag,Configuration,API,Morgan Reed,Workflow,Passed,385,QA,2026-07-20,None,None,None,76,88
+TC-00902,Data Import: import large file,Data Import,UI,Jamie Rivera,UI Functional,Skipped,533,Staging,2025-12-01,None,None,None,65,73
+TC-00903,Notifications: send alert,Notifications,Workflow Engine,Drew Bennett,Regression,Passed,6374,Pre-Production,2025-11-24,None,None,None,67,82
+TC-00904,Notifications: send alert,Notifications,SQL Server DB,Taylor Brooks,Regression,Failed,570,UAT,2026-07-20,DEF-00904,Low,Fixed,69,82
+TC-00905,Release Management: rollback build,Release Management,UI,Morgan Reed,API Contract,Passed,1762,Pre-Production,2026-03-16,None,None,None,55,79
+TC-00906,Integrations: sync issue tracker,Integrations,UI,Casey Nguyen,Regression,Blocked,5362,Staging,2026-07-06,None,None,None,62,40
+TC-00907,Test Execution: retry failed case,Test Execution,API,Avery Chen,Black Box,Passed,569,UAT,2026-05-11,None,None,None,92,80
+TC-00908,Integrations: retry webhook,Integrations,SQL Server DB,Casey Nguyen,Workflow,Passed,353,Pre-Production,2026-06-15,None,None,None,82,92
+TC-00909,Notifications: respect preferences,Notifications,SQL Server DB,Jordan Patel,UI Functional,Passed,58,UAT,2026-08-03,None,None,None,77,82
+TC-00910,Release Management: approve release,Release Management,UI,Skyler James,Regression,Passed,3513,QA,2025-11-03,None,None,None,68,95
+TC-00911,User Access: assign role,User Access,Workflow Engine,Drew Bennett,Workflow,Failed,3963,Staging,2026-04-27,DEF-00911,Critical,In Progress,75,93
+TC-00912,Release Management: approve release,Release Management,SQL Server DB,Jamie Rivera,Integration,Skipped,1209,Pre-Production,2026-06-08,None,None,None,63,96
+TC-00913,Data Import: reject malformed row,Data Import,API,Morgan Reed,Performance,Skipped,5093,Pre-Production,2026-10-05,None,None,None,80,86
+TC-00914,Integrations: retry webhook,Integrations,SQL Server DB,Jamie Rivera,Workflow,Passed,934,Staging,2026-04-20,None,None,None,88,95
+TC-00915,Defect Tracking: link defect,Defect Tracking,API,Casey Nguyen,Performance,Passed,14483,Staging,2026-07-20,None,None,None,76,88
+TC-00916,Reporting: export report,Reporting,UI,Skyler James,UI Functional,Passed,2738,UAT,2025-11-17,None,None,None,60,77
+TC-00917,Integrations: sync issue tracker,Integrations,UI,Skyler James,UI Functional,Passed,3412,UAT,2026-10-05,None,None,None,62,84
+TC-00918,Release Management: approve release,Release Management,UI,Jordan Patel,Performance,Failed,8563,Pre-Production,2026-09-07,None,None,None,75,74
+TC-00919,Defect Tracking: link defect,Defect Tracking,Workflow Engine,Riley Morgan,Black Box,Passed,6118,Pre-Production,2026-05-04,None,None,None,64,89
+TC-00920,Reporting: filter dashboard,Reporting,API,Morgan Reed,Performance,Passed,16660,UAT,2026-05-25,None,None,None,85,74
+TC-00921,Release Management: rollback build,Release Management,UI,Quinn Foster,API Contract,Passed,686,Staging,2026-02-09,None,None,None,45,80
+TC-00922,Test Execution: retry failed case,Test Execution,UI,Avery Chen,UI Functional,Passed,1981,QA,2026-07-06,None,None,None,68,81
+TC-00923,Release Management: rollback build,Release Management,API,Morgan Reed,Performance,Passed,4510,Pre-Production,2025-10-27,None,None,None,92,94
+TC-00924,Test Execution: start test run,Test Execution,UI,Casey Nguyen,Regression,Failed,3512,QA,2025-12-22,None,None,None,67,85
+TC-00925,User Access: revoke access,User Access,API,Riley Morgan,Integration,Blocked,1294,QA,2025-11-10,DEF-00925,Critical,Fixed,71,78
+TC-00926,User Access: assign role,User Access,Workflow Engine,Jordan Patel,Black Box,Passed,2517,QA,2026-10-05,None,None,None,54,84
+TC-00927,Defect Tracking: update severity,Defect Tracking,SQL Server DB,Avery Chen,Integration,Passed,143,QA,2026-05-25,None,None,None,64,91
+TC-00928,Notifications: respect preferences,Notifications,API,Jamie Rivera,Performance,Passed,16343,UAT,2026-04-20,None,None,None,82,92
+TC-00929,Configuration: validate policy,Configuration,UI,Jamie Rivera,API Contract,In Progress,5785,QA,2026-07-20,None,None,None,73,70
+TC-00930,Integrations: retry webhook,Integrations,SQL Server DB,Drew Bennett,Regression,Passed,367,UAT,2026-04-06,None,None,None,74,94
+TC-00931,User Access: assign role,User Access,SQL Server DB,Skyler James,Regression,Passed,717,Pre-Production,2025-12-08,None,None,None,63,82
+TC-00932,User Access: revoke access,User Access,API,Skyler James,Regression,Passed,1052,Pre-Production,2026-04-06,None,None,None,95,87
+TC-00933,Reporting: aggregate weekly metrics,Reporting,UI,Jamie Rivera,Performance,Passed,2095,QA,2026-09-07,None,None,None,72,79
+TC-00934,Data Import: validate CSV,Data Import,API,Jordan Patel,Workflow,Blocked,157,Staging,2026-07-27,None,None,None,86,53
+TC-00935,Data Import: validate CSV,Data Import,UI,Avery Chen,Workflow,Passed,2969,Staging,2026-01-05,None,None,None,75,79
+TC-00936,Workflow Engine: handle timeout,Workflow Engine,API,Riley Morgan,API Contract,Passed,1693,UAT,2026-03-02,None,None,None,62,75
+TC-00937,User Access: enforce permissions,User Access,API,Taylor Brooks,Integration,Passed,272,Pre-Production,2026-02-16,None,None,None,80,97
+TC-00938,Notifications: send alert,Notifications,API,Riley Morgan,Integration,Passed,651,QA,2026-09-07,None,None,None,66,85
+TC-00939,Release Management: rollback build,Release Management,SQL Server DB,Avery Chen,API Contract,Passed,314,QA,2026-03-02,None,None,None,64,94
+TC-00940,User Access: enforce permissions,User Access,API,Taylor Brooks,Workflow,Passed,1390,Staging,2026-08-17,None,None,None,66,84
+TC-00941,Defect Tracking: update severity,Defect Tracking,UI,Morgan Reed,UI Functional,Failed,889,Pre-Production,2026-01-19,None,None,None,54,75
+TC-00942,User Access: revoke access,User Access,Workflow Engine,Morgan Reed,API Contract,Passed,195,Pre-Production,2026-08-17,None,None,None,73,94
+TC-00943,Notifications: suppress duplicate,Notifications,API,Riley Morgan,UI Functional,Failed,803,Pre-Production,2026-09-07,DEF-00943,Medium,Open,94,75
+TC-00944,Notifications: respect preferences,Notifications,API,Riley Morgan,Regression,Passed,1977,Pre-Production,2026-05-11,None,None,None,73,91
+TC-00945,Data Import: validate CSV,Data Import,SQL Server DB,Drew Bennett,Performance,Passed,8387,Staging,2026-01-05,None,None,None,55,79
+TC-00946,Configuration: apply feature flag,Configuration,API,Skyler James,API Contract,Passed,651,Pre-Production,2025-12-22,None,None,None,84,82
+TC-00947,Test Execution: cancel execution,Test Execution,UI,Drew Bennett,UI Functional,Skipped,3358,Pre-Production,2026-05-25,None,None,None,71,95
+TC-00948,User Access: enforce permissions,User Access,Workflow Engine,Jamie Rivera,Regression,Passed,5398,QA,2025-12-15,None,None,None,72,100
+TC-00949,Release Management: create release,Release Management,SQL Server DB,Riley Morgan,Black Box,Skipped,771,Pre-Production,2025-12-08,None,None,None,60,86
+TC-00950,Release Management: create release,Release Management,API,Drew Bennett,UI Functional,Blocked,1175,Staging,2026-01-26,DEF-00950,Low,Open,63,34
+TC-00951,Data Import: import large file,Data Import,UI,Jamie Rivera,Regression,Passed,3497,Staging,2026-08-17,None,None,None,61,85
+TC-00952,User Access: enforce permissions,User Access,API,Drew Bennett,Workflow,Passed,2162,UAT,2026-02-09,None,None,None,82,78
+TC-00953,Test Execution: retry failed case,Test Execution,API,Casey Nguyen,API Contract,Passed,1277,Pre-Production,2026-02-02,None,None,None,79,93
+TC-00954,Reporting: filter dashboard,Reporting,UI,Jordan Patel,Regression,Skipped,791,Pre-Production,2025-11-24,None,None,None,56,94
+TC-00955,Reporting: export report,Reporting,UI,Jordan Patel,API Contract,Failed,3535,Staging,2025-12-15,DEF-00955,Medium,Open,52,79
+TC-00956,Configuration: save environment,Configuration,Workflow Engine,Jordan Patel,API Contract,Passed,1986,Pre-Production,2025-11-17,None,None,None,63,75
+TC-00957,Data Import: reject malformed row,Data Import,UI,Skyler James,Black Box,Failed,5157,UAT,2026-06-22,DEF-00957,Low,Open,38,97
+TC-00958,User Access: assign role,User Access,API,Quinn Foster,Performance,Failed,17067,Staging,2026-02-02,DEF-00958,Critical,Closed,96,100
+TC-00959,Integrations: validate payload,Integrations,SQL Server DB,Taylor Brooks,Performance,Passed,8551,UAT,2025-11-10,None,None,None,64,72
+TC-00960,Notifications: suppress duplicate,Notifications,UI,Taylor Brooks,Regression,Passed,4736,QA,2025-10-20,DEF-00960,Critical,Closed,60,88
+TC-00961,Defect Tracking: update severity,Defect Tracking,Workflow Engine,Jordan Patel,API Contract,Passed,2215,Staging,2025-10-13,None,None,None,73,77
+TC-00962,Test Execution: retry failed case,Test Execution,UI,Skyler James,Regression,Passed,398,Pre-Production,2026-04-13,None,None,None,64,88
+TC-00963,Workflow Engine: route approval,Workflow Engine,API,Quinn Foster,API Contract,Passed,1319,UAT,2026-04-20,None,None,None,70,83
+TC-00964,Configuration: apply feature flag,Configuration,SQL Server DB,Riley Morgan,API Contract,Blocked,149,QA,2026-03-02,None,None,None,87,65
+TC-00965,Configuration: apply feature flag,Configuration,API,Drew Bennett,API Contract,Passed,241,QA,2026-03-23,None,None,None,85,74
+TC-00966,Release Management: create release,Release Management,UI,Quinn Foster,Performance,Passed,5675,QA,2026-04-20,None,None,None,66,95
+TC-00967,Test Execution: retry failed case,Test Execution,UI,Taylor Brooks,Workflow,Passed,2131,UAT,2026-07-13,None,None,None,50,92
+TC-00968,User Access: assign role,User Access,UI,Drew Bennett,Black Box,Failed,5022,Pre-Production,2025-11-10,DEF-00968,Low,Open,52,90
+TC-00969,User Access: assign role,User Access,API,Avery Chen,API Contract,Passed,1297,QA,2026-06-15,None,None,None,75,89
+TC-00970,Reporting: filter dashboard,Reporting,UI,Jamie Rivera,Performance,Failed,17884,Staging,2025-12-22,DEF-00970,Low,Reopened,65,81
+TC-00971,Workflow Engine: handle timeout,Workflow Engine,API,Riley Morgan,Performance,Passed,9086,Staging,2026-09-28,None,None,None,86,96
+TC-00972,Integrations: retry webhook,Integrations,Workflow Engine,Riley Morgan,Workflow,Passed,5580,UAT,2026-02-09,None,None,None,65,98
+TC-00973,Integrations: validate payload,Integrations,UI,Quinn Foster,Performance,Failed,2308,Staging,2025-10-20,DEF-00973,High,Closed,45,90
+TC-00974,Defect Tracking: link defect,Defect Tracking,Workflow Engine,Jordan Patel,Performance,Passed,2860,QA,2026-02-16,None,None,None,73,97
+TC-00975,User Access: assign role,User Access,SQL Server DB,Casey Nguyen,Performance,Passed,15761,Staging,2026-01-12,None,None,None,91,89
+TC-00976,User Access: enforce permissions,User Access,SQL Server DB,Riley Morgan,API Contract,Passed,1033,Staging,2026-02-16,None,None,None,80,84
+TC-00977,Workflow Engine: route approval,Workflow Engine,API,Avery Chen,Performance,Passed,15858,UAT,2026-05-04,None,None,None,70,96
+TC-00978,User Access: revoke access,User Access,UI,Quinn Foster,Regression,Passed,4274,QA,2026-03-09,None,None,None,38,77
+TC-00979,Integrations: retry webhook,Integrations,API,Taylor Brooks,UI Functional,Passed,1332,QA,2026-09-14,None,None,None,93,77
+TC-00980,Notifications: send alert,Notifications,API,Casey Nguyen,API Contract,Blocked,568,Staging,2026-07-06,None,None,None,78,73
+TC-00981,Configuration: save environment,Configuration,API,Skyler James,Integration,Passed,1545,Pre-Production,2025-12-08,None,None,None,93,84
+TC-00982,Data Import: import large file,Data Import,API,Quinn Foster,API Contract,Skipped,992,UAT,2026-03-02,None,None,None,92,91
+TC-00983,Integrations: retry webhook,Integrations,UI,Quinn Foster,UI Functional,Passed,5763,QA,2026-01-12,None,None,None,54,89
+TC-00984,Defect Tracking: link defect,Defect Tracking,UI,Avery Chen,API Contract,Passed,6240,Pre-Production,2026-07-13,None,None,None,45,98
+TC-00985,User Access: assign role,User Access,SQL Server DB,Avery Chen,Black Box,Passed,770,UAT,2026-01-26,None,None,None,66,80
+TC-00986,User Access: revoke access,User Access,API,Morgan Reed,API Contract,Passed,1272,UAT,2026-06-29,None,None,None,65,98
+TC-00987,Reporting: export report,Reporting,API,Skyler James,Integration,Passed,124,Pre-Production,2026-03-23,None,None,None,82,98
+TC-00988,Defect Tracking: link defect,Defect Tracking,SQL Server DB,Morgan Reed,Workflow,Passed,948,QA,2026-07-20,None,None,None,88,83
+TC-00989,Notifications: respect preferences,Notifications,API,Morgan Reed,API Contract,Blocked,2014,UAT,2025-11-10,None,None,None,87,52
+TC-00990,Integrations: validate payload,Integrations,API,Jordan Patel,API Contract,Passed,409,UAT,2025-10-06,None,None,None,61,79
+TC-00991,Configuration: save environment,Configuration,SQL Server DB,Quinn Foster,Workflow,Passed,265,QA,2026-09-28,None,None,None,83,73
+TC-00992,User Access: assign role,User Access,UI,Drew Bennett,Workflow,Passed,2733,UAT,2026-04-27,None,None,None,69,88
+TC-00993,Data Import: import large file,Data Import,SQL Server DB,Drew Bennett,Performance,Passed,9371,Staging,2026-07-20,None,None,None,89,76
+TC-00994,Data Import: validate CSV,Data Import,SQL Server DB,Skyler James,Workflow,Passed,285,Staging,2025-12-01,None,None,None,64,92
+TC-00995,Test Execution: retry failed case,Test Execution,API,Avery Chen,Black Box,Passed,691,Staging,2026-05-11,None,None,None,59,100
+TC-00996,Test Execution: retry failed case,Test Execution,API,Taylor Brooks,Integration,Passed,396,QA,2026-06-01,None,None,None,86,84
+TC-00997,User Access: enforce permissions,User Access,UI,Casey Nguyen,UI Functional,Passed,2837,QA,2026-08-31,None,None,None,45,86
+TC-00998,Reporting: aggregate weekly metrics,Reporting,UI,Casey Nguyen,UI Functional,Passed,3097,Pre-Production,2026-10-05,None,None,None,68,79
+TC-00999,Data Import: reject malformed row,Data Import,SQL Server DB,Jamie Rivera,Performance,Blocked,6779,QA,2026-02-09,DEF-00999,Medium,Open,74,68
+TC-01000,Configuration: save environment,Configuration,Workflow Engine,Jordan Patel,API Contract,Passed,1420,QA,2026-03-16,None,None,None,69,89
